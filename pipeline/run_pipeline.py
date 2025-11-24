@@ -28,7 +28,8 @@ def run_pipeline(project_name: str):
 
     matches = match_factors(sentences)
     summaries = summarize_factors(matches)
-    assessments = assess_factors(summaries)
+    assessments = assess_factors(summaries, matches)
+
 
     # Per-project output folder
     output_dir = os.path.join(BASE_OUTPUT_DIR, project_name)

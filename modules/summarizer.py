@@ -14,9 +14,12 @@ from config.settings import GROQ_MODEL_NAME, logger
 # -----------------------------------------------------------
 # Helper: split very long evidence into multiple chunks
 # -----------------------------------------------------------
-def chunk_text(text: str, max_words: int = 250) -> List[str]:
+def chunk_text(text: str, max_words: int = 400) -> List[str]:
     """
-    Splits the evidence text into safe, LLM-friendly chunks.
+    Splits the evidence text into LLM-friendly chunks.
+
+    We use a relatively high max_words to keep context rich, so that
+    each chunk summary can retain more detail.
     """
     words = text.split()
     if len(words) <= max_words:
@@ -53,23 +56,27 @@ def clean_summary(text: str) -> str:
 # Helper: ask LLM to summarize a single chunk
 # -----------------------------------------------------------
 def summarize_chunk(llm, factor: str, chunk: str) -> str:
+    """
+    Produce a fairly detailed chunk-level summary.
+    """
     messages = [
         SystemMessage(
             content=(
                 "You are an expert analyst summarizing SDG co-benefit evidence in carbon "
-                "project documents. Be precise, cautious, and avoid unsupported claims."
+                "project documents. Be precise and evidence-based."
             )
         ),
         HumanMessage(
             content=(
-                f"Factor: {factor}\n\n"
-                f"Evidence excerpt:\n{chunk}\n\n"
+                f"SDG factor: {factor}\n\n"
+                f"Evidence excerpt (from one or more project documents):\n{chunk}\n\n"
                 "Task:\n"
-                "- Write a concise 2–4 sentence summary of ONLY the concrete actions, outputs, "
-                "outcomes, and impacts.\n"
-                "- Do NOT include generic SDG descriptions.\n"
-                "- Do NOT infer benefits not explicitly supported.\n"
-                "- Avoid exaggeration and normative language.\n"
+                "- Write a DETAILED summary of about 4–7 sentences.\n"
+                "- Focus ONLY on concrete actions, outputs, outcomes, impacts and mechanisms.\n"
+                "- Preserve specific details: numbers, years, locations, project actors, "
+                "types of infrastructure, training topics, methodologies, and monitoring evidence.\n"
+                "- Avoid generic SDG theory (e.g., do NOT explain what SDG 5 is in general).\n"
+                "- Do NOT invent benefits that are not clearly supported by the text.\n"
             )
         ),
     ]
@@ -85,21 +92,29 @@ def summarize_chunk(llm, factor: str, chunk: str) -> str:
 def merge_summaries(chunks: List[str], factor: str) -> str:
     """
     Compress multiple chunk summaries into a polished final summary.
+
+    Here we still keep things quite detailed: think 1–2 rich paragraphs.
     """
     text = " ".join(chunks)
 
-    # Final compression step by LLM
     llm = init_chat_model(GROQ_MODEL_NAME, model_provider="groq")
     messages = [
         SystemMessage(
-            content="You merge several partial summaries into a single coherent paragraph."
+            content=(
+                "You merge several partial summaries about the SAME SDG co-benefit into a "
+                "single coherent narrative. Do NOT drop important concrete details."
+            )
         ),
         HumanMessage(
             content=(
                 f"SDG Factor: {factor}\n\n"
-                f"Partial Summaries:\n{text}\n\n"
-                "Task: Produce a single 3–5 sentence coherent summary capturing all main points, "
-                "removing repetition and focusing only on concrete evidence."
+                f"Partial summaries (from different evidence chunks):\n{text}\n\n"
+                "Task:\n"
+                "- Produce a single, detailed summary (roughly 6–10 sentences, or 2 short paragraphs).\n"
+                "- Merge overlapping points but KEEP important details: specific locations, dates, "
+                "numbers, infrastructure types, livelihood changes, monitoring evidence, etc.\n"
+                "- Make the story readable and logically ordered (from activities → outputs → outcomes/impacts where possible).\n"
+                "- Do NOT add generic SDG explanations or speculative benefits that are not clearly supported.\n"
             )
         ),
     ]
@@ -118,11 +133,12 @@ def summarize_factors(matches: Dict[str, List[str]]) -> List[Dict]:
     returns: [ { "factor": ..., "summary": ... }, ... ]
     """
 
+    # Allow more tokens so the model can write longer summaries.
     llm = init_chat_model(
         GROQ_MODEL_NAME,
         model_provider="groq",
-        temperature=0.2,        # more deterministic
-        max_tokens=450,         # prevent hallucination
+        temperature=0.2,      # keep it fairly deterministic
+        max_tokens=800,       # more room for detailed summaries
     )
 
     summaries = []
@@ -133,14 +149,14 @@ def summarize_factors(matches: Dict[str, List[str]]) -> List[Dict]:
         if not sentences:
             summaries.append({
                 "factor": factor,
-                "summary": "No evidence found in project documents."
+                "summary": "No evidence found in project documents for this SDG factor."
             })
             continue
 
         evidence_text = " ".join(sentences)
 
-        # 👇 split into safe chunks
-        chunks = chunk_text(evidence_text, max_words=250)
+        # Split into fairly large chunks to keep context but stay under LLM limits
+        chunks = chunk_text(evidence_text, max_words=400)
 
         partial_summaries = []
 
@@ -157,7 +173,6 @@ def summarize_factors(matches: Dict[str, List[str]]) -> List[Dict]:
                     retry += 1
                     time.sleep(1)
 
-        # If even chunk-level failed
         if not partial_summaries:
             summaries.append({
                 "factor": factor,
@@ -165,7 +180,7 @@ def summarize_factors(matches: Dict[str, List[str]]) -> List[Dict]:
             })
             continue
 
-        # Merge partial summaries
+        # Merge partial summaries into a detailed final narrative
         final_summary = merge_summaries(partial_summaries, factor)
 
         summaries.append({

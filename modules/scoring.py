@@ -3,61 +3,76 @@
 from typing import Dict, List, Any
 import statistics
 
-# --------- FACTOR-LEVEL SCORE (Calyx-style) ---------
 
-def score_factor(assessment: Dict[str, Any]) -> int:
+# -------------------------------------------------------------------
+# NEW: Score function that returns BOTH (score, details)
+# -------------------------------------------------------------------
+def score_factor(assessment: Dict[str, Any]) -> tuple[int, Dict[str, float]]:
     """
-    assessment keys expected:
-      - level_of_change: one of "predicted_only", "output", "outcome", "impact"
-      - evidence_quality: "narrated" | "estimated" | "quantified" | "quantified_with_method"
-      - durability_measures: bool
-      - excluded_reason: str or None
-    Returns 0 if excluded, else 1–15.
+    Returns:
+        (score: int, details: { ... })
     """
 
-    if assessment.get("excluded_reason"):
-        # Calyx would treat this as 'excluded' – you can ignore in aggregation
-        return 0
+    excluded_reason = assessment.get("excluded_reason")
+    if excluded_reason:
+        details = {
+            "level_base": 0,
+            "evidence_weight": 0.0,
+            "durability_bonus": 0,
+            "raw_score": 0.0,
+            "score": 0,
+        }
+        return 0, details
 
     level = assessment.get("level_of_change", "")
     evid = assessment.get("evidence_quality", "")
     durability = bool(assessment.get("durability_measures", False))
 
-    # Level of change – outcomes get highest weight (Calyx logic)
-    level_base = {
-        "predicted_only": 0,   # only planned, no real change yet
+    # ---------------- LEVEL ----------------
+    level_map = {
+        "predicted_only": 0,
         "output": 4,
-        "outcome": 7,          # highest weight
-        "impact": 9,           # slightly below max because attribution is hard
-    }.get(level, 0)
+        "outcome": 7,
+        "impact": 9
+    }
+    level_base = level_map.get(level, 0)
 
-    # Evidence quality – stronger evidence boosts score
-    evidence_weight = {
+    # ---------------- EVIDENCE QUALITY ----------------
+    evidence_map = {
         "narrated": 0.6,
         "estimated": 0.8,
         "quantified": 1.0,
         "quantified_with_method": 1.2,
-    }.get(evid, 0.6)
+    }
+    evidence_weight = evidence_map.get(evid, 0.6)
 
+    # ---------------- DURABILITY ----------------
     durability_bonus = 2 if durability else 0
 
     raw = level_base * evidence_weight + durability_bonus
 
+    # ---------------- FINAL SCORE ----------------
     if raw <= 0:
-        return 0
+        score = 0
+    else:
+        score = int(round(raw))
+        score = max(1, min(15, score))
 
-    score = int(round(raw))
-    # Clamp to 1–15 (Calyx mentions contribution scores up to ~15)
-    return max(1, min(15, score))
+    details = {
+        "level_base": level_base,
+        "evidence_weight": evidence_weight,
+        "durability_bonus": durability_bonus,
+        "raw_score": raw,
+        "score": score,
+    }
+
+    return score, details
 
 
-# --------- MAP NUMERIC SCORE TO 1+..5+ BAND ---------
-
+# -------------------------------------------------------------------
+# Rating thresholds (unchanged)
+# -------------------------------------------------------------------
 def map_score_to_rating(avg_score: float) -> str:
-    """
-    Map an average contribution score (1–15) to a Calyx-style 1+–5+ band.
-    You can tune these thresholds later.
-    """
     if avg_score >= 12:
         return "5+"
     if avg_score >= 9:
@@ -69,26 +84,11 @@ def map_score_to_rating(avg_score: float) -> str:
     return "1+"
 
 
-# --------- AGGREGATION HELPERS ---------
-
+# -------------------------------------------------------------------
+# Aggregation logic (unchanged)
+# -------------------------------------------------------------------
 def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """
-    Input: list of factor-level assessments, each with:
-      - factor (e.g. 'SDG_5_Gender_Equality')
-      - sdg_goal (e.g. '5')
-      - sdg_target (e.g. '5.5' or None)
-      - score (0–15)
-    Output: {
-      "overall": {...},
-      "by_sdg": {
-         "5": {...},
-         "13": {...},
-         ...
-      }
-    }
-    """
 
-    # Filter out excluded (score = 0)
     valid = [a for a in assessments if a.get("score", 0) > 0]
 
     if not valid:
@@ -98,21 +98,19 @@ def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
                 "rating": "1+",
                 "num_contributions": 0,
             },
-            "by_sdg": {}
+            "by_sdg": {},
         }
 
-    # --- overall ---
     overall_scores = [a["score"] for a in valid]
     overall_avg = statistics.mean(overall_scores)
     overall_rating = map_score_to_rating(overall_avg)
 
-    # --- per SDG goal ---
-    sdg_groups: Dict[str, List[int]] = {}
-    sdg_targets: Dict[str, Dict[str, List[int]]] = {}
+    sdg_groups = {}
+    sdg_targets = {}
 
     for a in valid:
-        goal = str(a.get("sdg_goal"))  # "1", "5", etc.
-        target = a.get("sdg_target")   # "5.5" or None
+        goal = str(a["sdg_goal"])
+        target = a.get("sdg_target")
         score = a["score"]
 
         sdg_groups.setdefault(goal, []).append(score)
@@ -120,17 +118,16 @@ def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
         if target:
             sdg_targets.setdefault(goal, {}).setdefault(target, []).append(score)
 
-    by_sdg: Dict[str, Any] = {}
+    by_sdg = {}
     for goal, scores in sdg_groups.items():
         avg = statistics.mean(scores)
         rating = map_score_to_rating(avg)
 
-        # per-target stats (optional but nice for dashboard)
-        per_target_stats = {}
+        per_target = {}
         for t, tscores in sdg_targets.get(goal, {}).items():
             t_avg = statistics.mean(tscores)
             t_rating = map_score_to_rating(t_avg)
-            per_target_stats[t] = {
+            per_target[t] = {
                 "average_score": t_avg,
                 "rating": t_rating,
                 "num_contributions": len(tscores),
@@ -140,7 +137,7 @@ def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
             "average_score": avg,
             "rating": rating,
             "num_contributions": len(scores),
-            "targets": per_target_stats,
+            "targets": per_target,
         }
 
     return {
