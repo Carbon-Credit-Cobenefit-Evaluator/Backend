@@ -1,5 +1,5 @@
 from modules.pdf_extraction import load_pdfs
-from modules.cleaning import clean_sentence
+from modules.cleaning import split_into_sentences, clean_sentence
 from modules.factor_matching import match_factors
 from modules.summarizer import summarize_factors
 from modules.assessment import assess_factors
@@ -18,10 +18,11 @@ def run_pipeline(project_name: str):
 
     sentences = []
     for doc in docs:
-        for line in doc["text"].split("."):
-            cleaned = clean_sentence(line)
+        for sent in split_into_sentences(doc["text"]):
+            cleaned = clean_sentence(sent)
             if cleaned:
                 sentences.append({"pdf": doc["filename"], "text": cleaned})
+
 
     print(f"[INFO] Total cleaned sentences for {project_name}: {len(sentences)}")
 

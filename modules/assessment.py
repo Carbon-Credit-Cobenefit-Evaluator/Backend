@@ -1,33 +1,70 @@
 # modules/assessment.py
 
+from __future__ import annotations
+
 import json
+import re
 from typing import List, Dict, Any
+
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import SystemMessage, HumanMessage
-from config.settings import GROQ_MODEL_NAME
+
+from config.settings import GROQ_MODEL_NAME, logger
 from modules.scoring import score_factor
 
+
 def _parse_sdg_goal_from_factor(factor: str) -> str:
-    # e.g. "SDG_5_Gender_Equality" -> "5"
+    """
+    Extract SDG goal number from factor key.
+    Example: "SDG_5_Gender_Equality" -> "5"
+    """
     try:
         parts = factor.split("_")
         return parts[1]
     except Exception:
         return "0"
 
+
+def _extract_json(raw_text: str) -> str:
+    """
+    Try to extract a JSON object from the LLM response.
+    Handles cases where the model wraps JSON in ```json ... ``` fences
+    or adds some extra text around it.
+    """
+    raw = raw_text.strip()
+
+    # Remove ```json / ``` fences if present
+    if raw.startswith("```"):
+        # Remove the first "```something"
+        raw = re.sub(r"^```[a-zA-Z]*", "", raw)
+        # Remove trailing backticks
+        raw = raw.replace("```", "").strip()
+
+    # If it already starts with {, assume it's pure JSON
+    if raw.lstrip().startswith("{"):
+        return raw
+
+    # Fallback: find first {...} block
+    m = re.search(r"\{.*\}", raw, flags=re.DOTALL)
+    if m:
+        return m.group(0).strip()
+
+    # Last resort: return raw (json.loads will probably fail)
+    return raw
+
+
 def assess_factors(summaries: List[Dict[str, str]]) -> List[Dict[str, Any]]:
     """
     summaries: [{ 'factor': str, 'summary': str }]
     returns: list of assessments with score and sdg info.
     """
-
     llm = init_chat_model(GROQ_MODEL_NAME, model_provider="groq")
     assessments: List[Dict[str, Any]] = []
 
     for item in summaries:
         factor = item["factor"]
         summary = item["summary"]
-        print(f"[INFO] Assessing factor: {factor}")
+        logger.info(f"[ASSESS] Assessing factor: {factor}")
 
         messages = [
             SystemMessage(
@@ -65,7 +102,8 @@ Return ONLY a JSON object with keys:
         try:
             resp = llm.invoke(messages)
             raw_text = getattr(resp, "content", str(resp))
-            data = json.loads(raw_text)
+            json_str = _extract_json(raw_text)
+            data = json.loads(json_str)
 
             assessment: Dict[str, Any] = {
                 "factor": factor,
@@ -81,8 +119,9 @@ Return ONLY a JSON object with keys:
             assessments.append(assessment)
 
         except Exception as e:
-            print(f"[WARN] Failed to assess {factor}: {e}")
-            assessments.append({
+            logger.warning(f"[ASSESS] Failed to assess {factor}: {e}")
+            # Fallback conservative assessment
+            fallback = {
                 "factor": factor,
                 "sdg_goal": _parse_sdg_goal_from_factor(factor),
                 "sdg_target": None,
@@ -91,6 +130,7 @@ Return ONLY a JSON object with keys:
                 "durability_measures": False,
                 "excluded_reason": "insufficient_evidence",
                 "score": 0,
-            })
+            }
+            assessments.append(fallback)
 
     return assessments
