@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import List, Dict, Sequence, Optional
+from typing import List, Dict, Sequence, Optional, Tuple
 import numpy as np
 
 from config.factor_queries import factor_queries
@@ -20,8 +20,10 @@ for factor, data in factor_queries.items():
         FACTOR_SENTENCES.append(s)
         FACTOR_LABELS.append(factor)
 
-logger.info(f"[MATCH] Prepared {len(FACTOR_SENTENCES)} factor prototype sentences "
-            f"for {len(set(FACTOR_LABELS))} SDG factors.")
+logger.info(
+    f"[MATCH] Prepared {len(FACTOR_SENTENCES)} factor prototype sentences "
+    f"for {len(set(FACTOR_LABELS))} SDG factors."
+)
 
 FACTOR_EMB: np.ndarray = embed(FACTOR_SENTENCES)
 if FACTOR_EMB.size == 0:
@@ -56,6 +58,10 @@ def match_factors(
     Returns:
         Dict[str, List[str]]:
             { "SDG_1_No_Poverty": ["sentence1", "sentence2", ...], ... }
+
+        IMPORTANT:
+        - Within each factor, sentences are sorted by similarity DESCENDING
+          (most similar / strongest evidence first).
     """
     if min_similarity is None:
         min_sim = SIMILARITY_THRESHOLD
@@ -80,7 +86,10 @@ def match_factors(
     # sim[i, j] = similarity between sentence i and factor example j
     sim: np.ndarray = sent_emb @ FACTOR_EMB.T   # shape: [num_sentences, num_factor_examples]
 
-    results: Dict[str, List[str]] = {f: [] for f in factor_queries.keys()}
+    # Temporarily store (similarity, sentence_text) per factor
+    results_scored: Dict[str, List[Tuple[float, str]]] = {
+        f: [] for f in factor_queries.keys()
+    }
 
     num_assigned = 0
 
@@ -91,7 +100,7 @@ def match_factors(
             score = float(row[j])
             if score >= min_sim:
                 factor = FACTOR_LABELS[j]
-                results[factor].append(sentences[i]["text"])
+                results_scored[factor].append((score, sentences[i]["text"]))
                 num_assigned += 1
         else:
             # Sort factor examples by similarity, descending
@@ -102,13 +111,20 @@ def match_factors(
                 if score < min_sim:
                     continue
                 factor = FACTOR_LABELS[j]
-                results[factor].append(sentences[i]["text"])
+                results_scored[factor].append((score, sentences[i]["text"]))
                 matched_any = True
             if matched_any:
                 num_assigned += 1
 
-    # Drop empty factors
-    results = {k: v for k, v in results.items() if v}
+    # Convert to plain Dict[str, List[str]] and sort by similarity DESC per factor
+    results: Dict[str, List[str]] = {}
+    for factor, items in results_scored.items():
+        if not items:
+            continue
+        # sort by similarity descending
+        items.sort(key=lambda x: x[0], reverse=True)
+        # keep only sentence text
+        results[factor] = [s for score, s in items]
 
     logger.info(
         f"[MATCH] Processed {len(sentences)} sentences → "

@@ -78,7 +78,6 @@ def score_factor_with_details(assessment: Dict[str, Any]) -> Dict[str, Any]:
 
 # ---------------------------------------------------------------------
 # BACKWARD COMPATIBLE ENTRYPOINT
-#   assessment.py currently calls: score, details = score_factor(assessment)
 # ---------------------------------------------------------------------
 def score_factor(assessment: Dict[str, Any]) -> tuple[int, Dict[str, Any]]:
     details = score_factor_with_details(assessment)
@@ -101,10 +100,20 @@ def map_score_to_rating(avg_score: float) -> str:
 
 
 # ---------------------------------------------------------------------
-# AGGREGATION OF ALL FACTOR SCORES
+# AGGREGATION OF ALL FACTOR SCORES (NO SDG TARGETS)
 # ---------------------------------------------------------------------
 def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Aggregate factor-level scores into:
+      - overall average + rating
+      - per-SDG goal average + rating + num_contributions
 
+    Expects each assessment to contain:
+      - "sdg_goal"
+      - "score"
+    """
+
+    # Only keep valid scored contributions
     valid = [a for a in assessments if a.get("score", 0) > 0]
 
     if not valid:
@@ -117,45 +126,29 @@ def aggregate_by_sdg(assessments: List[Dict[str, Any]]) -> Dict[str, Any]:
             "by_sdg": {},
         }
 
+    # -------------------- OVERALL --------------------
     overall_scores = [a["score"] for a in valid]
     overall_avg = statistics.mean(overall_scores)
     overall_rating = map_score_to_rating(overall_avg)
 
+    # -------------------- GROUP BY SDG GOAL ONLY --------------------
     sdg_groups: Dict[str, List[int]] = {}
-    sdg_targets: Dict[str, Dict[str, List[int]]] = {}
 
-    # Group by SDG goal and SDG targets
     for a in valid:
         goal = str(a["sdg_goal"])
-        target = a.get("sdg_target")
         score = a["score"]
-
         sdg_groups.setdefault(goal, []).append(score)
 
-        if target:
-            sdg_targets.setdefault(goal, {}).setdefault(target, []).append(score)
-
-    # Build output structure
-    by_sdg = {}
+    # -------------------- BUILD OUTPUT --------------------
+    by_sdg: Dict[str, Any] = {}
     for goal, scores in sdg_groups.items():
         avg = statistics.mean(scores)
         rating = map_score_to_rating(avg)
-
-        target_stats = {}
-        for t, tscores in sdg_targets.get(goal, {}).items():
-            t_avg = statistics.mean(tscores)
-            t_rating = map_score_to_rating(t_avg)
-            target_stats[t] = {
-                "average_score": t_avg,
-                "rating": t_rating,
-                "num_contributions": len(tscores),
-            }
 
         by_sdg[goal] = {
             "average_score": avg,
             "rating": rating,
             "num_contributions": len(scores),
-            "targets": target_stats,
         }
 
     return {

@@ -140,7 +140,15 @@ def refine_evidence(evidence_map: Dict[str, List[str]]) -> Dict[str, List[str]]:
     refined: Dict[str, List[str]] = {}
 
     for factor, sentences in evidence_map.items():
-        logger.info(f"[REFINE] Refining evidence for {factor} ({len(sentences)} sentences)")
+        # limit to first 50 sentences per factor
+        original_count = len(sentences)
+        sentences = sentences[:50]
+
+        logger.info(
+            f"[REFINE] Refining evidence for {factor} "
+            f"using {len(sentences)} of {original_count} sentences (cap=50)"
+        )
+
         if not sentences:
             refined[factor] = []
             continue
