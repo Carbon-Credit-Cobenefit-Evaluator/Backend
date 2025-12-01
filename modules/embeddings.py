@@ -107,7 +107,7 @@ def embed(
             batch = processed[start:start+batch_size]
 
             # Jina model supports model.encode(list_of_strings)
-            batch_emb = model.encode(batch)
+            batch_emb = model.encode(batch, show_progress_bar=False)
 
             # Convert to numpy
             batch_emb = np.asarray(batch_emb, dtype=np.float32)

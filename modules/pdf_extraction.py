@@ -23,7 +23,7 @@ def load_pdfs(project_name: str):
             path = os.path.join(project_path, f)
             try:
                 text = extract_text(path)
-                pdfs.append({"filename": f, "text": text})
+                pdfs.append({"filename": f,"path": path, "text": text})
             except Exception as e:
                 print(f"[ERROR] Failed to read {path}: {e}")
 
