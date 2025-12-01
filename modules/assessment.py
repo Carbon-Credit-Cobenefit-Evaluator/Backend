@@ -44,13 +44,11 @@ def _snippet(sentences: List[str], max_s: int = 15) -> str:
     return "\n".join(f"{i+1}. {s}" for i, s in enumerate(take))
 
 
-def assess_factors(
-    summaries: List[Dict[str, str]],
+def assess_factors_from_refined(
     evidence_map: Dict[str, List[str]],
 ) -> List[Dict[str, Any]]:
     """
-    summaries: [{ "factor": str, "summary": str }]
-    evidence_map: { factor_name: [sentence1, sentence2, ...] }
+    evidence_map: { factor_name: [cleaned_sentence1, cleaned_sentence2, ...] }
 
     Returns a list of assessments with:
       - sdg_goal, sdg_target
@@ -58,27 +56,20 @@ def assess_factors(
       - sdg_claim_type (explicit / implicit / unclear)
       - support sentences for level, evidence quality, durability, claim type
       - durability_reason (short explanation)
-      - summary + raw_evidence_sentences (for UI)
+      - raw_evidence_sentences (for UI)
       - score + score_details
     """
 
     llm = init_chat_model(GROQ_MODEL_NAME, model_provider="groq")
     results: List[Dict[str, Any]] = []
 
-    for item in summaries:
-        factor = item["factor"]
-        summary = item["summary"]
-        raw_evidence = evidence_map.get(factor, [])
-
+    for factor, raw_evidence in evidence_map.items():
         logger.info(f"[ASSESS] Assessing {factor}")
 
         prompt = f"""
 Factor: {factor}
 
-Condensed Evidence Summary:
-\"\"\"{summary}\"\"\"
-
-Raw Evidence Sentences (sample):
+Cleaned Evidence Sentences (sample):
 {_snippet(raw_evidence)}
 
 ────────────────────────────────────────────────────────────
@@ -198,11 +189,10 @@ RETURN STRICT JSON ONLY:
                 "durability_measures": parsed.get("durability_measures"),
                 "excluded_reason": parsed.get("excluded_reason"),
 
-                # NEW: SDG claim type
+                # SDG claim type
                 "sdg_claim_type": sdg_claim_type,
 
                 # For UI & traceability
-                "summary": summary,
                 "raw_evidence_sentences": raw_evidence,
                 "durability_reason": dur_reason,
 
@@ -233,7 +223,6 @@ RETURN STRICT JSON ONLY:
 
                 "sdg_claim_type": "unclear",
 
-                "summary": summary,
                 "raw_evidence_sentences": raw_evidence,
                 "durability_reason": "Fallback: insufficient evidence or model failure.",
 

@@ -1,9 +1,9 @@
 from modules.pdf_extraction import load_pdfs
 from modules.cleaning import split_into_sentences, clean_sentence
 from modules.factor_matching import match_factors
-from modules.summarizer import summarize_factors
-from modules.assessment import assess_factors
 from modules.scoring import aggregate_by_sdg
+from modules.assessment import assess_factors_from_refined
+from modules.evidence_refiner import refine_evidence
 from config.settings import BASE_OUTPUT_DIR
 
 import json
@@ -27,8 +27,8 @@ def run_pipeline(project_name: str):
     print(f"[INFO] Total cleaned sentences for {project_name}: {len(sentences)}")
 
     matches = match_factors(sentences)
-    summaries = summarize_factors(matches)
-    assessments = assess_factors(summaries, matches)
+    refined = refine_evidence(matches)
+    assessments = assess_factors_from_refined(matches)
 
 
     # Per-project output folder
@@ -38,8 +38,8 @@ def run_pipeline(project_name: str):
     with open(os.path.join(output_dir, "factor_sentences.json"), "w", encoding="utf-8") as f:
         json.dump(matches, f, ensure_ascii=False, indent=2)
 
-    with open(os.path.join(output_dir, "summaries.json"), "w", encoding="utf-8") as f:
-        json.dump(summaries, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(output_dir, "refined_sentences.json"), "w", encoding="utf-8") as f:
+        json.dump(refined, f, ensure_ascii=False, indent=2)
 
     with open(os.path.join(output_dir, "assessments.json"), "w", encoding="utf-8") as f:
         json.dump(assessments, f, ensure_ascii=False, indent=2)
