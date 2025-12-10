@@ -42,7 +42,7 @@ def extract_table_sentences(pdf_path: str, pdf_name: str) -> List[Dict[str, str]
 
     try:
         # First try lattice mode (works well for bordered tables)
-        tables = camelot.read_pdf(pdf_path, pages="all", flavor="lattice")
+        tables = camelot.read_pdf(pdf_path, pages="all", flavor="lattice", backend = "ghostscript")
     except Exception as e:
         logger.warning(f"[TABLE] Lattice extraction failed for {pdf_name}: {e}")
         tables = None

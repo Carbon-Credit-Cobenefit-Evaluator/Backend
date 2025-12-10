@@ -8,6 +8,7 @@ from config.settings import SPACY_MODEL
 
 # Load spaCy model once at import time
 nlp = spacy.load(SPACY_MODEL)
+nlp.max_length = 5_000_000
 
 TABLE_HEADING_RE = re.compile(r"^(Table|Annex|Illustration)\s+\d+", re.IGNORECASE)
 DOT_LEADER_RE = re.compile(r"([._-]){2,}")

@@ -14,17 +14,25 @@ os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 
 # ----------------------------
-# PATHS
 # ----------------------------
-PROJECTS_ROOT = Path(r"D:\DATAFYP\All projects")
-BASE_OUTPUT_DIR = Path(r"D:\DATAFYP\outputs")
+# PATHS (relative to project folder)
+# ----------------------------
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Folder where PDFs will be downloaded
+PROJECTS_ROOT = BASE_DIR / "data" / "pdfs"
+PROJECTS_ROOT.mkdir(parents=True, exist_ok=True)
+
+# Folder where extracted outputs, logs, etc. are stored
+BASE_OUTPUT_DIR = BASE_DIR / "data" / "outputs"
 BASE_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 
 # ----------------------------
 # MODEL CONFIGURATION
 # ----------------------------
-SIMILARITY_THRESHOLD = 0.65
+SIMILARITY_THRESHOLD = 0.8
 
 # Embeddings (good stable version for Windows)
 JINA_MODEL_NAME = "jinaai/jina-embeddings-v2-base-en"
