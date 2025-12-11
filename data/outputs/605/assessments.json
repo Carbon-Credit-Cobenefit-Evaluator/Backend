@@ -1,0 +1,48 @@
+[
+  {
+    "factor": "SDG_1_No_Poverty",
+    "sdg_goal": "1",
+    "level_of_change": "impact",
+    "evidence_quality": "narrated",
+    "durability_measures": true,
+    "excluded_reason": "insufficient_evidence",
+    "sdg_claim_type": "implicit",
+    "durability_reason": null,
+    "level_support_sentences": [
+      "This helps diversify income sources, providing important financial security as demand for native timber declines, while improving the region's environmental integrity.",
+      "The project will also enhance local biodiversity—undermined by harvesting events and practices—diversify landowners’ income, and maintain both the aesthetic and recreational values of the Tasmanian landscape.",
+      "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+      "The project activity generates income only from the sale of carbon credits.",
+      "Proponents will benefit from an increasingly educated network as more landowners adopt carbon-financed Improved Forest Management to generate revenue while enhancing privately owned native forests."
+    ],
+    "evidence_quality_support_sentences": [
+      "This helps diversify income sources, providing important financial security as demand for native timber declines, while improving the region's environmental integrity.",
+      "The project will also enhance local biodiversity—undermined by harvesting events and practices—diversify landowners’ income, and maintain both the aesthetic and recreational values of the Tasmanian landscape.",
+      "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+      "The project activity generates income only from the sale of carbon credits."
+    ],
+    "durability_support_sentences": [
+      "The project activity generates income only from the sale of carbon credits.",
+      "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+      "Regarding local community benefits, retaining native forest yields a wide range of benefits, including but not limited to: • Protection of water quality; • Pest and disease control for nearby agricultural activities; • Aesthetic benefits from forest retention; • Broader benefits from avoiding CO₂ emissions."
+    ],
+    "sdg_claim_support_sentences": [
+      "This helps diversify income sources, providing important financial security as demand for native timber declines, while improving the region's environmental integrity.",
+      "The project will also enhance local biodiversity—undermined by harvesting events and practices—diversify landowners’ income, and maintain both the aesthetic and recreational values of the Tasmanian landscape.",
+      "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+      "The local community benefits from conserving the native forest.",
+      "The owners seek an alternative that will provide comparable income while protecting and improving the native forests of the region.",
+      "The project activity generates income only from the sale of carbon credits.",
+      "This will deter landowners from either ongoing selective logging or converting native forests to plantations or pasture to compensate for the declining revenue from logging."
+    ],
+    "score": 0,
+    "score_details": {
+      "score": 0,
+      "level_base": 0,
+      "evidence_weight": 0.0,
+      "durability_bonus": 0,
+      "raw_score": 0.0,
+      "excluded_by_reason": "insufficient_evidence"
+    }
+  }
+]

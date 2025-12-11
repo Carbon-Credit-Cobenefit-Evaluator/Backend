@@ -1,0 +1,42 @@
+[
+  {
+    "factor": "SDG_1_No_Poverty",
+    "sdg_goal": "1",
+    "level_of_change": "impact",
+    "evidence_quality": "quantified",
+    "durability_measures": true,
+    "excluded_reason": null,
+    "sdg_claim_type": "implicit",
+    "durability_reason": "The evidence shows a revenue mechanism that sustains plantation growth and a maintenance plan that extends benefits beyond the project period through community training and empowerment, indicating long‑term durability.",
+    "level_support_sentences": [
+      "The project has a positive impact on the surrounding population by providing long‑term jobs, legal benefits, training, and health benefits.",
+      "The project will have a positive impact on the surrounding population by providing long‑term jobs, legal benefits, training, and health benefits.",
+      "Stakeholders also appreciated the economic impact of the project, as it contributed to household income stability.",
+      "Increase the number of women involved in the project; members of the community support the project and communicate this to other community members; the community supports the project because members derive economic benefits; every year, women empowerment increases; payroll and employment charts show that workers of participating farms, neighboring community members, and leaders—392 individuals employed during the monitoring period (2016–2022)—improve local income stability.",
+      "The project intends to maintain the climate, community, and biodiversity benefits beyond its lifetime through community empowerment, such as training in integrated control of plagues, forest management, fire control, worker safety, adherence to international and national norms, forest certifications, and the importance of conservation (see section 4.2 Net Positive Community Impacts)."
+    ],
+    "evidence_quality_support_sentences": [
+      "Increase the number of women involved in the project; members of the community support the project and communicate this to other community members; the community supports the project because members derive economic benefits; every year, women empowerment increases; payroll and employment charts show that workers of participating farms, neighboring community members, and leaders—392 individuals employed during the monitoring period (2016–2022)—improve local income stability."
+    ],
+    "durability_support_sentences": [
+      "Project revenues will allow the plantations to be grown, providing climate, community, and biodiversity benefits.",
+      "The project intends to maintain the climate, community, and biodiversity benefits beyond its lifetime through community empowerment, such as training in integrated control of plagues, forest management, fire control, worker safety, adherence to international and national norms, forest certifications, and the importance of conservation."
+    ],
+    "sdg_claim_support_sentences": [
+      "The project seeks to provide economic opportunities for members of the community.",
+      "The project has a positive impact on the surrounding population by providing long‑term jobs, legal benefits, training, and health benefits.",
+      "Stakeholders also appreciated the economic impact of the project, as it contributed to household income stability.",
+      "Increase the number of women involved in the project; members of the community support the project and communicate this to other community members; the community supports the project because members derive economic benefits; every year, women empowerment increases; payroll and employment charts show that workers of participating farms, neighboring community members, and leaders—392 individuals employed during the monitoring period (2016–2022)—improve local income stability.",
+      "Recognizing that these farms, through income from carbon credits and commitments acquired by participating in the Project, allow workers to receive decent wages recognized by law and additional benefits to their monthly salary (two additional salaries per year)."
+    ],
+    "score": 11,
+    "score_details": {
+      "score": 11,
+      "level_base": 9,
+      "evidence_weight": 1.0,
+      "durability_bonus": 2,
+      "raw_score": 11.0,
+      "excluded_by_reason": null
+    }
+  }
+]
