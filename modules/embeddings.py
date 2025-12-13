@@ -13,12 +13,17 @@ from config.settings import JINA_MODEL_NAME, logger
 
 
 # --------------------------------------
-# DEVICE SELECTION (with logging)
+# DEVICE SELECTION (CPU ONLY NOW)
 # --------------------------------------
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-logger.info(f"[EMB] Using device: {device}")
 
-use_fp16 = torch.cuda.is_available()
+# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# logger.info(f"[EMB] Using device: {device}")
+
+# use_fp16 = torch.cuda.is_available()
+
+# Force CPU mode
+device = torch.device("cpu")
+logger.info("[EMB] FORCING CPU MODE (CUDA commented out)")
 
 
 # --------------------------------------
@@ -30,12 +35,14 @@ model = AutoModel.from_pretrained(
     trust_remote_code=True,
 )
 
-if use_fp16:
-    model = model.half()
+# if use_fp16:
+#     model = model.half()
 
-model = model.to(device)
+# model = model.to(device)
+model = model.to("cpu")   # Explicit CPU load
+
 model.eval()
-logger.info("[EMB] Model loaded successfully.")
+logger.info("[EMB] Model loaded successfully (CPU mode).")
 
 
 # --------------------------------------
@@ -56,9 +63,9 @@ def _normalize_text(text: str) -> str:
 # --------------------------------------
 def embed(
     texts: Sequence[str],
-    batch_size: int = 16,
+    batch_size: int = 8,
     normalize: bool = True,
-    max_length: int = 128,
+    max_length: int = 256,
 ) -> np.ndarray:
 
     if isinstance(texts, str):
@@ -93,7 +100,7 @@ def embed(
         total_batches = range(0, len(processed), batch_size)
         for start in tqdm(
             total_batches,
-            desc=f"Embedding batches (bs={batch_size}, device={device})",
+            desc=f"Embedding batches (bs={batch_size}, device=cpu)",
             ncols=100
         ):
             batch = processed[start:start + batch_size]
