@@ -35,8 +35,16 @@ def run_pipeline(project_name: str):
     print(f"[INFO] Table sentences for {project_name}: {len(table_sentences)}")
     print(f"[INFO] Total sentences for {project_name}: {len(text_sentences) + len(table_sentences)}")
 
-    text_matches = match_factors(text_sentences)
-    table_matches = match_factors(table_sentences) if table_sentences else {}
+    text_matches = match_factors(
+    text_sentences,
+    min_similarity=0.5
+)
+
+    table_matches = match_factors(
+        table_sentences,
+        min_similarity=0.4
+    ) if table_sentences else {}
+
 
     refined_text_matches = refine_evidence(text_matches)
 

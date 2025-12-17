@@ -5,35 +5,34 @@ from __future__ import annotations
 import numpy as np
 import torch
 from typing import List, Sequence
-from transformers import AutoModel
+from sentence_transformers import SentenceTransformer
+from config.settings import EMBEDDING_MODEL_NAME, logger
 import unicodedata
 from tqdm import tqdm   # <-- added
-
-from config.settings import JINA_MODEL_NAME, logger
 
 
 # --------------------------------------
 # DEVICE SELECTION (CPU ONLY NOW)
 # --------------------------------------
 
-# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# logger.info(f"[EMB] Using device: {device}")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+logger.info(f"[EMB] Using device: {device}")
 
-# use_fp16 = torch.cuda.is_available()
+use_fp16 = torch.cuda.is_available()
 
 # Force CPU mode
-device = torch.device("cpu")
-logger.info("[EMB] FORCING CPU MODE (CUDA commented out)")
+# device = torch.device("cpu")
+# logger.info("[EMB] FORCING CPU MODE (CUDA commented out)")
 
 
 # --------------------------------------
 # LOAD MODEL
 # --------------------------------------
-logger.info(f"[EMB] Loading Jina model: {JINA_MODEL_NAME} ...")
-model = AutoModel.from_pretrained(
-    JINA_MODEL_NAME,
-    trust_remote_code=True,
+model = SentenceTransformer(
+    EMBEDDING_MODEL_NAME,
+    device=device
 )
+logger.info("[EMB] MiniLM model loaded successfully (CPU).")
 
 # if use_fp16:
 #     model = model.half()
@@ -42,7 +41,7 @@ model = AutoModel.from_pretrained(
 model = model.to("cpu")   # Explicit CPU load
 
 model.eval()
-logger.info("[EMB] Model loaded successfully (CPU mode).")
+logger.info("[EMB] Model loaded successfully .")
 
 
 # --------------------------------------
@@ -106,7 +105,14 @@ def embed(
             batch = processed[start:start + batch_size]
 
             # Jina model encode
-            batch_emb = model.encode(batch, show_progress_bar=False)
+            batch_emb = model.encode(
+                batch,
+                batch_size=len(batch),
+                show_progress_bar=False,
+                convert_to_numpy=True,
+                normalize_embeddings=True
+            )
+
 
             # Convert to numpy
             batch_emb = np.asarray(batch_emb, dtype=np.float32)

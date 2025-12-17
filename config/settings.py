@@ -32,10 +32,11 @@ BASE_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # ----------------------------
 # MODEL CONFIGURATION
 # ----------------------------
-SIMILARITY_THRESHOLD = 0.75
+SIMILARITY_THRESHOLD = 0.5
 
 # Embeddings (good stable version for Windows)
-JINA_MODEL_NAME = "jinaai/jina-embeddings-v2-small-en"
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-distilroberta-v1"
+
 
 # Groq LLM (OSS-20B is correct for Groq)
 GROQ_MODEL_NAME = "openai/gpt-oss-20b"

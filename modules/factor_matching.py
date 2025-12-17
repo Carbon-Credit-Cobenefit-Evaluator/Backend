@@ -26,12 +26,6 @@ logger.info(
 )
 
 FACTOR_EMB: np.ndarray = embed(FACTOR_SENTENCES)
-if FACTOR_EMB.size == 0:
-    logger.error("[MATCH] Factor embeddings are empty! Check factor_queries or embedding model.")
-else:
-    # L2-normalize so dot product = cosine similarity
-    FACTOR_EMB = FACTOR_EMB / (np.linalg.norm(FACTOR_EMB, axis=1, keepdims=True) + 1e-9)
-    logger.info(f"[MATCH] Factor embedding matrix shape: {FACTOR_EMB.shape}")
 
 
 # -----------------------------------------
@@ -63,10 +57,8 @@ def match_factors(
         - Within each factor, sentences are sorted by similarity DESCENDING
           (most similar / strongest evidence first).
     """
-    if min_similarity is None:
-        min_sim = SIMILARITY_THRESHOLD
-    else:
-        min_sim = float(min_similarity)
+
+    min_sim = float(min_similarity)
 
     if not sentences:
         logger.warning("[MATCH] No sentences passed into match_factors().")
@@ -79,8 +71,7 @@ def match_factors(
         logger.warning("[MATCH] Sentence embeddings are empty. Returning no matches.")
         return {}
 
-    # Normalize sentence embeddings for cosine similarity
-    sent_emb = sent_emb / (np.linalg.norm(sent_emb, axis=1, keepdims=True) + 1e-9)
+
 
     # Cosine similarity via dot product of normalized vectors
     # sim[i, j] = similarity between sentence i and factor example j
