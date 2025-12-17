@@ -1,0 +1,5 @@
+# Ignore the actual model weights
+models/
+*.safetensors
+*.bin
+*.zip
