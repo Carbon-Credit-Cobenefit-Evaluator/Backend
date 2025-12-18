@@ -4,12 +4,23 @@ from __future__ import annotations
 import os
 from pathlib import Path
 import logging
+from dotenv import load_dotenv
+
 
 # ----------------------------
-# API KEYS (no .env required)
+# LOAD ENVIRONMENT VARIABLES
 # ----------------------------
-# NOTE: It's okay for development, but do NOT commit your key to GitHub.
-GROQ_API_KEY = "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"
+BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / ".env")
+
+# ----------------------------
+# API KEYS
+# ----------------------------
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY not found in environment variables")
+
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 
