@@ -4,7 +4,7 @@ from modules.factor_matching import match_factors
 from modules.scoring import aggregate_by_sdg
 from modules.assessment import assess_factors_from_refined
 from modules.table_extraction import extract_table_sentences
-from modules.evidence_refiner import refine_evidence
+from modules.evidence_refiner import refine_evidence, refine_table_evidence, _dedupe_preserve_order
 from config.settings import BASE_OUTPUT_DIR
 
 import json
@@ -35,20 +35,31 @@ def run_pipeline(project_name: str):
     print(f"[INFO] Table sentences for {project_name}: {len(table_sentences)}")
     print(f"[INFO] Total sentences for {project_name}: {len(text_sentences) + len(table_sentences)}")
 
-    text_matches = match_factors(text_sentences)
-    table_matches = match_factors(table_sentences) if table_sentences else {}
+    text_matches = match_factors(
+    text_sentences,
+    min_similarity=0.5
+)
+
+    table_matches = match_factors(
+        table_sentences,
+        min_similarity=0.4
+    ) if table_sentences else {}
+
 
     refined_text_matches = refine_evidence(text_matches)
 
-    final_evidence = {}
+# NEW: refine table sentences separately
+    refined_table_matches = refine_table_evidence(table_matches)
 
-# include all factors that appear in either text or tables
-    all_factors = set(refined_text_matches.keys()) | set(table_matches.keys())
+    final_evidence = {}
+    all_factors = set(refined_text_matches.keys()) | set(refined_table_matches.keys())
 
     for factor in all_factors:
-        from_text = refined_text_matches.get(factor, [])
-        from_tables = table_matches.get(factor, [])
-        final_evidence[factor] = from_text + from_tables
+         from_text = refined_text_matches.get(factor, [])
+         from_tables = refined_table_matches.get(factor, [])
+         combined = from_text + from_tables
+         final_evidence[factor] = _dedupe_preserve_order(combined)
+
 
     assessments = assess_factors_from_refined(final_evidence)
 

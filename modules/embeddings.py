@@ -5,35 +5,43 @@ from __future__ import annotations
 import numpy as np
 import torch
 from typing import List, Sequence
-from transformers import AutoModel
+from sentence_transformers import SentenceTransformer
+from config.settings import EMBEDDING_MODEL_NAME, logger
 import unicodedata
-
-from config.settings import JINA_MODEL_NAME, logger
+from tqdm import tqdm   # <-- added
 
 
 # --------------------------------------
-# DEVICE SELECTION (with logging)
+# DEVICE SELECTION (CPU ONLY NOW)
 # --------------------------------------
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 logger.info(f"[EMB] Using device: {device}")
 
-# Optional improvement: FP16 on GPU
 use_fp16 = torch.cuda.is_available()
+
+# Force CPU mode
+# device = torch.device("cpu")
+# logger.info("[EMB] FORCING CPU MODE (CUDA commented out)")
+
 
 # --------------------------------------
 # LOAD MODEL
 # --------------------------------------
-logger.info(f"[EMB] Loading Jina model: {JINA_MODEL_NAME} ...")
-model = AutoModel.from_pretrained(
-    JINA_MODEL_NAME,
-    trust_remote_code=True,
+model = SentenceTransformer(
+    EMBEDDING_MODEL_NAME,
+    device=device
 )
-if use_fp16:
-    model = model.half()
+logger.info("[EMB] MiniLM model loaded successfully (CPU).")
 
-model = model.to(device)
+# if use_fp16:
+#     model = model.half()
+
+# model = model.to(device)
+model = model.to("cpu")   # Explicit CPU load
+
 model.eval()
-logger.info("[EMB] Model loaded successfully.")
+logger.info("[EMB] Model loaded successfully .")
 
 
 # --------------------------------------
@@ -44,36 +52,20 @@ def _normalize_text(text: str) -> str:
     if not text:
         return ""
 
-    # Unicode normalization
     text = unicodedata.normalize("NFKC", text)
-
-    # Lowercase for embedding stability
     text = text.lower().strip()
-
     return text
 
 
 # --------------------------------------
-# EMBEDDING (with batching)
+# EMBEDDING (with batching + tqdm)
 # --------------------------------------
 def embed(
     texts: Sequence[str],
-    batch_size: int = 64,
+    batch_size: int = 8,
     normalize: bool = True,
-    max_length: int = 500,
+    max_length: int = 256,
 ) -> np.ndarray:
-    """
-    Advanced embedding function.
-
-    Args:
-        texts: list of strings
-        batch_size: batch size for memory control
-        normalize: normalize text before embedding
-        max_length: truncate extremely long sentences (words, not tokens)
-
-    Returns:
-        np.ndarray of shape (N, D)
-    """
 
     if isinstance(texts, str):
         texts = [texts]
@@ -92,7 +84,6 @@ def embed(
         if normalize:
             t = _normalize_text(t)
 
-        # Prevent extremely large input (pdfminer sometimes extracts entire paragraphs)
         words = t.split()
         if len(words) > max_length:
             t = " ".join(words[:max_length])
@@ -101,19 +92,34 @@ def embed(
 
     all_embs = []
 
-    # Disable gradient computation
+    # Disable autograd
     with torch.no_grad():
-        for start in range(0, len(processed), batch_size):
-            batch = processed[start:start+batch_size]
 
-            # Jina model supports model.encode(list_of_strings)
-            batch_emb = model.encode(batch, show_progress_bar=False)
+        # tqdm progress bar
+        total_batches = range(0, len(processed), batch_size)
+        for start in tqdm(
+            total_batches,
+            desc=f"Embedding batches (bs={batch_size}, device=cpu)",
+            ncols=100
+        ):
+            batch = processed[start:start + batch_size]
+
+            # Jina model encode
+            batch_emb = model.encode(
+                batch,
+                batch_size=len(batch),
+                show_progress_bar=False,
+                convert_to_numpy=True,
+                normalize_embeddings=True
+            )
+
 
             # Convert to numpy
             batch_emb = np.asarray(batch_emb, dtype=np.float32)
 
             all_embs.append(batch_emb)
 
+    # Stack results
     if len(all_embs) == 1:
         return all_embs[0]
 

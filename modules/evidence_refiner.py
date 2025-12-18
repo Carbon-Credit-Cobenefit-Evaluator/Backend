@@ -142,7 +142,7 @@ def refine_evidence(evidence_map: Dict[str, List[str]]) -> Dict[str, List[str]]:
     for factor, sentences in evidence_map.items():
         # limit to first 50 sentences per factor
         original_count = len(sentences)
-        sentences = sentences[:50]
+        sentences = sentences[:100]
 
         logger.info(
             f"[REFINE] Refining evidence for {factor} "
@@ -205,3 +205,65 @@ def refine_evidence(evidence_map: Dict[str, List[str]]) -> Dict[str, List[str]]:
         refined[factor] = cleaned_sentences
 
     return refined
+def refine_table_evidence(table_map: Dict[str, List[str]]) -> Dict[str, List[str]]:
+    """
+    Clean table-derived sentences using Groq.
+    This version uses stronger cleanup instructions:
+    - Remove column labels (col_1, col_2...)
+    - Split merged rows into 1–3 factual sentences
+    - Keep only meaningful content
+    - Return JSON { cleaned: [...] }
+    """
+    llm = init_chat_model(GROQ_MODEL_NAME, model_provider="groq", temperature=0.2)
+    refined_tables = {}
+
+    for factor, rows in table_map.items():
+
+        # Limit to top 100 table rows
+        rows = rows[:100]
+
+        chunks = _chunk_sentences(rows, max_per_chunk=20)
+        cleaned_all = []
+
+        for chunk in chunks:
+            prompt = (
+                "You are cleaning evidence extracted from PDF tables.\n"
+                "These rows contain merged columns, noise, labels, and long text.\n\n"
+                "Rules:\n"
+                "- Remove table headers such as col_1, col_2, metric, indicator\n"
+                "- Remove annex numbers and page references\n"
+                "- Split each row into 1–3 factual sentences MAX\n"
+                "- Keep only content relevant to impacts, outcomes, benefits.\n"
+                "- Do NOT hallucinate.\n\n"
+                "Return JSON ONLY as:\n"
+                "{ \"cleaned\": [\"...\", \"...\"] }\n\n"
+                "Input rows:\n"
+                + "\n".join(f"- {r}" for r in chunk)
+            )
+
+            resp = llm.invoke([
+                SystemMessage(content="Clean table-derived evidence. Output STRICT JSON."),
+                HumanMessage(content=prompt),
+            ])
+
+            raw_json = _extract_json_block(getattr(resp, "content", str(resp)))
+            try:
+                data = json.loads(raw_json)
+                cleaned_list = data.get("cleaned", [])
+            except:
+                cleaned_list = chunk  # fallback: keep original
+
+            cleaned_all.extend(cleaned_list)
+
+        refined_tables[factor] = cleaned_all
+
+    return refined_tables
+def _dedupe_preserve_order(sentences: list[str]) -> list[str]:
+    seen = set()
+    deduped = []
+    for s in sentences:
+        key = s.strip()
+        if key not in seen:
+            seen.add(key)
+            deduped.append(s)
+    return deduped
