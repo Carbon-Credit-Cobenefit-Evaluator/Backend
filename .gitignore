@@ -1,6 +1,13 @@
+# Environment
 .env
-# Ignore the actual model weights
-models/
-*.safetensors
-*.bin
-*.zip
+
+# ---- MODEL WEIGHTS (ignore only weights, NOT folders) ----
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.pt
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.zip
+
+# (optional) ignore trainer checkpoints
+models/**/checkpoint-*
