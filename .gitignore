@@ -1,3 +1,4 @@
+.env
 # Ignore the actual model weights
 models/
 *.safetensors
