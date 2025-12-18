@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {
+      "GS_1795": {
+        "id": "1795",
+        "created_at": "2019-03-27T13:54:45Z",
+        "updated_at": "2025-12-09T06:57:19Z",
+        "name": "BaumInvest Reforestation Project ",
+        "description": "BaumInvest has implemented a pioneering reforestation project in northern Costa Rica that combines ecological sustainability with social responsibility. The project focuses on transforming degraded pasturelands, previously used for extensive cattle ranching, into thriving forests of tropical hardwoods using a proven, nature-based approach. These mixed stands primarily consist of native species alongside teak, promoting biodiversity and ecosystem resilience. Spanning four reforestation sites in remote northern Costa Rica, the project covers a total area of 1527 hectares, with 978 hectares certified under the Gold Standard for reforestation. Approximately 20% of the project area remains untouched as old-growth and secondary forest, as well as wetlands, which serve as crucial habitats and biological corridors for endangered species. One of the project’s areas, La Virgen is situated near Braulio Carrillo National Park further enhancing its ecological significance. Managing the reforested areas sustainably is a key priority of the project, which includes the practice of selective harvesting. By selectively harvesting individual trees rather than clear-cutting large areas, the project not only supports long-term forest health and biodiversity but also enhances carbon sequestration. Additionally, the project is situated within two UNESCO-recognized biosphere reserves, Agua y Paz and 'Cordillera Volcánica Central.",
+        "status": "GOLD_STANDARD_CERTIFIED_PROJECT",
+        "estimated_annual_credits": 10602,
+        "crediting_period_start_date": "2007-09-01",
+        "crediting_period_end_date": "2037-08-31",
+        "methodology": null,
+        "type": "A/R",
+        "size": "Large Scale",
+        "sustaincert_id": 2913,
+        "sustaincert_url": "https://assurance-platform.goldstandard.org/project-documents/GS2913",
+        "project_developer": "BaumInvest AG",
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "latitude": "10.391",
+        "longitude": "-84.438",
+        "state": null,
+        "sustainable_development_goals": [
+          "Goal 5: Gender Equality",
+          "Goal 8: Decent Work and Economic Growth",
+          "Goal 13: Climate Action",
+          "Goal 15: Life On Land"
+        ],
+        "has_corsia_eligible_credits": false,
+        "labels": [
+          "EMISSION_REMOVAL"
+        ]
+      }
+    },
+    {
+      "GS_2913": {
+        "id": "2913",
+        "created_at": "2020-12-19T06:55:03Z",
+        "updated_at": "2025-12-09T05:21:16Z",
+        "name": "GS1340 - Efficient cookstoves in Burkina Faso – tiipaalga F3PA cookstoves in Center-South Protected Areas - VPA-20",
+        "description": "The continuous degradation of natural resources (soil, vegetation, water resources, etc.) in the Center-South region of Burkina Faso leads to an increase in household poverty and food insecurity. Based on its experience and achievements with the improved three-stone cookstoves, tiipaalga is aiming to promote the distribution of the F3PA or the 3 stones improved cookstoves around the Center-South Protected Areas. \r\nThis micro-scale VPA is part of a group of 7 VPA’s aiming to contribute to mitigating the effects of climate change and reduce poverty among rural households by promoting the use of the F3PA improved cookstoves in two (02) rural municipalities in Nahouri province and in five (05) rural municipalities in Zoundwéogo province in the Center-South region. The F3PA wood stoves will replace the traditional open air three stone cooking method whilst respecting the local three stone cooking culture.",
+        "status": "GOLD_STANDARD_CERTIFIED_PROJECT",
+        "estimated_annual_credits": 9700,
+        "crediting_period_start_date": "2021-04-14",
+        "crediting_period_end_date": "2031-04-13",
+        "methodology": "GS MS Simplified Methodology for Efficient Cookstoves v1.",
+        "type": "Energy Efficiency - Domestic",
+        "size": "Micro Scale",
+        "sustaincert_id": 10924,
+        "sustaincert_url": "https://assurance-platform.goldstandard.org/project-documents/GS10924",
+        "project_developer": "Tiipaalga",
+        "country": "Burkina Faso",
+        "country_code": "BF",
+        "latitude": null,
+        "longitude": null,
+        "state": null,
+        "poa_project_id": 1431,
+        "poa_project_sustaincert_id": 1340,
+        "sustainable_development_goals": [
+          "Goal 5: Gender Equality",
+          "Goal 1: No Poverty",
+          "Goal 4: Quality Education",
+          "Goal 13: Climate Action",
+          "Goal 7: Affordable and Clean Energy",
+          "Goal 3: Good Health and Well-Being",
+          "Goal 15: Life On Land"
+        ],
+        "has_corsia_eligible_credits": false,
+        "labels": [
+          "EMISSION_REDUCTION"
+        ]
+      }
+    }
+  ]
+}

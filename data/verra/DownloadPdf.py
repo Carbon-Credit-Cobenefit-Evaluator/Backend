@@ -1,4 +1,4 @@
-# downloadpdf.py
+# DownloadPdf.py (inside data/)
 
 import json
 import httpx
@@ -10,8 +10,7 @@ PROJECTDOCS_PATH = BASE_DIR / "projectdocs.json"
 PDF_BASE_DIR = BASE_DIR / "pdfs"
 
 
-async def download_file(client, url: str, save_path: Path):
-    """Download a single file and save to disk."""
+async def download_file(client: httpx.AsyncClient, url: str, save_path: Path):
     try:
         resp = await client.get(url, timeout=60)
         resp.raise_for_status()
@@ -22,8 +21,6 @@ async def download_file(client, url: str, save_path: Path):
 
 
 async def download_all_for_project(project_key: str):
-    """Download all project docs for VCS_1566 (or any key)."""
-
     if not PROJECTDOCS_PATH.exists():
         print("❌ projectdocs.json not found.")
         return
@@ -31,16 +28,13 @@ async def download_all_for_project(project_key: str):
     data = json.loads(PROJECTDOCS_PATH.read_text(encoding="utf-8"))
     docs_list = data.get("projectdocs", [])
 
-    # Find matching object: { "VCS_1566": [docs...] }
     project_entry = next((item for item in docs_list if project_key in item), None)
-
     if not project_entry:
         print(f"❌ No entry found for {project_key} in projectdocs.json")
         return
 
     docs = project_entry[project_key]
 
-    # Create folder: pdfs/VCS_1566/
     project_pdf_dir = PDF_BASE_DIR / project_key
     project_pdf_dir.mkdir(parents=True, exist_ok=True)
 
@@ -49,16 +43,18 @@ async def download_all_for_project(project_key: str):
 
     async with httpx.AsyncClient(follow_redirects=True) as client:
         for doc in docs:
-            url = doc["uri"]
-            filename = doc["documentName"]
+            url = doc.get("uri")
+            filename = doc.get("documentName") or "document.pdf"
 
-            # Ensure filename ends with `.pdf`
+            if not url:
+                print("  ⚠️ Skipping doc without uri")
+                continue
+
             if not filename.lower().endswith(".pdf"):
                 filename += ".pdf"
 
             save_path = project_pdf_dir / filename
 
-            # Skip already downloaded files
             if save_path.exists():
                 print(f"  ⏩ Already exists: {filename}")
                 continue
@@ -66,12 +62,8 @@ async def download_all_for_project(project_key: str):
             print(f"  ↓ Downloading: {filename}")
             await download_file(client, url, save_path)
 
-    print("\n✅ Completed!")
+    print("\n✅ Completed downloads!")
 
 
-# -------------------------------
-# Execute directly
-# -------------------------------
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(download_all_for_project("VCS_1566"))
+    print("Run runner.py. This module only provides functions.")

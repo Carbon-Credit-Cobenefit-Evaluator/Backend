@@ -1,0 +1,102 @@
+{
+  "projectdocs": [
+    {
+      "GS_1795": [
+        {
+          "requestId": 41641,
+          "requestName": "Annual Report no. 2",
+          "requestType": "Annual Report",
+          "requestIndex": 12,
+          "id": "cb30a57b-6dd0-4534-83ef-34065e340649",
+          "filename": "2025-04-07_T-PerfCert_v3.0-Project-Annual-Report_GS2913_2025_v0.1_SIGNED.pdf",
+          "uploadedTimestamp": "2025-04-08T13:12:48.21532Z",
+          "modifiedTimestamp": "2025-04-09T10:01:57.183035Z",
+          "displayCategoryType": "Required",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        },
+        {
+          "requestId": 43105,
+          "requestName": "Performance Certification | Project no. 1",
+          "requestType": "Performance Certification | Project",
+          "requestIndex": 14,
+          "id": "c8bca73d-710a-40e4-917d-07dab6bea79e",
+          "filename": "2025-11-13_T-PreReview_V1.5-Project-Design-Document_GS2913_v1.3clean.pdf",
+          "uploadedTimestamp": "2025-11-17T09:25:55.015737Z",
+          "modifiedTimestamp": "2025-12-08T10:47:19.391805Z",
+          "displayCategoryType": "Supporting",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        },
+        {
+          "requestId": 43105,
+          "requestName": "Performance Certification | Project no. 1",
+          "requestType": "Performance Certification | Project",
+          "requestIndex": 14,
+          "id": "9baabc1b-ad64-4410-bb01-4c1aa2ba991d",
+          "filename": "ER Sheets.zip",
+          "uploadedTimestamp": "2025-11-17T09:28:12.394793Z",
+          "modifiedTimestamp": "2025-12-08T10:46:50.469139Z",
+          "displayCategoryType": "Required",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        },
+        {
+          "requestId": 30414,
+          "requestName": "Transition Review (Previous GS VERSION to GS4GG)",
+          "requestType": "Transition Review (Previous GS VERSION to GS4GG)",
+          "requestIndex": 10,
+          "id": "5003c579-a1ec-46a2-044d-08db2aed1332",
+          "filename": "CR-BRP - Transition Documentation.docx",
+          "uploadedTimestamp": "2022-11-17T14:38:40Z",
+          "modifiedTimestamp": "2022-11-17T14:38:40Z",
+          "displayCategoryType": "Required",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        }
+      ]
+    },
+    {
+      "GS_2913": [
+        {
+          "requestId": 44228,
+          "requestName": "Annual Report no. 1",
+          "requestType": "Annual Report",
+          "requestIndex": 10,
+          "id": "15096d51-f0a9-48ab-b9d1-61cc4a03234c",
+          "filename": "Annual_Report_Zoundweogo_signed.pdf",
+          "uploadedTimestamp": "2025-12-04T07:28:38.432951Z",
+          "modifiedTimestamp": "2025-12-09T05:21:21.906026Z",
+          "displayCategoryType": "Required",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        },
+        {
+          "requestId": 10655,
+          "requestName": "Performance Review no. 2",
+          "requestType": "Performance Review",
+          "requestIndex": 6,
+          "id": "7c2eb9b2-7f51-4385-434e-08dd4dbfdc1b",
+          "filename": "T-PerfCert_V1.1- GS1340-VPA-18-19-20-21-22_MR_MP2_v4 (3).docx",
+          "uploadedTimestamp": "2025-02-20T14:05:10.91819Z",
+          "modifiedTimestamp": "2025-12-11T09:48:44.616643Z",
+          "displayCategoryType": "Supporting",
+          "access": null,
+          "category": null,
+          "type": null,
+          "isLatest": null
+        }
+      ]
+    }
+  ]
+}
