@@ -1,0 +1,72 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning logging of native forests.",
+        "probability": 0.8876
+      },
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning v3.0 NON-PERMANENCE RISK REPORT: VCS Version 3 logging of native forests.",
+        "probability": 0.8851
+      },
+      {
+        "sentence": "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+        "probability": 0.8748
+      },
+      {
+        "sentence": "Carbon financed IFM projects provide comparable employment to foresters and income to landowners while protecting the carbon stocks and biodiversity of Tasmania’s native forests.",
+        "probability": 0.9059
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Owning large areas of land and engaging in activities such as grazing and cropping provides an opportunity to leverage funding to cover the modest ongoing project costs, without including revenue from credit sales.",
+        "probability": 0.6867
+      },
+      {
+        "sentence": "Define alternatives to the project activity: In this scenario, the project activity involves continuing the pre-project land use—keeping the native forest standing—using carbon finance to generate revenue from improved forest management.",
+        "probability": 0.7775
+      },
+      {
+        "sentence": "However, the project proponent and developer hope that successful projects will encourage landowners to use VCS and carbon finance, thereby protecting the biodiversity and carbon sinks of native and old-growth forests in Tasmania.",
+        "probability": 0.6719
+      },
+      {
+        "sentence": "Under the conditions of the contract agreement with Forests Alive, by the time the projects reach validation, the entirety of the project costs is already paid.",
+        "probability": 0.7258
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The owners are seeking an alternative that will provide them with comparable income while protecting and improving the native forests of the region.",
+        "probability": 0.7835
+      },
+      {
+        "sentence": "The project will also have the additional benefits of enhancing local biodiversity (which is undermined by harvesting events and practices), diversifying landowners’ income, and maintaining both aesthetic and recreational values of the Tasmanian landscape.",
+        "probability": 0.8084
+      },
+      {
+        "sentence": "Improved forest management is not a financially competitive land use without carbon finance, because it generates no other revenue; this type of project is also uncommon in the region.",
+        "probability": 0.6234
+      },
+      {
+        "sentence": "Each project proponent has other income sources and potentially credit that provides callable financial resources.",
+        "probability": 0.7892
+      },
+      {
+        "sentence": "The project activity generates income only from the sale of carbon credits.",
+        "probability": 0.763
+      },
+      {
+        "sentence": "Carbon financed IFM projects provide comparable employment to foresters and income to landowners while protecting the carbon stocks and biodiversity of Tasmania’s native forests.",
+        "probability": 0.6471
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "With regard to generating net positive impacts on the social and economic well‑being of the local communities who derive livelihoods from the project area, in the case of Tasmanian projects, this refers to the landowner (project proponent).",
+        "probability": 0.6238
+      }
+    ]
+  }
+}

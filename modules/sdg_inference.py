@@ -71,12 +71,12 @@ def run_sdg_models_for_project(
 
         sentences: List[str] = refined.get(sdg_key, []) or []
         if not sentences:
-            # still write an empty evidence file (optional but nice for consistency)
             evidence_path = out_dir / f"{sdg_key}_evidence.json"
             with open(evidence_path, "w", encoding="utf-8") as f:
                 json.dump({"satisfied_rules": {}}, f, indent=2, ensure_ascii=False)
             written[sdg_key] = evidence_path
             continue
+
 
         model_folder = cfg["model_folder"]
         labels: List[str] = cfg["labels"]
@@ -133,10 +133,6 @@ def run_sdg_models_for_project(
                     )
 
         final_output = {
-            "sdg": sdg_key,
-            "model": model_folder,
-            "threshold": threshold,
-            "num_input_sentences": len(sentences),
             "satisfied_rules": {k: v for k, v in rule_evidence.items() if v},
         }
 

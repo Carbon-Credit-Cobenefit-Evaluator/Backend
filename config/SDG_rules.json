@@ -1,0 +1,27 @@
+{
+  "SDG1_RULES": {
+    "OUTPUT": {
+      "O1": "Income-generating assets provided",
+      "O2": "Employment created",
+      "O3": "Training or capacity building",
+      "O4": "Subsidized technology or inputs",
+      "O5": "Financial assistance or support",
+      "O6": "Community infrastructure created"
+    },
+    "OUTCOME": {
+      "R1": "Household expenditure reduction",
+      "R2": "Increase in productive time",
+      "R3": "Increase in disposable income",
+      "R4": "Improved livelihood opportunities",
+      "R5": "Increased access to basic services",
+      "R6": "Reduced vulnerability of low-income groups"
+    },
+    "IMPACT": {
+      "I1": "General poverty reduction",
+      "I2": "Impact on poverty indicators",
+      "I3": "Empowerment of vulnerable groups",
+      "I4": "Inclusive economic growth",
+      "I5": "Long-term resilience building"
+    }
+  }
+}

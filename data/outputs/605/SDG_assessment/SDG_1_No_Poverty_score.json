@@ -1,0 +1,99 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "605",
+  "final_score_0_100": 18.16,
+  "final_score_0_1": 0.1816,
+  "components": {
+    "output_raw": 9.2,
+    "outcome_raw": 5.6,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.3067,
+    "outcome_norm": 0.224,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    },
+    "caps": {
+      "OUTPUT": 30.0,
+      "OUTCOME": 25.0,
+      "IMPACT": 10.0
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 8,
+      "OUTCOME": 4,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 4,
+      "O5": 4,
+      "R3": 4
+    },
+    "core_output_unique_sentences": 8
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "top_evidence": {
+    "O2": [
+      {
+        "sentence": "Carbon financed IFM projects provide comparable employment to foresters and income to landowners while protecting the carbon stocks and biodiversity of Tasmania’s native forests.",
+        "probability": 0.9059
+      },
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning logging of native forests.",
+        "probability": 0.8876
+      },
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning v3.0 NON-PERMANENCE RISK REPORT: VCS Version 3 logging of native forests.",
+        "probability": 0.8851
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Define alternatives to the project activity: In this scenario, the project activity involves continuing the pre-project land use—keeping the native forest standing—using carbon finance to generate revenue from improved forest management.",
+        "probability": 0.7775
+      },
+      {
+        "sentence": "Under the conditions of the contract agreement with Forests Alive, by the time the projects reach validation, the entirety of the project costs is already paid.",
+        "probability": 0.7258
+      },
+      {
+        "sentence": "Owning large areas of land and engaging in activities such as grazing and cropping provides an opportunity to leverage funding to cover the modest ongoing project costs, without including revenue from credit sales.",
+        "probability": 0.6867
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The project will also have the additional benefits of enhancing local biodiversity (which is undermined by harvesting events and practices), diversifying landowners’ income, and maintaining both aesthetic and recreational values of the Tasmanian landscape.",
+        "probability": 0.8084
+      },
+      {
+        "sentence": "Each project proponent has other income sources and potentially credit that provides callable financial resources.",
+        "probability": 0.7892
+      },
+      {
+        "sentence": "The owners are seeking an alternative that will provide them with comparable income while protecting and improving the native forests of the region.",
+        "probability": 0.7835
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\605\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

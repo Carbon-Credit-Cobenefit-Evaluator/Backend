@@ -1,0 +1,52 @@
+{
+  "SDG_1_No_Poverty": {
+    "thresholds": {
+      "OUTPUT": 0.65,
+      "OUTCOME": 0.7,
+      "IMPACT": 0.75
+    },
+
+    "rule_weights": {
+      "O1": 1.2,
+      "O2": 1.0,
+      "O3": 0.9,
+      "O4": 0.8,
+      "O5": 1.3,
+      "O6": 1.1,
+
+      "R1": 1.0,
+      "R2": 0.8,
+      "R3": 1.4,
+      "R4": 1.3,
+      "R5": 1.1,
+      "R6": 1.5,
+
+      "I1": 1.2,
+      "I2": 1.5,
+      "I3": 1.4,
+      "I4": 1.3,
+      "I5": 1.6
+    },
+
+    "caps": {
+      "OUTPUT": 30.0,
+      "OUTCOME": 25.0,
+      "IMPACT": 10.0
+    },
+
+    "level_mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    },
+
+    "gates": {
+      "core_outputs": ["O2", "O3", "O5"],
+      "min_outcome_for_impact": 3,
+      "outcome_penalty_if_no_core_outputs": 0.5,
+      "impact_penalty_if_low_outcomes": 0.4
+    },
+
+    "top_evidence_per_rule": 3
+  }
+}
