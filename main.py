@@ -17,10 +17,10 @@ if __name__ == "__main__":
     # ============================================================
     # OPTION A — Run pipeline from an existing local project folder
     # ============================================================
-    """
-    project_id = "605"
-    run_pipeline(project_id, mode="full")
-    """
+
+    project_id = "1566"
+    run_pipeline(project_id, mode="inference_only")
+    
 
     # ============================================================
     # OPTION B — From Verra URL -> download PDFs -> pipeline full
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     """
 
     # Default (pick one)
-    url = "https://registry.verra.org/app/projectDetail/VCS/1566"
-    run_project_from_url(url, max_docs=10, mode="full")
+    # url = "https://registry.verra.org/app/projectDetail/VCS/1566"
+    # run_project_from_url(url, max_docs=10, mode="full")

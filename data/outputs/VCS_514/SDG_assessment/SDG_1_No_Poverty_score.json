@@ -1,0 +1,148 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_514",
+  "final_score_0_100": 61.72,
+  "final_score_0_1": 0.6172,
+  "components": {
+    "output_raw": 53.1,
+    "outcome_raw": 17.2,
+    "impact_raw": 1.4,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 1.0,
+    "outcome_norm": 0.688,
+    "impact_norm": 0.14,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    },
+    "caps": {
+      "OUTPUT": 30.0,
+      "OUTCOME": 25.0,
+      "IMPACT": 10.0
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 53,
+      "OUTCOME": 13,
+      "IMPACT": 1
+    },
+    "by_rule_unique_sentences": {
+      "I3": 1,
+      "O2": 20,
+      "O3": 24,
+      "O5": 8,
+      "O6": 1,
+      "R3": 3,
+      "R4": 10
+    },
+    "core_output_unique_sentences": 52
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5",
+      "O6"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": [
+      "I3"
+    ]
+  },
+  "penalties": [],
+  "top_evidence": {
+    "O2": [
+      {
+        "sentence": "Sustainable Development Contributions: the project has benefited neighboring communities with safe drinking water services, continuous maintenance of water services within the farm property, and has benefited over 1,500 individuals; it has created full‑time and seasonal employment opportunities, employing 392 people, including 14 women (368 permanent, 24 seasonal), and has created more than 300 annual jobs; the project has avoided or removed tons of greenhouse gas emissions—during the monitoring period it achieved the removal of 121,707.49 tons of CO₂, and over the project lifetime it plans to remove 3.9 million tons of CO₂ over 42 years, with 394,784 tCO₂ removed to date; it has conserved 103 hectares of natural area within farm properties, keeping it as natural forest during the monitoring period, and has continuously conserved up to 103 hectares within farm properties.",
+        "probability": 0.983
+      },
+      {
+        "sentence": "The project provides economic opportunities for the community, employing 392 individuals during 2016–2022 and improving local income stability. Community members support the project and communicate its benefits to others.",
+        "probability": 0.9683
+      },
+      {
+        "sentence": "6. Afforestation, reforestation, and revegetation (ARR) – activities that increase carbon stocks in woody biomass (and sometimes soils) by establishing, increasing, or restoring vegetative cover through planting, sowing, or human-assisted natural regeneration of woody vegetation (VCS Program Definitions). CCB v2.0, VCS v3.0. MONITORING REPORT: CCB Version 2, VCS Version 3. Category Metric: Achievements during Monitoring Period. Achievements during the Project Lifetime: Number of hectares of existing production forest land in which IFM7 practices have occurred as a result of the project’s activities, measured against the without-project scenario. Number of hectares of non-forest land in which improved land management has occurred as a result of the project’s activities, measured against the without-project scenario. Total number of community members who have improved skills and/or knowledge resulting from training provided as part of project activities. Number of female community members who have improved skills and/or knowledge resulting from training provided as part of project activities. > 300. 5% total employment. Total number of people employed in project activities, expressed as number of full-time employees. Number of women employed in project activities, expressed as number of full-time employees. CCB Monitoring > 300. CCB Monitoring 5% total employment. 8. Employed in project activities means people directly working on project activities in return for compensation (financial or otherwise), including employees, contracted workers, sub-contracted workers, and community members that are paid to carry out project-related work.",
+        "probability": 0.9443
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The project has a positive impact on the surrounding population by providing long-term jobs, legal benefits, training, and health benefits.",
+        "probability": 0.9584
+      },
+      {
+        "sentence": "The project ran from Year 7 to Year 36, during which natural rubber sap was tapped and new employees received training.",
+        "probability": 0.9454
+      },
+      {
+        "sentence": "During the monitoring period, 121,668.49 tonnes of CO2 were removed, with plans to sequester 3,900,439 tonnes over 42 years. Additionally, female community members received training that improved their skills.",
+        "probability": 0.938
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "The project provides environmental protection, increased employment, better economic income, permanent employment, water source protection, educational support through school internships, and donations to local communities.",
+        "probability": 0.9149
+      },
+      {
+        "sentence": "Communities indirectly benefit from donations and outreach, with documentation such as invoices and letters verifying the aid provided.",
+        "probability": 0.8502
+      },
+      {
+        "sentence": "The project issues and trades verified emission reductions, coordinating with a VCS approved registry. Personnel at each farm monitor and archive raw data, and the project identifies buyers and negotiates commercial terms. This generates revenue that supports project activities.",
+        "probability": 0.8366
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Assistance with community infrastructure (such as roads) when it benefits the farm and the community. Authorized passage through the farm for low‑risk individuals who have a valid reason.",
+        "probability": 0.7034
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Workers derive income and livelihood directly from project activities and are directly impacted.",
+        "probability": 0.7951
+      },
+      {
+        "sentence": "The community group reported increased employment opportunities, better economic income, educational support, improved environmental protection, and enhanced infrastructure and morale through donations for local festivities, sewage, and water tank projects.",
+        "probability": 0.765
+      },
+      {
+        "sentence": "The project has improved the livelihoods of 392 women, contributing to increased income.",
+        "probability": 0.765
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The project has improved livelihoods for 392 people, as documented in monitoring plans and stakeholder socialization reports.",
+        "probability": 0.8665
+      },
+      {
+        "sentence": "The community group reported increased employment opportunities, better economic income, educational support, improved environmental protection, and enhanced infrastructure and morale through donations for local festivities, sewage, and water tank projects.",
+        "probability": 0.8197
+      },
+      {
+        "sentence": "During monitoring, 392 people improved livelihoods or income from project activities; overall, more than 300 people benefited.",
+        "probability": 0.8158
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The project provides equal employment opportunities, increasing women's participation to 14 employees (~5%) and empowering them through training and employment. Community members support and communicate these benefits.",
+        "probability": 0.8084
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_514\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

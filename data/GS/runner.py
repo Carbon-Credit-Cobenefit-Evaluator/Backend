@@ -7,7 +7,7 @@ from FilterDocs import run_filter_for_project  # you'll add this function (below
 from DownloadPdf import download_all_for_project
 
 
-async def run_all(project_url: str, max_docs: int = 10):
+async def run_all(project_url: str, max_docs: int = 2):
     print("\n==============================")
     print("   GS SDG DATA PIPELINE START")
     print("==============================\n")
