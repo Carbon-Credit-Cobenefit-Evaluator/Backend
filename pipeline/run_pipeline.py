@@ -1,4 +1,4 @@
-# run_pipeline.py
+# pipeline/run_pipeline.py
 
 from __future__ import annotations
 
@@ -22,20 +22,27 @@ from modules.evidence_refiner import (
 from modules.sdg_inference import run_sdg_models_for_project
 from modules.assessments.run_assessments import run_assessments_for_project
 
-
 PipelineMode = Literal["full", "inference_only"]
 
 
-def run_pipeline(project_name: str, mode: PipelineMode = "full"):
+def run_pipeline(project_name: str, mode: PipelineMode = "full") -> None:
     """
+    End-to-end project pipeline.
+
     mode:
-      - "full": runs steps 1..9 (extract -> refine_sentences -> inference -> assessment)
+      - "full": runs steps 1..9
+          (PDF ingest -> sentence extraction/cleaning -> semantic filtering ->
+           LLM refinement -> refined_sentences.json -> SDG model inference -> SDG assessment)
       - "inference_only": runs only steps 8..9 using existing refined_sentences.json
+          (SDG model inference -> SDG assessment)
     """
     print(f"\n==============================")
     print(f"[PIPELINE] Project: {project_name} | mode={mode}")
     print(f"==============================")
 
+    # ------------------------------------------------------------
+    # Paths
+    # ------------------------------------------------------------
     # Per-project output folder (always)
     output_dir = os.path.join(BASE_OUTPUT_DIR, project_name)
     os.makedirs(output_dir, exist_ok=True)
@@ -45,9 +52,9 @@ def run_pipeline(project_name: str, mode: PipelineMode = "full"):
     PROJECT_ROOT = Path(BASE_OUTPUT_DIR).resolve().parent.parent
     MODELS_DIR = PROJECT_ROOT / "models"
 
-    # =========================================================
-    # MODE: FULL  (Steps 1..7)  -> then ALWAYS continues to 8..9
-    # =========================================================
+    # ------------------------------------------------------------
+    # Steps 1..7 (only in FULL mode)
+    # ------------------------------------------------------------
     if mode == "full":
         # 1) Load PDFs
         docs = load_pdfs(project_name)
@@ -96,10 +103,8 @@ def run_pipeline(project_name: str, mode: PipelineMode = "full"):
 
         print("[SUCCESS] refined_sentences.json saved to:", refined_path)
 
-    # =========================================================
-    # MODE: INFERENCE ONLY  (ONLY Steps 8..9)
-    # =========================================================
     elif mode == "inference_only":
+        # Ensure refined_sentences.json exists
         refined_path = project_output_dir / "refined_sentences.json"
         if not refined_path.exists():
             raise FileNotFoundError(
@@ -111,9 +116,10 @@ def run_pipeline(project_name: str, mode: PipelineMode = "full"):
     else:
         raise ValueError(f"Invalid mode: {mode}")
 
-    # ----------------------------
-    # 8) Run SDG-specific trained models (SDG1, SDG2, ...)
-    # ----------------------------
+    # ------------------------------------------------------------
+    # Step 8) SDG-specific trained model inference
+    # Writes: data/outputs/{project}/SDG_evidence/{SDG_KEY}_evidence.json
+    # ------------------------------------------------------------
     run_sdg_models_for_project(
         project_output_dir=project_output_dir,
         models_dir=MODELS_DIR,
@@ -121,9 +127,10 @@ def run_pipeline(project_name: str, mode: PipelineMode = "full"):
     )
     print("[SUCCESS] SDG evidence JSONs saved to:", project_output_dir / "SDG_evidence")
 
-    # ----------------------------
-    # 9) Run SDG assessments (score layer)
-    # ----------------------------
+    # ------------------------------------------------------------
+    # Step 9) SDG assessment/scoring
+    # Writes: data/outputs/{project}/SDG_assessment/{SDG_KEY}_score.json
+    # ------------------------------------------------------------
     written_scores = run_assessments_for_project(
         project_id=project_name,
         project_root=PROJECT_ROOT,

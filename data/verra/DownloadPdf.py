@@ -1,5 +1,5 @@
 # DownloadPdf.py (inside data/)
-
+from config.settings import PROJECTS_ROOT
 import json
 import httpx
 from pathlib import Path
@@ -7,7 +7,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 PROJECTDOCS_PATH = BASE_DIR / "projectdocs.json"
-PDF_BASE_DIR = BASE_DIR / "pdfs"
+
+
+PDF_BASE_DIR = PROJECTS_ROOT
 
 
 async def download_file(client: httpx.AsyncClient, url: str, save_path: Path):

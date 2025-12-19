@@ -1,5 +1,5 @@
 # downloadpdf.py (Gold Standard) ✅ download selected projectdocs into data/pdfs/<project_key>/
-
+from config.settings import PROJECTS_ROOT
 import asyncio
 import json
 import re
