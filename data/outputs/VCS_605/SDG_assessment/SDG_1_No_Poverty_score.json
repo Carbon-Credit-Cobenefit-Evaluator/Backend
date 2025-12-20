@@ -1,0 +1,83 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_605",
+  "final_score_0_100": 6.54,
+  "final_score_0_1": 0.0654,
+  "components": {
+    "output_raw": 4.3,
+    "outcome_raw": 1.4,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.1433,
+    "outcome_norm": 0.056,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    },
+    "caps": {
+      "OUTPUT": 30.0,
+      "OUTCOME": 25.0,
+      "IMPACT": 10.0
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 4,
+      "OUTCOME": 1,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 3,
+      "O5": 1,
+      "R3": 1
+    },
+    "core_output_unique_sentences": 4
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "top_evidence": {
+    "O2": [
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning logging of native forests.",
+        "probability": 0.8876
+      },
+      {
+        "sentence": "Moreover, these projects create alternative sources of employment, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+        "probability": 0.8555
+      },
+      {
+        "sentence": "Regulatory and social risk is very low; the project provides comparable employment to foresters and income to landowners while protecting carbon stocks and biodiversity, reducing political and social tension.",
+        "probability": 0.6902
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Define alternatives to the project activity: The project activity in this scenario involves the continuation of the pre-project land use, i.e. the native forest on site remains standing, using carbon finance to generate revenue from improved forest management.",
+        "probability": 0.6811
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The project activity only generates income from the sale of carbon credits.",
+        "probability": 0.7541
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_605\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

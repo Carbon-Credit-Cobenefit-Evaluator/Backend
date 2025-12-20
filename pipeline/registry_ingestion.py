@@ -7,9 +7,17 @@ import re
 import sys
 import importlib.util
 from pathlib import Path
-from typing import Literal, Tuple
+from typing import Callable, Literal, Optional, Tuple
 
 Registry = Literal["verra", "goldstandard"]
+
+# progress callback signature: step, message, stats
+ProgressCB = Callable[[str, str, dict], None]
+
+
+def _emit(progress_cb: Optional[ProgressCB], step: str, message: str, stats: Optional[dict] = None) -> None:
+    if progress_cb:
+        progress_cb(step, message, stats or {})
 
 
 def _detect_registry(project_url: str) -> Registry:
@@ -53,7 +61,12 @@ def _import_module_from_file(module_name: str, file_path: Path):
     return mod
 
 
-def _run_runner_by_path(runner_file: Path, project_url: str, max_docs: int):
+def _run_runner_by_path(
+    runner_file: Path,
+    project_url: str,
+    max_docs: int,
+    progress_cb: Optional[ProgressCB] = None,
+):
     """
     Runs runner.run_all(...) from a given runner.py path.
     Adds the runner folder to sys.path temporarily so imports like:
@@ -70,19 +83,30 @@ def _run_runner_by_path(runner_file: Path, project_url: str, max_docs: int):
         added = True
 
     try:
+        _emit(progress_cb, "ingest", "Loading registry runner module...", {"runner_file": str(runner_file)})
+
         runner_mod = _import_module_from_file(module_name, runner_file)
         if not hasattr(runner_mod, "run_all"):
             raise AttributeError(f"{runner_file} does not define async function run_all(...)")
 
+        _emit(progress_cb, "ingest", "Running registry runner (downloading PDFs)...", {"max_docs": max_docs})
+
         # run_all is async in your runners
         asyncio.run(runner_mod.run_all(project_url, max_docs=max_docs))
+
+        _emit(progress_cb, "ingest", "Runner finished downloading PDFs.", {})
+
     finally:
         # remove inserted path to avoid polluting global interpreter state
         if added and sys.path and sys.path[0] == str(runner_dir):
             sys.path.pop(0)
 
 
-def ingest_project_pdfs_from_registry(project_url: str, max_docs: int = 10) -> Tuple[str, Registry]:
+def ingest_project_pdfs_from_registry(
+    project_url: str,
+    max_docs: int = 10,
+    progress_cb: Optional[ProgressCB] = None,
+) -> Tuple[str, Registry]:
     """
     Runs the correct runner script (by file path) to:
       - fetch project JSON
@@ -92,31 +116,54 @@ def ingest_project_pdfs_from_registry(project_url: str, max_docs: int = 10) -> T
     Returns:
       (project_folder_name, registry)
     """
+    _emit(progress_cb, "ingest", "Detecting registry + extracting project folder...", {"url": project_url})
+
     registry = _detect_registry(project_url)
     project_folder = _extract_project_folder_name(project_url, registry)
+
+    _emit(
+        progress_cb,
+        "ingest",
+        f"Detected registry={registry}. Target folder={project_folder}.",
+        {"registry": registry, "project_folder": project_folder},
+    )
 
     # Project root = parent of /pipeline
     project_root = Path(__file__).resolve().parent.parent
 
     if registry == "verra":
         runner_file = project_root / "data" / "verra" / "runner.py"
-        _run_runner_by_path(runner_file, project_url, max_docs)
+        _run_runner_by_path(runner_file, project_url, max_docs, progress_cb=progress_cb)
 
     elif registry == "goldstandard":
         runner_file = project_root / "data" / "GS" / "runner.py"
-        _run_runner_by_path(runner_file, project_url, max_docs)
+        _run_runner_by_path(runner_file, project_url, max_docs, progress_cb=progress_cb)
 
     return project_folder, registry
 
 
-def run_project_from_url(project_url: str, max_docs: int = 10, mode: str = "full") -> None:
+def run_project_from_url(
+    project_url: str,
+    max_docs: int = 2,
+    mode: str = "full",
+    progress_cb: Optional[ProgressCB] = None,
+) -> None:
     """
     One-call orchestration:
       URL -> download PDFs -> run pipeline
     """
     from pipeline.run_pipeline import run_pipeline
 
-    project_id, registry = ingest_project_pdfs_from_registry(project_url, max_docs=max_docs)
-    print(f"[INGEST] {registry.upper()} -> PDFs downloaded to data/pdfs/{project_id}/")
+    _emit(progress_cb, "ingest", "Starting ingestion from registry URL...", {"url": project_url})
 
-    run_pipeline(project_id, mode=mode)
+    project_id, registry = ingest_project_pdfs_from_registry(
+        project_url,
+        max_docs=max_docs,
+        progress_cb=progress_cb,
+    )
+
+    print(f"[INGEST] {registry.upper()} -> PDFs downloaded to data/pdfs/{project_id}/")
+    _emit(progress_cb, "ingest", "PDF download completed.", {"project_id": project_id, "registry": registry})
+
+    _emit(progress_cb, "pipeline", f"Starting pipeline mode={mode}...", {"project_id": project_id})
+    run_pipeline(project_id, mode=mode, progress_cb=progress_cb)

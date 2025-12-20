@@ -1,0 +1,74 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_1566",
+  "final_score_0_100": 6.4,
+  "final_score_0_1": 0.064,
+  "components": {
+    "output_raw": 6.4,
+    "outcome_raw": 0.0,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.2133,
+    "outcome_norm": 0.0,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    },
+    "caps": {
+      "OUTPUT": 30.0,
+      "OUTCOME": 25.0,
+      "IMPACT": 10.0
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 7,
+      "OUTCOME": 0,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 1,
+      "O3": 6
+    },
+    "core_output_unique_sentences": 7
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3"
+    ],
+    "OUTCOME": [],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "top_evidence": {
+    "O2": [
+      {
+        "sentence": "They need projects that generate employment and economic resources.",
+        "probability": 0.9537
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "They participate in project activities such as territorial surveillance, communication, governance, FAPUS, education programs, and productive projects.",
+        "probability": 0.9474
+      },
+      {
+        "sentence": "They will be trained to improve natural resource use and management.",
+        "probability": 0.8805
+      },
+      {
+        "sentence": "Workshops and courses on natural resource management were conducted with community leaders in 2020‑2022.",
+        "probability": 0.8789
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_1566\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}
