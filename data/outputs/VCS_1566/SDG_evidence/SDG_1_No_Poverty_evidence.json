@@ -2,46 +2,34 @@
   "satisfied_rules": {
     "O2": [
       {
-        "sentence": "They need projects that generate employment and economic resources.",
-        "probability": 0.9537
+        "sentence": "Women seek greater participation in traditionally male‑managed spaces and need projects that create jobs and economic resources.",
+        "probability": 0.938
       }
     ],
     "O3": [
       {
-        "sentence": "Training and partnerships with expert institutions support implementation, leading to pilot projects that generate income and improve food security.",
-        "probability": 0.7933
+        "sentence": "A trigger species monitoring plan was implemented, with 312 communities participating in workshops to assess species presence and trends.",
+        "probability": 0.8183
       },
       {
-        "sentence": "They will be trained to improve natural resource use and management.",
-        "probability": 0.8805
+        "sentence": "The project supports 100 students and secondary graduates in sustainable forest and land management education, enhancing community knowledge.",
+        "probability": 0.9135
       },
       {
-        "sentence": "Workshops and courses on natural resource management were conducted with community leaders in 2020‑2022.",
-        "probability": 0.8789
-      },
-      {
-        "sentence": "They participate in project activities such as territorial surveillance, communication, governance, FAPUS, education programs, and productive projects.",
-        "probability": 0.9474
-      },
-      {
-        "sentence": "100 students and secondary graduates have started programs for integrated sustainable forest and land management in the RIU‑SM.",
-        "probability": 0.7151
-      },
-      {
-        "sentence": "The project provides training and advisory support to families involved in productive projects, helping them adopt sustainable practices and reducing pressure on environmental services. These measures aim to protect key flora and fauna populations and maintain ecological functionality in the RIU‑SM.",
-        "probability": 0.7049
+        "sentence": "Training sessions for families participating in productive projects were conducted, providing guidance on sustainable practices and the importance of protecting environmental service sources.",
+        "probability": 0.9117
       }
     ],
-    "R4": [
+    "O6": [
       {
-        "sentence": "These projects are integrated into production, transformation, and commercialization chains, creating development and work opportunities while enhancing climate, community, and biodiversity benefits.",
-        "probability": 0.6882
+        "sentence": "The Corporación Autónoma Regional de la Orinoquia (Corporinoquía) plans and implements environmental policies for Vichada and Cumaribo, ensuring sustainable development and the provision of environmental goods and services.",
+        "probability": 0.6303
       }
     ],
-    "I3": [
+    "R3": [
       {
-        "sentence": "Women seek greater participation in traditionally male‑managed spaces to influence actions affecting them and their families.",
-        "probability": 0.7376
+        "sentence": "Potential productive projects are identified for RIU‑SM communities, who propose them, increasing expectations and providing compensation for conservation efforts.",
+        "probability": 0.6808
       }
     ]
   }

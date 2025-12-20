@@ -80,7 +80,7 @@ def run_sdg_models_for_project(
 
         model_folder = cfg["model_folder"]
         labels: List[str] = cfg["labels"]
-        threshold: float = float(cfg.get("threshold", 0.60))
+        threshold: float = float(cfg.get("threshold", 0.50))
 
         model_path = models_dir / model_folder
         if not model_path.exists():

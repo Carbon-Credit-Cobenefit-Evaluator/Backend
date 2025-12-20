@@ -101,11 +101,16 @@ def _weighted_sum(
     return total
 
 
-def _cap_norm(x: float, cap: float) -> float:
-    cap = float(cap)
-    if cap <= 0:
-        return 0.0
-    return min(float(x), cap) / cap
+# ----------------------------
+# CAPS-BASED NORMALIZATION
+# ----------------------------
+# Commented out as requested.
+#
+# def _cap_norm(x: float, cap: float) -> float:
+#     cap = float(cap)
+#     if cap <= 0:
+#         return 0.0
+#     return min(float(x), cap) / cap
 
 
 def assess_sdg1_for_project(
@@ -116,7 +121,7 @@ def assess_sdg1_for_project(
     Reads:
       data/outputs/{project_id}/SDG_evidence/SDG_1_No_Poverty_evidence.json
       config/SDG_rules.json
-      config/scoring.json   (global config; uses SDG_1_No_Poverty block)
+      config/SDG_scoring.json   (global config; uses SDG_1_No_Poverty block)
 
     Writes:
       data/outputs/{project_id}/SDG_assessment/SDG_1_No_Poverty_score.json
@@ -161,7 +166,7 @@ def assess_sdg1_for_project(
 
     thresholds = scoring_cfg.get("thresholds", {})
     rule_weights = scoring_cfg.get("rule_weights", {})
-    caps = scoring_cfg.get("caps", {})
+    # caps = scoring_cfg.get("caps", {})  # ❌ commented out (caps disabled)
     level_mix = scoring_cfg.get("level_mix", {})
     gates_cfg = scoring_cfg.get("gates", {})
     top_n = int(scoring_cfg.get("top_evidence_per_rule", 3))
@@ -205,14 +210,31 @@ def assess_sdg1_for_project(
     gated_R = raw_R * outcome_weight
     gated_I = raw_I * impact_weight
 
-    # Step 4: cap normalization per level
-    cap_O = float(caps.get("OUTPUT", 30.0))
-    cap_R = float(caps.get("OUTCOME", 25.0))
-    cap_I = float(caps.get("IMPACT", 10.0))
+    # ---------------------------------------------------------
+    # Step 4: cap normalization per level (DISABLED)
+    # ---------------------------------------------------------
+    # Original:
+    # cap_O = float(caps.get("OUTPUT", 30.0))
+    # cap_R = float(caps.get("OUTCOME", 25.0))
+    # cap_I = float(caps.get("IMPACT", 10.0))
+    #
+    # norm_O = _cap_norm(raw_O, cap_O)
+    # norm_R = _cap_norm(gated_R, cap_R)
+    # norm_I = _cap_norm(gated_I, cap_I)
 
-    norm_O = _cap_norm(raw_O, cap_O)
-    norm_R = _cap_norm(gated_R, cap_R)
-    norm_I = _cap_norm(gated_I, cap_I)
+    # ✅ Replacement (no caps):
+    # We keep values in 0..1 space using a simple squashing rule:
+    #   norm = x / (1 + x)
+    # This avoids breaking the mix logic while removing caps entirely.
+    def _no_cap_norm(x: float) -> float:
+        x = float(x)
+        if x <= 0:
+            return 0.0
+        return x / (1.0 + x)
+
+    norm_O = round(_no_cap_norm(raw_O), 4)
+    norm_R = round(_no_cap_norm(gated_R), 4)
+    norm_I = round(_no_cap_norm(gated_I), 4)
 
     # Step 5: final mix (0..1) then to 0..100
     mix_O = float(level_mix.get("OUTPUT", 0.30))
@@ -247,11 +269,11 @@ def assess_sdg1_for_project(
             "impact_raw": round(raw_I, 4),
             "outcome_weight": round(outcome_weight, 3),
             "impact_weight": round(impact_weight, 3),
-            "output_norm": round(norm_O, 4),
-            "outcome_norm": round(norm_R, 4),
-            "impact_norm": round(norm_I, 4),
+            "output_norm": norm_O,
+            "outcome_norm": norm_R,
+            "impact_norm": norm_I,
             "mix": {"OUTPUT": mix_O, "OUTCOME": mix_R, "IMPACT": mix_I},
-            "caps": {"OUTPUT": cap_O, "OUTCOME": cap_R, "IMPACT": cap_I},
+            # "caps": {"OUTPUT": cap_O, "OUTCOME": cap_R, "IMPACT": cap_I},  # ❌ commented out
         },
         "counts": {
             "by_level_unique_sentences": counts_by_level,

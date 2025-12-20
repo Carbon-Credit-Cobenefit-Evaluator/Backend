@@ -1,10 +1,19 @@
-# runner.py (inside data/)
-
+# runner.py (Verra)
 import asyncio
+from pathlib import Path
 
 from Scraping import fetch_verra_json, rearrange, load_projects_file, save_projects_file
 from FilterDocs import select_prioritized_docs, save_to_projectdocs
 from DownloadPdf import download_all_for_project
+
+
+def pdfs_already_exist(project_key: str) -> bool:
+    """
+    Check if PDFs already exist for this project.
+    data/pdfs/{project_key}/*.pdf
+    """
+    pdf_dir = Path(__file__).resolve().parent.parent / "pdfs" / project_key
+    return pdf_dir.exists() and any(pdf_dir.glob("*.pdf"))
 
 
 async def run_all(project_url: str, max_docs: int = 2):
@@ -12,7 +21,9 @@ async def run_all(project_url: str, max_docs: int = 2):
     print("   SDG DATA PIPELINE START")
     print("==============================\n")
 
+    # -------------------------------------------------
     # 1) FETCH + REARRANGE JSON
+    # -------------------------------------------------
     print(f"🌐 Fetching JSON for URL:\n{project_url}")
     raw_json = await fetch_verra_json(project_url)
 
@@ -21,7 +32,10 @@ async def run_all(project_url: str, max_docs: int = 2):
 
     rid = cleaned.get("resourceIdentifier")
     if not rid:
-        raise ValueError("❌ resourceIdentifier missing in fetched JSON. API response format may have changed.")
+        raise ValueError(
+            "❌ resourceIdentifier missing in fetched JSON. "
+            "API response format may have changed."
+        )
 
     project_key = f"VCS_{rid}"
 
@@ -31,7 +45,9 @@ async def run_all(project_url: str, max_docs: int = 2):
     projects_file_data.setdefault("projects", []).append({project_key: cleaned})
     save_projects_file(projects_file_data)
 
-    # 2) FILTER + PRIORITIZE (max 10)
+    # -------------------------------------------------
+    # 2) FILTER + PRIORITIZE DOCS
+    # -------------------------------------------------
     print(f"\n🔍 Selecting prioritized docs (max {max_docs})...")
     docs = cleaned.get("documents", [])
     selected_docs = select_prioritized_docs(docs, max_docs=max_docs)
@@ -42,9 +58,15 @@ async def run_all(project_url: str, max_docs: int = 2):
 
     save_to_projectdocs(project_key, selected_docs)
 
-    # 3) DOWNLOAD PDFs
-    print("\n📥 Starting PDF downloads...")
-    await download_all_for_project(project_key)
+    # -------------------------------------------------
+    # 3) DOWNLOAD PDFs (ONLY IF NOT PRESENT)
+    # -------------------------------------------------
+    print("\n📥 Checking existing PDFs...")
+    if pdfs_already_exist(project_key):
+        print(f"✅ PDFs already exist for {project_key}. Skipping download.")
+    else:
+        print("📥 No existing PDFs found. Starting download...")
+        await download_all_for_project(project_key)
 
     print("\n==============================")
     print("      🎉 PIPELINE DONE!")
@@ -52,7 +74,5 @@ async def run_all(project_url: str, max_docs: int = 2):
 
 
 if __name__ == "__main__":
-    # ✅ change only this
     PROJECT_URL = "https://registry.verra.org/app/projectDetail/VCS/514"
-
     asyncio.run(run_all(PROJECT_URL, max_docs=10))

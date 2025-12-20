@@ -28,11 +28,6 @@
       "I5": 1.6
     },
 
-    "caps": {
-      "OUTPUT": 30.0,
-      "OUTCOME": 25.0,
-      "IMPACT": 10.0
-    },
 
     "level_mix": {
       "OUTPUT": 0.3,
@@ -47,6 +42,6 @@
       "impact_penalty_if_low_outcomes": 0.4
     },
 
-    "top_evidence_per_rule": 3
+    "top_evidence_per_rule": 8
   }
 }

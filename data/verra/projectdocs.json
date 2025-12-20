@@ -1,6 +1,38 @@
 {
   "projectdocs": [
     {
+      "VCS_1764": [
+        {
+          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=136999&IDKEY=4903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfm188921621",
+          "documentType": "Monitoring Report",
+          "documentName": "VCS 1764 6th Monitoring-Report v4.4_(last submission Verra 20241219)_Clean_20250819.pdf",
+          "uploadDate": "2025-08-25T02:41:27.757Z"
+        },
+        {
+          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=24147&IDKEY=olksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098933298713",
+          "documentType": "Project Description",
+          "documentName": "WIF Mangrove PD Version 3.0 feb 2018.pdf",
+          "uploadDate": "2018-03-01T03:56:37.307Z"
+        }
+      ]
+    },
+    {
+      "VCS_2723": [
+        {
+          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=131860&IDKEY=0kjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909k181834940",
+          "documentType": "CCB MR Summary Draft",
+          "documentName": "CCB VCS MR 2723 BORRADOR 01JULY2021-30JUNE2024_ESP.pdf",
+          "uploadDate": "2025-05-14T23:07:42.52Z"
+        },
+        {
+          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=96187&IDKEY=hq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh132641873",
+          "documentType": "CCB Project Description",
+          "documentName": "CCB_VCS_PD_Condoto REDD+_V4.1_02052023.pdf",
+          "uploadDate": "2023-08-28T10:27:41.76Z"
+        }
+      ]
+    },
+    {
       "VCS_1566": [
         {
           "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=114550&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k157964450",
@@ -13,22 +45,6 @@
           "documentType": "SD VISta Draft Monitoring Report Summary",
           "documentName": "SD VISta MR ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
           "uploadDate": "2024-05-16T20:28:14.55Z"
-        }
-      ]
-    },
-    {
-      "VCS_605": [
-        {
-          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=44488&IDKEY=jlksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098k61348952",
-          "documentType": "Monitoring Report",
-          "documentName": "MONIT_REP_605_13MAR2012_12MAR2013.pdf",
-          "uploadDate": "2017-05-12T07:51:13Z"
-        },
-        {
-          "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=43096&IDKEY=88723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0859429384",
-          "documentType": "Project Description",
-          "documentName": "PROJ_DESC_605_14MAR2011.pdf",
-          "uploadDate": "2017-05-10T12:48:26Z"
         }
       ]
     }
