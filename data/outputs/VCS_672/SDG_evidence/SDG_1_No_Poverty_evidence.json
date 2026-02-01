@@ -1,0 +1,28 @@
+{
+  "satisfied_rules": {
+    "O5": [
+      {
+        "sentence": "The forest rehabilitation fund is intended, among others, for the implementation of reforestation plans.",
+        "probability": 0.6651
+      },
+      {
+        "sentence": "An initiative to raise external funds for sustainable forest management is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
+        "probability": 0.7169
+      },
+      {
+        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest in order to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
+        "probability": 0.7714
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Logging of the remaining forest stand provides additional income.",
+        "probability": 0.7337
+      },
+      {
+        "sentence": "The timber revenues are a main source of income for the concession holder, so all available timber within the permitted diameter classes that can be economically extracted is harvested.",
+        "probability": 0.7088
+      }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "SDG_1_No_Poverty": {
     "thresholds": {
-      "OUTPUT": 0.65,
-      "OUTCOME": 0.7,
-      "IMPACT": 0.75
+      "OUTPUT": 0.5,
+      "OUTCOME": 0.5,
+      "IMPACT": 0.5
     },
 
     "rule_weights": {

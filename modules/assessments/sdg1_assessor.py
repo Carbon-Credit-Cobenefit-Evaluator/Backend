@@ -101,18 +101,6 @@ def _weighted_sum(
     return total
 
 
-# ----------------------------
-# CAPS-BASED NORMALIZATION
-# ----------------------------
-# Commented out as requested.
-#
-# def _cap_norm(x: float, cap: float) -> float:
-#     cap = float(cap)
-#     if cap <= 0:
-#         return 0.0
-#     return min(float(x), cap) / cap
-
-
 def assess_sdg1_for_project(
     project_id: str,
     project_root: Path,
@@ -131,7 +119,12 @@ def assess_sdg1_for_project(
     sdg_key = "SDG_1_No_Poverty"
 
     evidence_path = (
-        project_root / "data" / "outputs" / project_id / "SDG_evidence" / f"{sdg_key}_evidence.json"
+        project_root
+        / "data"
+        / "outputs"
+        / project_id
+        / "SDG_evidence"
+        / f"{sdg_key}_evidence.json"
     )
     rules_path = project_root / "config" / "SDG_rules.json"
     scoring_path = project_root / "config" / "SDG_scoring.json"
@@ -166,10 +159,8 @@ def assess_sdg1_for_project(
 
     thresholds = scoring_cfg.get("thresholds", {})
     rule_weights = scoring_cfg.get("rule_weights", {})
-    # caps = scoring_cfg.get("caps", {})  # ❌ commented out (caps disabled)
     level_mix = scoring_cfg.get("level_mix", {})
     gates_cfg = scoring_cfg.get("gates", {})
-    top_n = int(scoring_cfg.get("top_evidence_per_rule", 3))
 
     satisfied_rules = evidence.get("satisfied_rules", {}) or {}
 
@@ -210,22 +201,10 @@ def assess_sdg1_for_project(
     gated_R = raw_R * outcome_weight
     gated_I = raw_I * impact_weight
 
-    # ---------------------------------------------------------
-    # Step 4: cap normalization per level (DISABLED)
-    # ---------------------------------------------------------
-    # Original:
-    # cap_O = float(caps.get("OUTPUT", 30.0))
-    # cap_R = float(caps.get("OUTCOME", 25.0))
-    # cap_I = float(caps.get("IMPACT", 10.0))
-    #
-    # norm_O = _cap_norm(raw_O, cap_O)
-    # norm_R = _cap_norm(gated_R, cap_R)
-    # norm_I = _cap_norm(gated_I, cap_I)
-
-    # ✅ Replacement (no caps):
-    # We keep values in 0..1 space using a simple squashing rule:
-    #   norm = x / (1 + x)
-    # This avoids breaking the mix logic while removing caps entirely.
+    # ----------------------------
+    # No-caps normalization (0..1)
+    # ----------------------------
+    # norm = x / (1 + x)
     def _no_cap_norm(x: float) -> float:
         x = float(x)
         if x <= 0:
@@ -244,10 +223,10 @@ def assess_sdg1_for_project(
     final_0_1 = (norm_O * mix_O) + (norm_R * mix_R) + (norm_I * mix_I)
     final_0_100 = round(final_0_1 * 100.0, 2)
 
-    # top evidence per rule (for auditability)
-    top_evidence: Dict[str, List[Dict[str, Any]]] = {}
+    # ✅ send ALL evidence per rule (no truncation)
+    evidence_by_rule: Dict[str, List[Dict[str, Any]]] = {}
     for rule, items in filtered_evidence.items():
-        top_evidence[rule] = items[:top_n]
+        evidence_by_rule[rule] = items
 
     output_path = (
         project_root
@@ -273,7 +252,6 @@ def assess_sdg1_for_project(
             "outcome_norm": norm_R,
             "impact_norm": norm_I,
             "mix": {"OUTPUT": mix_O, "OUTCOME": mix_R, "IMPACT": mix_I},
-            # "caps": {"OUTPUT": cap_O, "OUTCOME": cap_R, "IMPACT": cap_I},  # ❌ commented out
         },
         "counts": {
             "by_level_unique_sentences": counts_by_level,
@@ -286,7 +264,10 @@ def assess_sdg1_for_project(
             "IMPACT": sorted(counts_I.keys()),
         },
         "penalties": penalties,
-        "top_evidence": top_evidence,
+
+        # ✅ renamed (optional but clearer)
+        "evidence_by_rule": evidence_by_rule,
+
         "source_files": {
             "evidence": str(evidence_path),
             "rules_config": str(rules_path),

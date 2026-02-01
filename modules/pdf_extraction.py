@@ -1,3 +1,4 @@
+# modules/pdf_extraction.py
 import os
 from pdfminer.high_level import extract_text
 from config.settings import PROJECTS_ROOT

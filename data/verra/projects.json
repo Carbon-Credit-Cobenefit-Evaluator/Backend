@@ -776,6 +776,1494 @@
           }
         ]
       }
+    },
+    {
+      "VCS_1378": {
+        "resourceIdentifier": "1378",
+        "resourceName": "Forestry Project for the Basin of the Chinchina River, an Environmental and Productive Alternative for the City and the Region",
+        "description": "The primary objective of this project is to regulate and improve the quantity and quality of fresh water for the region’s communities by restoring the watersheds that supply their water systems, each duly identified as part of the Chinchiná River watershed restoration program. The program’s activities involve ecological restoration through assisted natural regeneration and reforestation. The species used for the assisted natural regeneration system come from the natural forests within the project boundary",
+        "location": {
+          "latitude": 4.5613,
+          "longitude": -75.21
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "12189",
+        "total_buffer_pool_credits": 28499,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "4539 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null,
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16637&IDKEY=5iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfo22942423",
+            "documentType": "Project Description",
+            "documentName": "150505_PDD_Procuenca.pdf",
+            "uploadDate": "2015-06-10T15:45:02.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16737&IDKEY=aiofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k23080323",
+            "documentType": "Project Description",
+            "documentName": "PROJ_DESC_1378_12JAN2010.pdf",
+            "uploadDate": "2015-06-25T15:20:27.14Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16639&IDKEY=m903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfi22945181",
+            "documentType": "Registration Representation",
+            "documentName": "Registration Deed of Representation_Procuenca(301526).pdf",
+            "uploadDate": "2015-06-10T15:48:13.573Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16638&IDKEY=8iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3l22943802",
+            "documentType": "Validation Report",
+            "documentName": "14.05.2015_Validation Report_VCS PROCUENCA-signed.pdf",
+            "uploadDate": "2015-06-10T15:46:58.753Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16738&IDKEY=n903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfd23081702",
+            "documentType": "Validation Report",
+            "documentName": "VALID_REP_1378_12JAN2010.pdf",
+            "uploadDate": "2015-06-25T15:21:23.687Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16640&IDKEY=9kjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909922946560",
+            "documentType": "Validation Representation",
+            "documentName": "VCS Validation Representation, v3.2_0 Procuenca.pdf",
+            "uploadDate": "2015-06-10T15:49:01.623Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16839&IDKEY=2kjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909923220981",
+            "documentType": "Issuance Representation",
+            "documentName": "Issuance Deed of Representation_Procuenca.pdf",
+            "uploadDate": "2015-07-08T09:34:13.567Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16838&IDKEY=098klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8df23219602",
+            "documentType": "Monitoring Report",
+            "documentName": "150505_MR_Procuenca.pdf",
+            "uploadDate": "2015-07-08T09:32:50.36Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16836&IDKEY=miofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3s23216844",
+            "documentType": "Verification Report",
+            "documentName": "14.05.2015_Verification Report_VCS PROCUENCA-signed.pdf",
+            "uploadDate": "2015-07-08T09:30:15.833Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16837&IDKEY=m903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff23218223",
+            "documentType": "Verification Representation",
+            "documentName": "VCS Verification Representation, v3.2_0 Procuenca.pdf",
+            "uploadDate": "2015-07-08T09:31:35.01Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16767&IDKEY=skjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909023121693",
+            "documentType": "AFOLU Project Element",
+            "documentName": "NON_PERM_1378_09MARCH2015.pdf",
+            "uploadDate": "2015-06-26T14:19:53.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=16736&IDKEY=3iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfj23078944",
+            "documentType": "Communications Agreement",
+            "documentName": "COMM_AGRE_1378_06Jun2015.pdf",
+            "uploadDate": "2015-06-25T15:00:16.123Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19783&IDKEY=nlksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098227280757",
+            "documentType": "KML File",
+            "documentName": "Lugares temporales1378 (3).kml",
+            "uploadDate": "2016-10-24T14:09:35.22Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19784&IDKEY=j097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87u27282136",
+            "documentType": "KML File",
+            "documentName": "New polygon Chinchina.kml",
+            "uploadDate": "2016-10-24T14:22:51.667Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19508&IDKEY=diquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfs26901532",
+            "documentType": "Other",
+            "documentName": "Project 1378 Double Counting Risk Issuance Letter 25 AUG 2016.pdf",
+            "uploadDate": "2016-08-31T19:18:21.407Z"
+          }
+        ]
+      }
+    },
+    {
+      "VCS_672": {
+        "resourceIdentifier": "672",
+        "resourceName": "INFAPRO Rehabilitation of logged-over dipterocarp forest in Sabah, Malaysia",
+        "description": "The project rehabilitates 25,000 ha of severely logged-over mixed dipterocarp rainforest in Sabah, Malaysia and prevents relogging of the forest in this area. In the absence of the project activity, the forest would be re-logged and would only slowly recuperate due to the high quantities of vines and climbing bamboos suppressing the remnant trees and the natural regeneration process.",
+        "location": {
+          "latitude": 5.027872,
+          "longitude": 117.803684
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "138013",
+        "total_buffer_pool_credits": 51020,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "IFM",
+        "project_acreage": "25000 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null,
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32538&IDKEY=dq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh944869902",
+            "documentType": "Project Description",
+            "documentName": "VCS PD INFAPRO version 1.7.pdf",
+            "uploadDate": "2011-09-02T19:42:02Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=33095&IDKEY=m0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a45638005",
+            "documentType": "Registration Representation",
+            "documentName": "PP_REG_REP_671_24AUG2011.pdf",
+            "uploadDate": "2011-12-01T15:21:52Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=33097&IDKEY=v8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0045640763",
+            "documentType": "Validation Report",
+            "documentName": "VALID_REP_671_31AUG2011.pdf",
+            "uploadDate": "2011-12-01T15:21:52Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=33098&IDKEY=oiquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf545642142",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_671_31AUG2011.pdf",
+            "uploadDate": "2011-12-01T15:21:52Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=33099&IDKEY=ciofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3v45643521",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_671_24AUG2011.pdf",
+            "uploadDate": "2011-12-01T15:21:52Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32546&IDKEY=F0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9s44880934",
+            "documentType": "Issuance Representation",
+            "documentName": "Project Proponent Issuance Representation.pdf",
+            "uploadDate": "2011-12-02T12:24:00Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32547&IDKEY=kq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh344882313",
+            "documentType": "Monitoring Report",
+            "documentName": "Monitoring report Infapro v1.4.pdf",
+            "uploadDate": "2011-12-02T12:24:00Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=33093&IDKEY=mlksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098m45635247",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_671_01JAN2007_31DEC2010.pdf",
+            "uploadDate": "2011-12-01T15:21:52Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32548&IDKEY=k8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0a44883692",
+            "documentType": "Verification Report",
+            "documentName": "VCS_Face_Infapro_ValidationVerification_RPT_Final_082411.pdf",
+            "uploadDate": "2011-12-02T12:24:00Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32545&IDKEY=9097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87s44879555",
+            "documentType": "Verification Representation",
+            "documentName": "VCS_FACE_Infapro_GHG_ValidationVerificationRepresentation_V3.0_082411.pdf",
+            "uploadDate": "2011-12-02T12:24:00Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=97259&IDKEY=j8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0n134120161",
+            "documentType": "KML File",
+            "documentName": "672 - 110621 Infapro boundary.kml",
+            "uploadDate": "2023-09-15T19:39:07.32Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=32549&IDKEY=liquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi44885071",
+            "documentType": "Non-permanence risk report",
+            "documentName": "Non-Permanence Risk Asessment INFAPRO version 1.4.pdf",
+            "uploadDate": "2011-12-02T12:24:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification",
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21541&IDKEY=niquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf929705039",
+            "documentType": "Project Description",
+            "documentName": "PROJ_DESC_1566_30MAY2017.pdf",
+            "uploadDate": "2017-07-05T12:36:36.9Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20075&IDKEY=4iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3827683425",
+            "documentType": "Registration Representation",
+            "documentName": "PP_REG_REP_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:14:43.797Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20073&IDKEY=s8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0r27680667",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_1566_06DEC2016.pdf",
+            "uploadDate": "2016-12-08T21:12:47.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20076&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff27684804",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:15:33.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26543&IDKEY=80e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9936602797",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:07:24.127Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49423&IDKEY=l8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0m68154317",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:25:00.877Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21597&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k29782263",
+            "documentType": "Monitoring Report",
+            "documentName": "PROJ_DESC_1566_30MAY2017 (1).pdf",
+            "uploadDate": "2017-07-17T14:18:02.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26544&IDKEY=sq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh836604176",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:08:31.087Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49421&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9m68151559",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:06:48.713Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21325&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn29407175",
+            "documentType": "Verification Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:13:11.503Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26545&IDKEY=n8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0q36605555",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:09:44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49422&IDKEY=jq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhn68152938",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:17:47.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20074&IDKEY=2iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfd27682046",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:13:36.35Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=25961&IDKEY=miquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf035800219",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2018-11-20T21:01:25.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49424&IDKEY=3iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf968155696",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2020-11-12T03:25:51.257Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19646&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8dj27091834",
+            "documentType": "Communications Agreement",
+            "documentName": "draft_constancy_VCS_V2.pdf",
+            "uploadDate": "2016-09-20T16:02:10.457Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20077&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8df27686183",
+            "documentType": "Communications Agreement",
+            "documentName": "COMMS_AGR_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:16:04.203Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=143393&IDKEY=nq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhj197738947",
+            "documentType": "Communications Agreement",
+            "documentName": "Verra-Registry-Communications-Agreement-v2.1.pdf",
+            "uploadDate": "2025-12-24T21:17:56.03Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26546&IDKEY=0iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk36606934",
+            "documentType": "Issuance Review Report",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:11:59.143Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=27397&IDKEY=flksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098i37780463",
+            "documentType": "Issuance Review Report",
+            "documentName": "I2_PRR_1566_01FEB2019.pdf",
+            "uploadDate": "2019-05-21T17:18:59.43Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73897&IDKEY=2iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq30101903963",
+            "documentType": "Issuance Review Report",
+            "documentName": "R_V1_PRR_1566_09SEPT2022.pdf",
+            "uploadDate": "2022-09-09T19:35:16.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=50266&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87n69316814",
+            "documentType": "Non-permanence risk report",
+            "documentName": "non-permanence-risk-report-1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2021-01-12T15:02:09.88Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21544&IDKEY=f98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8da29709176",
+            "documentType": "Registration Review Report",
+            "documentName": "REG_PRR_1566_28May2017.pdf",
+            "uploadDate": "2017-07-05T14:52:33.727Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73892&IDKEY=7097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87101897068",
+            "documentType": "CCB PD Summary",
+            "documentName": "CCB_PROJ_DESC_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:14.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52637&IDKEY=9iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk72586423",
+            "documentType": "CCB PD Summary Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021_resumen.pdf",
+            "uploadDate": "2021-05-13T12:42:33.453Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73891&IDKEY=llksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku0989101895689",
+            "documentType": "CCB Project Description",
+            "documentName": "CCB_PROJ_DESC_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:29:18.433Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52576&IDKEY=9903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfd72502304",
+            "documentType": "CCB Project Description Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021.pdf",
+            "uploadDate": "2021-05-10T20:40:20.777Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73895&IDKEY=f8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq02101901205",
+            "documentType": "CCB Validation Report",
+            "documentName": "CCB_VAL_REP_1566.pdf",
+            "uploadDate": "2022-09-09T19:33:33.093Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=64773&IDKEY=skjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909l89321967",
+            "documentType": "CCB Validation Statement",
+            "documentName": "CCB_VAL_STA_29MAR2022.pdf",
+            "uploadDate": "2022-04-12T13:42:01.333Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73893&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla90101898447",
+            "documentType": "CCB Monitoring Report",
+            "documentName": "CCB_MON_REP_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:55.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54599&IDKEY=q8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0n75292021",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:31:53.237Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112870&IDKEY=lkjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909f155647730",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "CCB VCS MR ProjectID1566 DRAFT 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-18T17:00:46.703Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73894&IDKEY=dq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh9101899826",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB_MON_REP_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:32:16.403Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=114550&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k157964450",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB VCS MR ProjectID1566 BORRADOR 01ENE2020-31DIC2022_v1.1.pdf",
+            "uploadDate": "2024-06-20T16:44:44.99Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54600&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff75293400",
+            "documentType": "CCB MR Summary Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_resumen_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:33:47.44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73896&IDKEY=kiquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfw101902584",
+            "documentType": "CCB Verification Report",
+            "documentName": "CCB_VER_REP_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2022-09-09T19:34:15.517Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=66143&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a91211197",
+            "documentType": "CCB Verification Statement",
+            "documentName": "CCB_VERIF_STA_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2022-05-05T21:36:41.19Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112756&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a155490524",
+            "documentType": "SD VISta Draft Project Description",
+            "documentName": "SD VISta PD ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:26:23.017Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112759&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn155494661",
+            "documentType": "SD VISta Draft Project Description Summary",
+            "documentName": "SD VISta PD ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:31:24.513Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112872&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn870155650488",
+            "documentType": "SD VISta Listing Representation",
+            "documentName": "SD VISta List Rep ProjID1566vMultipleRepresentV1.1.pdf",
+            "uploadDate": "2024-05-18T17:25:39.993Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112766&IDKEY=aq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhk155504314",
+            "documentType": "SD VISta Draft Monitoring Report",
+            "documentName": "SD VISta MR ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:27:40.81Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112767&IDKEY=m8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0l155505693",
+            "documentType": "SD VISta Draft Monitoring Report Summary",
+            "documentName": "SD VISta MR ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:28:14.55Z"
+          }
+        ]
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification",
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21541&IDKEY=niquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf929705039",
+            "documentType": "Project Description",
+            "documentName": "PROJ_DESC_1566_30MAY2017.pdf",
+            "uploadDate": "2017-07-05T12:36:36.9Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20075&IDKEY=4iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3827683425",
+            "documentType": "Registration Representation",
+            "documentName": "PP_REG_REP_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:14:43.797Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20073&IDKEY=s8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0r27680667",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_1566_06DEC2016.pdf",
+            "uploadDate": "2016-12-08T21:12:47.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20076&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff27684804",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:15:33.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26543&IDKEY=80e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9936602797",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:07:24.127Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49423&IDKEY=l8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0m68154317",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:25:00.877Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21597&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k29782263",
+            "documentType": "Monitoring Report",
+            "documentName": "PROJ_DESC_1566_30MAY2017 (1).pdf",
+            "uploadDate": "2017-07-17T14:18:02.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26544&IDKEY=sq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh836604176",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:08:31.087Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49421&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9m68151559",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:06:48.713Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21325&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn29407175",
+            "documentType": "Verification Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:13:11.503Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26545&IDKEY=n8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0q36605555",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:09:44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49422&IDKEY=jq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhn68152938",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:17:47.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20074&IDKEY=2iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfd27682046",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:13:36.35Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=25961&IDKEY=miquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf035800219",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2018-11-20T21:01:25.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49424&IDKEY=3iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf968155696",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2020-11-12T03:25:51.257Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19646&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8dj27091834",
+            "documentType": "Communications Agreement",
+            "documentName": "draft_constancy_VCS_V2.pdf",
+            "uploadDate": "2016-09-20T16:02:10.457Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20077&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8df27686183",
+            "documentType": "Communications Agreement",
+            "documentName": "COMMS_AGR_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:16:04.203Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=143393&IDKEY=nq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhj197738947",
+            "documentType": "Communications Agreement",
+            "documentName": "Verra-Registry-Communications-Agreement-v2.1.pdf",
+            "uploadDate": "2025-12-24T21:17:56.03Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26546&IDKEY=0iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk36606934",
+            "documentType": "Issuance Review Report",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:11:59.143Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=27397&IDKEY=flksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098i37780463",
+            "documentType": "Issuance Review Report",
+            "documentName": "I2_PRR_1566_01FEB2019.pdf",
+            "uploadDate": "2019-05-21T17:18:59.43Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73897&IDKEY=2iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq30101903963",
+            "documentType": "Issuance Review Report",
+            "documentName": "R_V1_PRR_1566_09SEPT2022.pdf",
+            "uploadDate": "2022-09-09T19:35:16.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=50266&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87n69316814",
+            "documentType": "Non-permanence risk report",
+            "documentName": "non-permanence-risk-report-1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2021-01-12T15:02:09.88Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21544&IDKEY=f98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8da29709176",
+            "documentType": "Registration Review Report",
+            "documentName": "REG_PRR_1566_28May2017.pdf",
+            "uploadDate": "2017-07-05T14:52:33.727Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73892&IDKEY=7097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87101897068",
+            "documentType": "CCB PD Summary",
+            "documentName": "CCB_PROJ_DESC_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:14.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52637&IDKEY=9iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk72586423",
+            "documentType": "CCB PD Summary Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021_resumen.pdf",
+            "uploadDate": "2021-05-13T12:42:33.453Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73891&IDKEY=llksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku0989101895689",
+            "documentType": "CCB Project Description",
+            "documentName": "CCB_PROJ_DESC_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:29:18.433Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52576&IDKEY=9903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfd72502304",
+            "documentType": "CCB Project Description Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021.pdf",
+            "uploadDate": "2021-05-10T20:40:20.777Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73895&IDKEY=f8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq02101901205",
+            "documentType": "CCB Validation Report",
+            "documentName": "CCB_VAL_REP_1566.pdf",
+            "uploadDate": "2022-09-09T19:33:33.093Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=64773&IDKEY=skjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909l89321967",
+            "documentType": "CCB Validation Statement",
+            "documentName": "CCB_VAL_STA_29MAR2022.pdf",
+            "uploadDate": "2022-04-12T13:42:01.333Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73893&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla90101898447",
+            "documentType": "CCB Monitoring Report",
+            "documentName": "CCB_MON_REP_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:55.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54599&IDKEY=q8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0n75292021",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:31:53.237Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112870&IDKEY=lkjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909f155647730",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "CCB VCS MR ProjectID1566 DRAFT 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-18T17:00:46.703Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73894&IDKEY=dq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh9101899826",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB_MON_REP_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:32:16.403Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=114550&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k157964450",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB VCS MR ProjectID1566 BORRADOR 01ENE2020-31DIC2022_v1.1.pdf",
+            "uploadDate": "2024-06-20T16:44:44.99Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54600&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff75293400",
+            "documentType": "CCB MR Summary Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_resumen_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:33:47.44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73896&IDKEY=kiquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfw101902584",
+            "documentType": "CCB Verification Report",
+            "documentName": "CCB_VER_REP_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2022-09-09T19:34:15.517Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=66143&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a91211197",
+            "documentType": "CCB Verification Statement",
+            "documentName": "CCB_VERIF_STA_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2022-05-05T21:36:41.19Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112756&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a155490524",
+            "documentType": "SD VISta Draft Project Description",
+            "documentName": "SD VISta PD ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:26:23.017Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112759&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn155494661",
+            "documentType": "SD VISta Draft Project Description Summary",
+            "documentName": "SD VISta PD ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:31:24.513Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112872&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn870155650488",
+            "documentType": "SD VISta Listing Representation",
+            "documentName": "SD VISta List Rep ProjID1566vMultipleRepresentV1.1.pdf",
+            "uploadDate": "2024-05-18T17:25:39.993Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112766&IDKEY=aq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhk155504314",
+            "documentType": "SD VISta Draft Monitoring Report",
+            "documentName": "SD VISta MR ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:27:40.81Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112767&IDKEY=m8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0l155505693",
+            "documentType": "SD VISta Draft Monitoring Report Summary",
+            "documentName": "SD VISta MR ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:28:14.55Z"
+          }
+        ]
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification",
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21541&IDKEY=niquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf929705039",
+            "documentType": "Project Description",
+            "documentName": "PROJ_DESC_1566_30MAY2017.pdf",
+            "uploadDate": "2017-07-05T12:36:36.9Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20075&IDKEY=4iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3827683425",
+            "documentType": "Registration Representation",
+            "documentName": "PP_REG_REP_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:14:43.797Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20073&IDKEY=s8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0r27680667",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_1566_06DEC2016.pdf",
+            "uploadDate": "2016-12-08T21:12:47.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20076&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff27684804",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:15:33.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26543&IDKEY=80e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9936602797",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:07:24.127Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49423&IDKEY=l8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0m68154317",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:25:00.877Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21597&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k29782263",
+            "documentType": "Monitoring Report",
+            "documentName": "PROJ_DESC_1566_30MAY2017 (1).pdf",
+            "uploadDate": "2017-07-17T14:18:02.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26544&IDKEY=sq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh836604176",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:08:31.087Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49421&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9m68151559",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:06:48.713Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21325&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn29407175",
+            "documentType": "Verification Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:13:11.503Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26545&IDKEY=n8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0q36605555",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:09:44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49422&IDKEY=jq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhn68152938",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:17:47.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20074&IDKEY=2iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfd27682046",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:13:36.35Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=25961&IDKEY=miquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf035800219",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2018-11-20T21:01:25.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49424&IDKEY=3iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf968155696",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2020-11-12T03:25:51.257Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19646&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8dj27091834",
+            "documentType": "Communications Agreement",
+            "documentName": "draft_constancy_VCS_V2.pdf",
+            "uploadDate": "2016-09-20T16:02:10.457Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20077&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8df27686183",
+            "documentType": "Communications Agreement",
+            "documentName": "COMMS_AGR_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:16:04.203Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=143393&IDKEY=nq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhj197738947",
+            "documentType": "Communications Agreement",
+            "documentName": "Verra-Registry-Communications-Agreement-v2.1.pdf",
+            "uploadDate": "2025-12-24T21:17:56.03Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26546&IDKEY=0iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk36606934",
+            "documentType": "Issuance Review Report",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:11:59.143Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=27397&IDKEY=flksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098i37780463",
+            "documentType": "Issuance Review Report",
+            "documentName": "I2_PRR_1566_01FEB2019.pdf",
+            "uploadDate": "2019-05-21T17:18:59.43Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73897&IDKEY=2iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq30101903963",
+            "documentType": "Issuance Review Report",
+            "documentName": "R_V1_PRR_1566_09SEPT2022.pdf",
+            "uploadDate": "2022-09-09T19:35:16.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=50266&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87n69316814",
+            "documentType": "Non-permanence risk report",
+            "documentName": "non-permanence-risk-report-1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2021-01-12T15:02:09.88Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21544&IDKEY=f98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8da29709176",
+            "documentType": "Registration Review Report",
+            "documentName": "REG_PRR_1566_28May2017.pdf",
+            "uploadDate": "2017-07-05T14:52:33.727Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73892&IDKEY=7097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87101897068",
+            "documentType": "CCB PD Summary",
+            "documentName": "CCB_PROJ_DESC_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:14.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52637&IDKEY=9iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk72586423",
+            "documentType": "CCB PD Summary Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021_resumen.pdf",
+            "uploadDate": "2021-05-13T12:42:33.453Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73891&IDKEY=llksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku0989101895689",
+            "documentType": "CCB Project Description",
+            "documentName": "CCB_PROJ_DESC_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:29:18.433Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52576&IDKEY=9903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfd72502304",
+            "documentType": "CCB Project Description Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021.pdf",
+            "uploadDate": "2021-05-10T20:40:20.777Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73895&IDKEY=f8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq02101901205",
+            "documentType": "CCB Validation Report",
+            "documentName": "CCB_VAL_REP_1566.pdf",
+            "uploadDate": "2022-09-09T19:33:33.093Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=64773&IDKEY=skjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909l89321967",
+            "documentType": "CCB Validation Statement",
+            "documentName": "CCB_VAL_STA_29MAR2022.pdf",
+            "uploadDate": "2022-04-12T13:42:01.333Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73893&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla90101898447",
+            "documentType": "CCB Monitoring Report",
+            "documentName": "CCB_MON_REP_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:55.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54599&IDKEY=q8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0n75292021",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:31:53.237Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112870&IDKEY=lkjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909f155647730",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "CCB VCS MR ProjectID1566 DRAFT 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-18T17:00:46.703Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73894&IDKEY=dq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh9101899826",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB_MON_REP_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:32:16.403Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=114550&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k157964450",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB VCS MR ProjectID1566 BORRADOR 01ENE2020-31DIC2022_v1.1.pdf",
+            "uploadDate": "2024-06-20T16:44:44.99Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54600&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff75293400",
+            "documentType": "CCB MR Summary Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_resumen_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:33:47.44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73896&IDKEY=kiquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfw101902584",
+            "documentType": "CCB Verification Report",
+            "documentName": "CCB_VER_REP_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2022-09-09T19:34:15.517Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=66143&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a91211197",
+            "documentType": "CCB Verification Statement",
+            "documentName": "CCB_VERIF_STA_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2022-05-05T21:36:41.19Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112756&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a155490524",
+            "documentType": "SD VISta Draft Project Description",
+            "documentName": "SD VISta PD ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:26:23.017Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112759&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn155494661",
+            "documentType": "SD VISta Draft Project Description Summary",
+            "documentName": "SD VISta PD ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:31:24.513Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112872&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn870155650488",
+            "documentType": "SD VISta Listing Representation",
+            "documentName": "SD VISta List Rep ProjID1566vMultipleRepresentV1.1.pdf",
+            "uploadDate": "2024-05-18T17:25:39.993Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112766&IDKEY=aq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhk155504314",
+            "documentType": "SD VISta Draft Monitoring Report",
+            "documentName": "SD VISta MR ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:27:40.81Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112767&IDKEY=m8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0l155505693",
+            "documentType": "SD VISta Draft Monitoring Report Summary",
+            "documentName": "SD VISta MR ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:28:14.55Z"
+          }
+        ]
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification",
+        "documents": [
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21541&IDKEY=niquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf929705039",
+            "documentType": "Project Description",
+            "documentName": "PROJ_DESC_1566_30MAY2017.pdf",
+            "uploadDate": "2017-07-05T12:36:36.9Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20075&IDKEY=4iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3827683425",
+            "documentType": "Registration Representation",
+            "documentName": "PP_REG_REP_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:14:43.797Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20073&IDKEY=s8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0r27680667",
+            "documentType": "Validation Representation",
+            "documentName": "VALID_STA_1566_06DEC2016.pdf",
+            "uploadDate": "2016-12-08T21:12:47.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20076&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff27684804",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:15:33.883Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26543&IDKEY=80e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9936602797",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:07:24.127Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49423&IDKEY=l8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0m68154317",
+            "documentType": "Issuance Representation",
+            "documentName": "PP_ISS_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:25:00.877Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21597&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k29782263",
+            "documentType": "Monitoring Report",
+            "documentName": "PROJ_DESC_1566_30MAY2017 (1).pdf",
+            "uploadDate": "2017-07-17T14:18:02.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26544&IDKEY=sq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh836604176",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:08:31.087Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49421&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9m68151559",
+            "documentType": "Monitoring Report",
+            "documentName": "MONIT_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:06:48.713Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21325&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn29407175",
+            "documentType": "Verification Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:13:11.503Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26545&IDKEY=n8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0q36605555",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2019-02-01T18:09:44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49422&IDKEY=jq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhn68152938",
+            "documentType": "Verification Report",
+            "documentName": "VERIF_REP_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2020-11-11T15:17:47.46Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20074&IDKEY=2iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfd27682046",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2013_31DEC2015.pdf",
+            "uploadDate": "2016-12-08T21:13:36.35Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=25961&IDKEY=miquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf035800219",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2016_TO_31DEC2017.pdf",
+            "uploadDate": "2018-11-20T21:01:25.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=49424&IDKEY=3iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkf968155696",
+            "documentType": "Verification Representation",
+            "documentName": "VERIF_STA_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2020-11-12T03:25:51.257Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=19646&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8dj27091834",
+            "documentType": "Communications Agreement",
+            "documentName": "draft_constancy_VCS_V2.pdf",
+            "uploadDate": "2016-09-20T16:02:10.457Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=20077&IDKEY=k98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8df27686183",
+            "documentType": "Communications Agreement",
+            "documentName": "COMMS_AGR_1566_28OCT2016.pdf",
+            "uploadDate": "2016-12-08T21:16:04.203Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=143393&IDKEY=nq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhj197738947",
+            "documentType": "Communications Agreement",
+            "documentName": "Verra-Registry-Communications-Agreement-v2.1.pdf",
+            "uploadDate": "2025-12-24T21:17:56.03Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=26546&IDKEY=0iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk36606934",
+            "documentType": "Issuance Review Report",
+            "documentName": "PP_ISS_REP_1566_01JAN2016_TO_31DEC2017 (1).pdf",
+            "uploadDate": "2019-02-01T18:11:59.143Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=27397&IDKEY=flksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098i37780463",
+            "documentType": "Issuance Review Report",
+            "documentName": "I2_PRR_1566_01FEB2019.pdf",
+            "uploadDate": "2019-05-21T17:18:59.43Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73897&IDKEY=2iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq30101903963",
+            "documentType": "Issuance Review Report",
+            "documentName": "R_V1_PRR_1566_09SEPT2022.pdf",
+            "uploadDate": "2022-09-09T19:35:16.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=50266&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87n69316814",
+            "documentType": "Non-permanence risk report",
+            "documentName": "non-permanence-risk-report-1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2021-01-12T15:02:09.88Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21544&IDKEY=f98klasmf8jflkasf8098afnasfkj98f0a9sfsakjflsakjf8da29709176",
+            "documentType": "Registration Review Report",
+            "documentName": "REG_PRR_1566_28May2017.pdf",
+            "uploadDate": "2017-07-05T14:52:33.727Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73892&IDKEY=7097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn87101897068",
+            "documentType": "CCB PD Summary",
+            "documentName": "CCB_PROJ_DESC_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:14.963Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52637&IDKEY=9iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfk72586423",
+            "documentType": "CCB PD Summary Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021_resumen.pdf",
+            "uploadDate": "2021-05-13T12:42:33.453Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73891&IDKEY=llksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku0989101895689",
+            "documentType": "CCB Project Description",
+            "documentName": "CCB_PROJ_DESC_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:29:18.433Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=52576&IDKEY=9903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfd72502304",
+            "documentType": "CCB Project Description Draft",
+            "documentName": "CCB_PDD_1566_Draft_30_APRIL_2021.pdf",
+            "uploadDate": "2021-05-10T20:40:20.777Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73895&IDKEY=f8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq02101901205",
+            "documentType": "CCB Validation Report",
+            "documentName": "CCB_VAL_REP_1566.pdf",
+            "uploadDate": "2022-09-09T19:33:33.093Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=64773&IDKEY=skjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909l89321967",
+            "documentType": "CCB Validation Statement",
+            "documentName": "CCB_VAL_STA_29MAR2022.pdf",
+            "uploadDate": "2022-04-12T13:42:01.333Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=21324&IDKEY=i8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0729405796",
+            "documentType": "Validation Report",
+            "documentName": "10 06 2017_VCS Final Report_ Matavin Project.pdf",
+            "uploadDate": "2017-06-13T17:12:21.083Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73893&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla90101898447",
+            "documentType": "CCB Monitoring Report",
+            "documentName": "CCB_MON_REP_ENG_1566.pdf",
+            "uploadDate": "2022-09-09T19:30:55.94Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54599&IDKEY=q8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0n75292021",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:31:53.237Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112870&IDKEY=lkjalskjf098234kj28098sfkjlf098098kl32lasjdflkj909f155647730",
+            "documentType": "CCB Monitoring Report Draft",
+            "documentName": "CCB VCS MR ProjectID1566 DRAFT 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-18T17:00:46.703Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73894&IDKEY=dq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfh9101899826",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB_MON_REP_SUM_SPA_1566.pdf",
+            "uploadDate": "2022-09-09T19:32:16.403Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=114550&IDKEY=9iofj09234rm9oq4jndsma80vcalksdjf98cxkjaf90823nmq3k157964450",
+            "documentType": "CCB MR Summary",
+            "documentName": "CCB VCS MR ProjectID1566 BORRADOR 01ENE2020-31DIC2022_v1.1.pdf",
+            "uploadDate": "2024-06-20T16:44:44.99Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=54600&IDKEY=f903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdff75293400",
+            "documentType": "CCB MR Summary Draft",
+            "documentName": "MONIT_REP_1566_CCB_Draft_01JAN2018_TO_31DEC2019_resumen_v1.1.pdf",
+            "uploadDate": "2021-08-09T17:33:47.44Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73896&IDKEY=kiquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfw101902584",
+            "documentType": "CCB Verification Report",
+            "documentName": "CCB_VER_REP_1566_01JAN2018_31DEC2019.pdf",
+            "uploadDate": "2022-09-09T19:34:15.517Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=66143&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a91211197",
+            "documentType": "CCB Verification Statement",
+            "documentName": "CCB_VERIF_STA_1566_01JAN2018_TO_31DEC2019.pdf",
+            "uploadDate": "2022-05-05T21:36:41.19Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=94386&IDKEY=K0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9f130158294",
+            "documentType": "KML File",
+            "documentName": "Project_Area_SelvaMataven_ID1566 (1).kml",
+            "uploadDate": "2023-07-24T13:45:46.653Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=73760&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi101715040",
+            "documentType": "Other",
+            "documentName": "annex_about_renare_&_exclusion_p.pdf",
+            "uploadDate": "2022-09-07T23:38:21.54Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=88999&IDKEY=siquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfi122729621",
+            "documentType": "Other",
+            "documentName": "1566, Buffer Release Report, Updated 26 April 2023.pdf",
+            "uploadDate": "2023-04-26T15:08:55.233Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112756&IDKEY=a0e98hfalksuf098fnsdalfkjfoijmn4309JLKJFjlaksjfla9a155490524",
+            "documentType": "SD VISta Draft Project Description",
+            "documentName": "SD VISta PD ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:26:23.017Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112759&IDKEY=8iquwesdfmnk0iei23nnm435oiojnc909dsflk9809adlkmlkfn155494661",
+            "documentType": "SD VISta Draft Project Description Summary",
+            "documentName": "SD VISta PD ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T16:31:24.513Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112872&IDKEY=d097809fdslkjf09rndasfufd098asodfjlkduf09nm23mrn870155650488",
+            "documentType": "SD VISta Listing Representation",
+            "documentName": "SD VISta List Rep ProjID1566vMultipleRepresentV1.1.pdf",
+            "uploadDate": "2024-05-18T17:25:39.993Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112766&IDKEY=aq934lkmsad39asjdkfj90qlkalsdkngaf98ulkandDfdvDdfhk155504314",
+            "documentType": "SD VISta Draft Monitoring Report",
+            "documentName": "SD VISta MR ProjectID1566 Draft 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:27:40.81Z"
+          },
+          {
+            "uri": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=112767&IDKEY=m8723kjnf7kjandsaslmdv09887vaksmrmnwqkjoiuanfnfuq0l155505693",
+            "documentType": "SD VISta Draft Monitoring Report Summary",
+            "documentName": "SD VISta MR ProjectID1566 Borrador 01JAN2020-31DEC2022.pdf",
+            "uploadDate": "2024-05-16T20:28:14.55Z"
+          }
+        ]
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
 SDG_MODEL_REGISTRY = {
     "SDG_1_No_Poverty": {
         "model_folder": "SDG1",
-        "threshold": 0.60,
+        "threshold": 0.40,
         "labels": ["O1", "O2", "O3", "O5", "O6", "R3", "R4", "R5", "R6", "I1", "I3", "I5"],
     },
 

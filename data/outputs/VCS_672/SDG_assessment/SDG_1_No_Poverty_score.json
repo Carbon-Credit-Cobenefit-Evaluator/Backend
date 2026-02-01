@@ -1,0 +1,74 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_672",
+  "final_score_0_100": 53.35,
+  "final_score_0_1": 0.5335,
+  "components": {
+    "output_raw": 3.9,
+    "outcome_raw": 2.8,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.7959,
+    "outcome_norm": 0.7368,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 3,
+      "OUTCOME": 2,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O5": 3,
+      "R3": 2
+    },
+    "core_output_unique_sentences": 3
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "top_evidence": {
+    "O5": [
+      {
+        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest in order to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
+        "probability": 0.7714
+      },
+      {
+        "sentence": "An initiative to raise external funds for sustainable forest management is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
+        "probability": 0.7169
+      },
+      {
+        "sentence": "The forest rehabilitation fund is intended, among others, for the implementation of reforestation plans.",
+        "probability": 0.6651
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Logging of the remaining forest stand provides additional income.",
+        "probability": 0.7337
+      },
+      {
+        "sentence": "The timber revenues are a main source of income for the concession holder, so all available timber within the permitted diameter classes that can be economically extracted is harvested.",
+        "probability": 0.7088
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_672\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

@@ -18,8 +18,8 @@ if __name__ == "__main__":
     # OPTION A — Run pipeline from an existing local project folder
     # ============================================================
 
-    project_id = "VCS_1566"
-    run_pipeline(project_id, mode="inference_only")
+    project_id = "VCS_1378"
+    run_pipeline(project_id, mode="full")
     
 
     # ============================================================
