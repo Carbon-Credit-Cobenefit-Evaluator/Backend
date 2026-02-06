@@ -1,16 +1,16 @@
 {
   "sdg": "SDG_1_No_Poverty",
   "project_id": "VCS_672",
-  "final_score_0_100": 53.35,
-  "final_score_0_1": 0.5335,
+  "final_score_0_100": 60.19,
+  "final_score_0_1": 0.6019,
   "components": {
-    "output_raw": 3.9,
-    "outcome_raw": 2.8,
+    "output_raw": 7.0,
+    "outcome_raw": 5.6,
     "impact_raw": 0.0,
     "outcome_weight": 1.0,
     "impact_weight": 1.0,
-    "output_norm": 0.7959,
-    "outcome_norm": 0.7368,
+    "output_norm": 0.875,
+    "outcome_norm": 0.8485,
     "impact_norm": 0.0,
     "mix": {
       "OUTPUT": 0.3,
@@ -20,18 +20,20 @@
   },
   "counts": {
     "by_level_unique_sentences": {
-      "OUTPUT": 3,
-      "OUTCOME": 2,
+      "OUTPUT": 6,
+      "OUTCOME": 4,
       "IMPACT": 0
     },
     "by_rule_unique_sentences": {
-      "O5": 3,
-      "R3": 2
+      "O3": 2,
+      "O5": 4,
+      "R3": 4
     },
-    "core_output_unique_sentences": 3
+    "core_output_unique_sentences": 6
   },
   "rules_present": {
     "OUTPUT": [
+      "O3",
       "O5"
     ],
     "OUTCOME": [
@@ -40,29 +42,55 @@
     "IMPACT": []
   },
   "penalties": [],
-  "top_evidence": {
-    "O5": [
+    "output_summary": "Evidence suggests the project’s poverty-related outputs are limited and primarily linked to forest management activities, including training and equipping staff to manage environmental risks and implement rehabilitation and silvicultural treatments. Evidence indicates that financial mechanisms such as rehabilitation funds and conservation financing initiatives support the implementation of these activities, but documented outputs focus more on technical forest management capacity and funding structures than on broad-based employment or direct community service provision.",
+  "outcome_summary": "Evidence suggests the main socio-economic outcomes relate to financial performance for the concession holder, with revenues from timber and carbon credits contributing to project cost recovery and profitability relative to alternative land uses. Evidence indicates that these financial returns help sustain project operations and forest management activities, though benefits appear concentrated among project operators rather than clearly extending to wider vulnerable community groups.",
+  "impact_summary": "Evidence does not indicate long-term structural poverty reduction impacts at the community level, as reported benefits are largely tied to project-level financial viability and forest management outcomes. Evidence suggests the project’s longer-term contribution is centered on maintaining a financially sustainable conservation and rehabilitation model rather than producing transformative changes in poverty conditions for surrounding populations."
+,
+  "evidence_by_rule": {
+    "O3": [
       {
-        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest in order to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
-        "probability": 0.7714
+        "sentence": "The area is actively managed by the local project proponent, who has trained and equipped staff to contain this natural risk.",
+        "probability": 0.8777
       },
       {
-        "sentence": "An initiative to raise external funds for sustainable forest management is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
-        "probability": 0.7169
+        "sentence": "Paper presented at the Seminar on Practising Sustainable Forest Management: Lessons Learned and Future Challenges, 20–22 August 2002, Kota Kinabalu, Sabah.",
+        "probability": 0.5795
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
+        "probability": 0.7974
+      },
+      {
+        "sentence": "An initiative to raise external funds for SFM is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
+        "probability": 0.6824
       },
       {
         "sentence": "The forest rehabilitation fund is intended, among others, for the implementation of reforestation plans.",
         "probability": 0.6651
+      },
+      {
+        "sentence": "Alternatively, a forest rehabilitation fee must be paid to the forest rehabilitation fund (see sections 4B and 4E of the Forest Enactment).",
+        "probability": 0.5334
       }
     ],
     "R3": [
       {
-        "sentence": "Logging of the remaining forest stand provides additional income.",
-        "probability": 0.7337
+        "sentence": "The project recovered costs from 1992-2006 through SGS carbon credit sales, achieving a breakeven point in less than four years.",
+        "probability": 0.7899
+      },
+      {
+        "sentence": "Logging of the remaining forest stand provides some additional income.",
+        "probability": 0.7378
       },
       {
         "sentence": "The timber revenues are a main source of income for the concession holder, so all available timber within the permitted diameter classes that can be economically extracted is harvested.",
         "probability": 0.7088
+      },
+      {
+        "sentence": "An NPV analysis shows that the INFAPRO project is expected to be at least 50 % more profitable than relogging, indicating a higher opportunity cost for relogging.",
+        "probability": 0.5851
       }
     ]
   },

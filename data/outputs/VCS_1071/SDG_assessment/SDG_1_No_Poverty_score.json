@@ -1,0 +1,171 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_1071",
+  "final_score_0_100": 82.78,
+  "final_score_0_1": 0.8278,
+  "components": {
+    "output_raw": 14.4,
+    "outcome_raw": 13.4,
+    "impact_raw": 1.4,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9351,
+    "outcome_norm": 0.9306,
+    "impact_norm": 0.5833,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 14,
+      "OUTCOME": 10,
+      "IMPACT": 1
+    },
+    "by_rule_unique_sentences": {
+      "I3": 1,
+      "O2": 6,
+      "O3": 5,
+      "O5": 3,
+      "R3": 4,
+      "R4": 6
+    },
+    "core_output_unique_sentences": 14
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": [
+      "I3"
+    ]
+  },
+  "penalties": [],
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "Moreover, between June and September, almost all women in the 20 villages were employed in planting and fertilizing activities, reaching more than 500 hand‑workers employed by the project.",
+        "probability": 0.8962
+      },
+      {
+        "sentence": "The plantations will be located near villages around these cities to limit transport and facilitate access for inhabitants, as the project involves local hand‑workers from villages.",
+        "probability": 0.8708
+      },
+      {
+        "sentence": "These local workers have daily employment contracts and are organized into cooperatives.",
+        "probability": 0.8497
+      },
+      {
+        "sentence": "The project will create both permanent and temporary jobs.",
+        "probability": 0.8425
+      },
+      {
+        "sentence": "Local workers will be trained in both sustainable agricultural and forestry practices and hired for all plantation operational activities.",
+        "probability": 0.7372
+      },
+      {
+        "sentence": "The proposed project activity is consistent with these aims, as it produces biofuels for the domestic market sustainably, creates employment opportunities for local people, and secures food security through site selection and allowing food crop cultivation between the Jatropha rows.",
+        "probability": 0.705
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "Training courses are provided to local workers to enforce mitigation practices on their plantations.",
+        "probability": 0.9053
+      },
+      {
+        "sentence": "The proposed project activity has been able to surpass initial difficulties working with local communities and to offer local people know‑how and training.",
+        "probability": 0.8983
+      },
+      {
+        "sentence": "Organization structure of the project management: The project will include specific training courses for local farmers focused on Jatropha curcas cultivation, sustainable agricultural, and forest management practices.",
+        "probability": 0.8307
+      },
+      {
+        "sentence": "Income due on carbon credit marketing was accounted before density of the rising population, fragile and endangered natural environment, and, in some areas, severe degradation already underway; low income from production; extension of cultivated lands to the detriment of grazing and forested terrains; declining fertility of soils; low income from animal husbandry; lack of valorization of rural production and absence of diversification of rural activities; weakness of agricultural revenue hastening the exodus from rural areas (nowadays not just seasonal but lasting extended periods); slow modernization of indigenous crafts and weak development of local factories, which could, if developed, increase local employment and produce both equipment and material needed to improve the quality of life in rural areas; established approach of technical development, dictated by people outside these rural areas, oriented towards single-cash-crop production predominantly for export (e.g., peanuts) rather than healthy-for-the-land diversification, and mainly focused on men while ignoring any possible involvement of women. Additionality: The demonstration and assessment of the project's additionality is made in accordance with the applied methodology (AR-ACM0003, Version 01.0.0) following the steps of the “Combined tool to identify the baseline scenario and demonstrate additionality in A/R CDM project activities” (Version 01)39 Step 0.",
+        "probability": 0.6665
+      },
+      {
+        "sentence": "Local workers will be trained in both sustainable agricultural and forestry practices and hired for all plantation operational activities.",
+        "probability": 0.5991
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Furthermore, ANOC regularly provides financial and technical resources to monitor and improve the state of the trees.",
+        "probability": 0.8247
+      },
+      {
+        "sentence": "The project is managed by ANOC with local farmers, who benefit economically from Jatropha fruit harvests and protect the trees, while ANOC supplies financial and technical support.",
+        "probability": 0.8135
+      },
+      {
+        "sentence": "The project activity implements a voluntary coordinated action, not a mandatory policy or regulation; it would not be implemented in the absence of carbon revenues.",
+        "probability": 0.5113
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The project is expected to reach breakeven in six years, with revenues from Jatropha exploitation and VER sales accelerating investment recovery.",
+        "probability": 0.7348
+      },
+      {
+        "sentence": "Forestation of the land within the project boundary was performed without being registered as a Verified Carbon Standard project activity. In this scenario, the forestation activities would be performed without GHG revenues (i.e., income due to carbon credit marketing).",
+        "probability": 0.712
+      },
+      {
+        "sentence": "Revenues from sustainable Jatropha exploitation under the forest management model, combined with income from VER sales, accelerate the investment recuperation period.",
+        "probability": 0.661
+      },
+      {
+        "sentence": "In particular, it is possible to note that at an economic level, before the start of this project there were no trade activities in the area, while now there are many shops and the exchange and sale of goods have significantly improved.",
+        "probability": 0.5722
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Among the rural areas already involved in project activities, there has been an increase in agricultural side activities and an improvement in livelihoods.",
+        "probability": 0.7581
+      },
+      {
+        "sentence": "Baseline activities are subsistence-driven and net positive community impacts are demonstrated.",
+        "probability": 0.7418
+      },
+      {
+        "sentence": "The provision of rotated livelihood opportunities for local communities includes possible access to alternative income for local stakeholders and the promotion of sustainable agricultural practices (e.g., Jatropha farming will harvest fruit whose seeds can be sold by villagers, mechanically pressed to extract oil and generate biodiesel fuel).",
+        "probability": 0.7037
+      },
+      {
+        "sentence": "It is observed (see attachment “Socio_economic_impact_analysis_16012013”) that the project generates net positive impacts on the social and economic well‑being of local communities who derive livelihoods from the project area.",
+        "probability": 0.6722
+      },
+      {
+        "sentence": "The proposed project activity is consistent with these aims, as it produces biofuels for the domestic market sustainably, creates employment opportunities for local people, and secures food security through site selection and allowing food crop cultivation between the Jatropha rows.",
+        "probability": 0.5791
+      },
+      {
+        "sentence": "The local population is very poor; they manage a few agricultural activities with traditional tools and methods.",
+        "probability": 0.5782
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The empowerment of local communities to develop sustainable agroforestry practices.",
+        "probability": 0.5358
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_1071\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

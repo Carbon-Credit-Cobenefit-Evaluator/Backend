@@ -1,0 +1,176 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "This policy, along with providing employment and enriching the project area with endangered and vulnerable species for the neighbors, is an important contribution to both natural and human conservation of the project area.",
+        "probability": 0.9162
+      },
+      {
+        "sentence": "In addition, community members would be employed to produce and plant saplings of endangered or vulnerable species.",
+        "probability": 0.8596
+      },
+      {
+        "sentence": "The project that preserves the forest is not a common practice because it is not financially viable: the project must generate employment to meet economic and social functions but does not generate income, resulting in a project with negative present value.",
+        "probability": 0.8787
+      },
+      {
+        "sentence": "This will be partly mitigated by enriching the project's area with endangered and vulnerable tree species, which will generate employment throughout the project's duration.",
+        "probability": 0.9084
+      },
+      {
+        "sentence": "The project has already hired locally experienced people to engage the communities in the project zone and at a higher level with representatives of community clusters.",
+        "probability": 0.9371
+      },
+      {
+        "sentence": "In the project scenario, the communities would have greater employment.",
+        "probability": 0.8323
+      },
+      {
+        "sentence": "Second, the project is a source of labor for surrounding local communities.",
+        "probability": 0.6744
+      },
+      {
+        "sentence": "The 'without project' scenario is also expected to generate employment and income for the communities.",
+        "probability": 0.8398
+      },
+      {
+        "sentence": "This will be mitigated by enriching the project's area with endangered and vulnerable tree species, which will generate employment throughout the project's duration.",
+        "probability": 0.9124
+      },
+      {
+        "sentence": "Tree planting requires labor that would be supplied by members of the adjacent community.",
+        "probability": 0.895
+      },
+      {
+        "sentence": "It will also reduce employment in the community, but only slightly, as the deforestation plan employs about 20 people for less than three months.",
+        "probability": 0.8392
+      },
+      {
+        "sentence": "Improve biodiversity by increasing the number of endangered and vulnerable species, and increase the income of nearby communities by providing them with labor in the Amazon Rain Forest ecosystem.",
+        "probability": 0.6617
+      },
+      {
+        "sentence": "The sources of income will be cattle activity, which would employ an instance manager, and deforestation activity, which would employ 15 people over 12 weeks.",
+        "probability": 0.8001
+      },
+      {
+        "sentence": "Second, the project provides labor for surrounding local communities.",
+        "probability": 0.6769
+      },
+      {
+        "sentence": "Increase the income of nearby communities by providing them with labor required to plant tree species and improve biodiversity.",
+        "probability": 0.8405
+      },
+      {
+        "sentence": "Community members from the project zone will be hired for both the avoided deforestation activity and the project activity.",
+        "probability": 0.8885
+      },
+      {
+        "sentence": "By significantly increasing employment through the production and planting of saplings, the community will improve their access to food supplies and healthcare.",
+        "probability": 0.9127
+      },
+      {
+        "sentence": "In addition, continued carbon finance will provide funds to employ people who will safeguard the forest and increase the number of endangered and vulnerable species through their labor in the enrichment activity.",
+        "probability": 0.7501
+      },
+      {
+        "sentence": "When the enrichment activity starts, people will be hired from the communities in the project zone.",
+        "probability": 0.8912
+      },
+      {
+        "sentence": "For example, employment would be generated for the deforestation task itself, and generally, a family would take up residence on the property after deforestation to care for the property and its cattle.",
+        "probability": 0.9178
+      },
+      {
+        "sentence": "On the other hand, deforestation would have generated jobs that would have directly benefited the surrounding community.",
+        "probability": 0.8767
+      },
+      {
+        "sentence": "The sources of income will be the avoided deforestation activity, which employs an instance manager, and the enrichment activity, which will employ 10 persons for seeding and transplanting saplings over a period of 3 years.",
+        "probability": 0.9117
+      },
+      {
+        "sentence": "However, without the project, employment would be generated, which would largely be taken up by community members.",
+        "probability": 0.9059
+      },
+      {
+        "sentence": "The negative impacts have been mitigated: the project will generate jobs for enriching the project area with endangered and vulnerable species.",
+        "probability": 0.9407
+      },
+      {
+        "sentence": "Thus the project will monitor the amount of employment it generates for the community within the project.",
+        "probability": 0.8955
+      },
+      {
+        "sentence": "If clear infrastructure, hiring, and policies prevent deforestation, the project expects zero degradation.",
+        "probability": 0.4742
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "In addition, continued carbon finance will provide funds to employ people who will safeguard the forest and increase the number of endangered and vulnerable species through their labor in the enrichment activity.",
+        "probability": 0.4873
+      },
+      {
+        "sentence": "If the price of the carbon credit falls below USD 0.86, the project would be supported at the expense of the project proponent through financing of his own.",
+        "probability": 0.7245
+      },
+      {
+        "sentence": "The project is expected to break even in less than 4 years, with the NPV of credits covering all costs.",
+        "probability": 0.4923
+      },
+      {
+        "sentence": "The project is expected to break even between 4 and 7 years, with credits covering all costs.",
+        "probability": 0.6429
+      },
+      {
+        "sentence": "Although less than 15% of required funding has been secured, the NPV of credits is expected to cover all project costs.",
+        "probability": 0.7238
+      },
+      {
+        "sentence": "The project is expected to break even within 7–10 years, with the net present value of credits covering all costs.",
+        "probability": 0.4243
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The project that preserves the forest is not a common practice because it is not financially viable: the project must generate employment to meet economic and social functions but does not generate income, resulting in a project with negative present value.",
+        "probability": 0.4978
+      },
+      {
+        "sentence": "The difference (i.e., the community benefit) will be positive for the communities because, assuming wages are similar, the income produced in the 'with project' scenario is clearly greater than in the 'without project' scenario.",
+        "probability": 0.7345
+      },
+      {
+        "sentence": "The 'without project' scenario is also expected to generate employment and income for the communities.",
+        "probability": 0.4792
+      },
+      {
+        "sentence": "Improve biodiversity by increasing the number of endangered and vulnerable species, and increase the income of nearby communities by providing them with labor in the Amazon Rain Forest ecosystem.",
+        "probability": 0.4629
+      },
+      {
+        "sentence": "It generates no revenue apart from carbon finance.",
+        "probability": 0.6724
+      },
+      {
+        "sentence": "Increase the income of nearby communities by providing them with labor required to plant tree species and improve biodiversity.",
+        "probability": 0.5819
+      },
+      {
+        "sentence": "The initial plan is to monitor a single variable: the project’s impact in the community’s income.",
+        "probability": 0.71
+      },
+      {
+        "sentence": "The project generates income solely from the sale of carbon credits.",
+        "probability": 0.7817
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well-being of local communities who derive livelihoods from the project area.",
+        "probability": 0.431
+      }
+    ]
+  }
+}

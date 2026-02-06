@@ -1,0 +1,274 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_824",
+  "final_score_0_100": 67.76,
+  "final_score_0_1": 0.6776,
+  "components": {
+    "output_raw": 27.8,
+    "outcome_raw": 32.4,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9653,
+    "outcome_norm": 0.9701,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 25,
+      "OUTCOME": 24,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 1,
+      "O3": 11,
+      "O5": 13,
+      "R3": 10,
+      "R4": 11,
+      "R5": 1,
+      "R6": 2
+    },
+    "core_output_unique_sentences": 25
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+    "output_summary": "Evidence suggests the project delivers poverty-related outputs by promoting widespread tree planting through smallholder groups, providing regular cash remuneration and advance payments linked to the number of trees maintained, and offering training in conservation farming, soil management, and diversified livelihood skills such as beekeeping. Evidence indicates these activities improve access to tree products, enhance farm productivity, strengthen food security, and build local capacity through seminars, participatory forums, and practical agricultural support, while carbon finance mechanisms create a new incentive structure for sustained participation.",
+  "outcome_summary": "Evidence suggests these outputs translate into improved household incomes and more diversified livelihood sources, as participants receive stipends and revenue shares from carbon credit sales while also benefiting from higher crop yields, tree-based products, and enhanced farm resilience. Evidence indicates that carbon revenues function as a new and relatively stable income stream, supporting household economic stability and helping communities address agricultural, nutritional, and energy-related needs.",
+  "impact_summary": "Evidence suggests the project contributes to longer-term improvements in livelihood security and resilience by embedding sustainable farming practices, diversified income sources, and strengthened natural resource management within participating communities. Evidence indicates that increased food security, improved farm productivity, and access to renewable tree-based resources support more durable socio-economic stability, though impacts appear tied primarily to participating households rather than demonstrating broad structural poverty transformation at a wider regional scale."
+,
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "TIST has been managed by experienced staff since 1999.",
+        "probability": 0.5291
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The group reports that eucalyptus trees drain swampy water and they need loans and more training to support tree plantations.",
+        "probability": 0.9203
+      },
+      {
+        "sentence": "TIST enhances farmer awareness through seminars, training, and participatory forums to address concerns.",
+        "probability": 0.9137
+      },
+      {
+        "sentence": "The group notes that eucalyptus drains swampy water and requires loans and training to support tree plantations.",
+        "probability": 0.875
+      },
+      {
+        "sentence": "Participants will be trained to collect seeds and make seed beds.",
+        "probability": 0.8637
+      },
+      {
+        "sentence": "TIST provides training on soil fertilization and conservation to groups.",
+        "probability": 0.8436
+      },
+      {
+        "sentence": "Tree planting is promoted through carbon credit programs and conservation farming.",
+        "probability": 0.7444
+      },
+      {
+        "sentence": "Existing positive impacts: increased tree cover; improved household incomes through cash remuneration to groups and individual households based on the number of trees on farms; reduction of global warming through an increased sink for greenhouse gases (GHG), mitigating sudden climate change; high potential for program activities to attract future carbon credit markets, generating income; improved farming methods that prevent carbon dioxide (CO₂) from escaping into the atmosphere while trees act as carbon sinks; increased tree variety, providing wood‑based products; enhanced biodiversity, increasing ecosystem services such as pollination for food; improved opportunity to remove unsuitable trees for agroforestry such as *Eucalyptus* spp. through appropriate awareness‑creation activities; increased availability and access to tree products such as firewood and timber; improved soil fertility, boosting crop production through planting nitrogen‑fixing shrubs and trees; improved food security and nutritional status through increased crop production and fruit tree growth, and adoption of improved conservation farming (some farmers reported an increase in production from two to three bags to eight bags, from a quarter of a farm after adopting conservation farming); diversification of livelihood sources, e.g., training in beekeeping; possible replication of project activities in other areas following successful implementation; management of water catchment areas through tree planting; increase in groundwater recharge as a result of a 70 % increase (see Exhibit 01), 71 % increase (see Exhibit 02); NAREDA Consultants, Environmental Audit Report for TIST Project Activities, Final Report, April 2010.",
+        "probability": 0.7164
+      },
+      {
+        "sentence": "Eucalyptus trees drain swampy water, and the group needs loans and training.",
+        "probability": 0.7148
+      },
+      {
+        "sentence": "Training in beekeeping diversifies livelihood sources.",
+        "probability": 0.5601
+      },
+      {
+        "sentence": "Project Component: Promotion of tree planting through carbon credit programs and conservation farming; promotion of compost manure.",
+        "probability": 0.5354
+      },
+      {
+        "sentence": "The project achieved 84,341 net CO₂ reductions under the VCS Standard during the verification period. It created new sustainable revenue streams and improved food security through conservation farming, fruits, nuts, honey, fodder, poles, and fuel, and provided capacity building, sustainable wood lots, health training, and improved stoves. Biodiversity benefits include planting new indigenous trees, improving connectivity with the protected forest, reducing pressure to harvest fuel wood, and overall net improvement to biodiversity.",
+        "probability": 0.5301
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Second, under the terms of the Project Participant’s contracts with the TIST Small Groups, the farmers receive an annual advance on their potential carbon revenues, which eliminates the need for credit. These payments are paid at least annually based on the number of live trees counted each year.",
+        "probability": 0.8965
+      },
+      {
+        "sentence": "Small Group members are paid for each tree they plant and maintain.",
+        "probability": 0.8093
+      },
+      {
+        "sentence": "When we received TIST, we planted more and more trees in the hope of receiving an incentive for each living tree.",
+        "probability": 0.6968
+      },
+      {
+        "sentence": "The carbon credits create a new “virtual” cash crop for participants, who gain all the direct benefits of growing trees and also receive quarterly cash stipends based on the GHG benefits created by their efforts.",
+        "probability": 0.6951
+      },
+      {
+        "sentence": "However, due to their low income, the farmers participating in TIST have little opportunity for investment loans or capital.",
+        "probability": 0.668
+      },
+      {
+        "sentence": "The project seeks to reduce administrative costs and increase farmer payments to enhance sustainability.",
+        "probability": 0.6666
+      },
+      {
+        "sentence": "Clean Air Action Corporation collects money from greenhouse gas sales annually.",
+        "probability": 0.6399
+      },
+      {
+        "sentence": "The carbon rights originally vest with the trees and are transferred to the project proponent under the “Carbon Credit Sale Agreement.”",
+        "probability": 0.5972
+      },
+      {
+        "sentence": "They seek higher payments to maintain their tree plantations.",
+        "probability": 0.561
+      },
+      {
+        "sentence": "The program promotes tree planting through carbon credit schemes, with high potential to attract carbon markets.",
+        "probability": 0.5365
+      },
+      {
+        "sentence": "The project has secured 40–80% of funding needed to cover cash out before breakeven.",
+        "probability": 0.5363
+      },
+      {
+        "sentence": "They propose reducing administrative costs and increasing farmer payments to sustain the project.",
+        "probability": 0.5227
+      },
+      {
+        "sentence": "The group reports that eucalyptus trees drain swampy water and they need loans and more training to support tree plantations.",
+        "probability": 0.517
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Carbon credit sales generate participant income and provide project funding to address agricultural, HIV/AIDS, nutritional, and fuel challenges.",
+        "probability": 0.8566
+      },
+      {
+        "sentence": "The program has high potential to attract future carbon credit markets, generating income.",
+        "probability": 0.8413
+      },
+      {
+        "sentence": "The program increases household incomes through cash remuneration based on the number of trees planted.",
+        "probability": 0.7829
+      },
+      {
+        "sentence": "Carbon credit sales from the program generate income for participants and fund agricultural, health, nutrition, and fuel needs.",
+        "probability": 0.7781
+      },
+      {
+        "sentence": "Small groups benefit from a new income source: the sale of carbon credits that result from the sequestration of carbon from the atmosphere into the biomass of trees and soil.",
+        "probability": 0.763
+      },
+      {
+        "sentence": "When the project becomes self‑funding from the sale of carbon credits, they will receive 70 % of the net carbon revenues.",
+        "probability": 0.7589
+      },
+      {
+        "sentence": "Possible increased incomes as a result of improved farm productivity.",
+        "probability": 0.7531
+      },
+      {
+        "sentence": "The carbon credits create a new “virtual” cash crop for participants, who gain all the direct benefits of growing trees and also receive quarterly cash stipends based on the GHG benefits created by their efforts.",
+        "probability": 0.6634
+      },
+      {
+        "sentence": "The carbon revenues and tree stipends paid to the members provide a new source of revenue.",
+        "probability": 0.5776
+      },
+      {
+        "sentence": "The project has callable financial resources covering at least 50% of total cash out before breakeven, and the breakeven point is less than 4 years.",
+        "probability": 0.5027
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Community: new sustainable revenue streams, improved food security from Conservation Farming, fruits, nuts, and honey, other tree products such as fodder, poles, and fuel, capacity building, sustainable woodlots, health training, and improved stoves.",
+        "probability": 0.9175
+      },
+      {
+        "sentence": "The project achieved 84,341 net CO₂ reductions under the VCS Standard during the verification period. It created new sustainable revenue streams and improved food security through conservation farming, fruits, nuts, honey, fodder, poles, and fuel, and provided capacity building, sustainable wood lots, health training, and improved stoves. Biodiversity benefits include planting new indigenous trees, improving connectivity with the protected forest, reducing pressure to harvest fuel wood, and overall net improvement to biodiversity.",
+        "probability": 0.884
+      },
+      {
+        "sentence": "Improved farm productivity and environmental improvement through appropriate farming practices.",
+        "probability": 0.8227
+      },
+      {
+        "sentence": "Existing positive impacts: increased tree cover; improved household incomes through cash remuneration to groups and individual households based on the number of trees on farms; reduction of global warming through an increased sink for greenhouse gases (GHG), mitigating sudden climate change; high potential for program activities to attract future carbon credit markets, generating income; improved farming methods that prevent carbon dioxide (CO₂) from escaping into the atmosphere while trees act as carbon sinks; increased tree variety, providing wood‑based products; enhanced biodiversity, increasing ecosystem services such as pollination for food; improved opportunity to remove unsuitable trees for agroforestry such as *Eucalyptus* spp. through appropriate awareness‑creation activities; increased availability and access to tree products such as firewood and timber; improved soil fertility, boosting crop production through planting nitrogen‑fixing shrubs and trees; improved food security and nutritional status through increased crop production and fruit tree growth, and adoption of improved conservation farming (some farmers reported an increase in production from two to three bags to eight bags, from a quarter of a farm after adopting conservation farming); diversification of livelihood sources, e.g., training in beekeeping; possible replication of project activities in other areas following successful implementation; management of water catchment areas through tree planting; increase in groundwater recharge as a result of a 70 % increase (see Exhibit 01), 71 % increase (see Exhibit 02); NAREDA Consultants, Environmental Audit Report for TIST Project Activities, Final Report, April 2010.",
+        "probability": 0.8192
+      },
+      {
+        "sentence": "These include improved crop yield, improved environment, and marketable commodities such as fruits, nuts, and honey.",
+        "probability": 0.7923
+      },
+      {
+        "sentence": "The project is centered around Mpwapwa and Morogoro and includes over 2,000 farmers.",
+        "probability": 0.7709
+      },
+      {
+        "sentence": "The program improves food security and nutrition by boosting crop yields and fruit tree growth through conservation farming.",
+        "probability": 0.6815
+      },
+      {
+        "sentence": "Training in beekeeping diversifies livelihood sources.",
+        "probability": 0.5927
+      },
+      {
+        "sentence": "By providing fuel wood from sustainable woodlots and improving livelihoods, the project has a positive effect on biodiversity.",
+        "probability": 0.5722
+      },
+      {
+        "sentence": "Project activities are on lands already impacted by long‑term human habitation and agriculture.",
+        "probability": 0.5278
+      },
+      {
+        "sentence": "By providing fuel wood from sustainable woodlots and improving livelihoods, the project should have a positive effect on biodiversity.",
+        "probability": 0.5269
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "The project achieved 84,341 net CO₂ reductions under the VCS Standard during the verification period. It created new sustainable revenue streams and improved food security through conservation farming, fruits, nuts, honey, fodder, poles, and fuel, and provided capacity building, sustainable wood lots, health training, and improved stoves. Biodiversity benefits include planting new indigenous trees, improving connectivity with the protected forest, reducing pressure to harvest fuel wood, and overall net improvement to biodiversity.",
+        "probability": 0.5269
+      }
+    ],
+    "R6": [
+      {
+        "sentence": "The project achieved 84,341 net CO₂ reductions under the VCS Standard during the verification period. It created new sustainable revenue streams and improved food security through conservation farming, fruits, nuts, honey, fodder, poles, and fuel, and provided capacity building, sustainable wood lots, health training, and improved stoves. Biodiversity benefits include planting new indigenous trees, improving connectivity with the protected forest, reducing pressure to harvest fuel wood, and overall net improvement to biodiversity.",
+        "probability": 0.657
+      },
+      {
+        "sentence": "Community: new sustainable revenue streams, improved food security from Conservation Farming, fruits, nuts, and honey, other tree products such as fodder, poles, and fuel, capacity building, sustainable woodlots, health training, and improved stoves.",
+        "probability": 0.6486
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_824\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

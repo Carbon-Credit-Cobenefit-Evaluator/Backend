@@ -1,0 +1,160 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_605",
+  "final_score_0_100": 65.2,
+  "final_score_0_1": 0.652,
+  "components": {
+    "output_raw": 9.2,
+    "outcome_raw": 20.5,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.902,
+    "outcome_norm": 0.9535,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 8,
+      "OUTCOME": 15,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 4,
+      "O5": 4,
+      "R3": 10,
+      "R4": 5
+    },
+    "core_output_unique_sentences": 8
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  
+  "output_summary": "Evidence suggests the project delivers limited but targeted poverty-related outputs by supporting alternative employment linked to forest monitoring and management, while maintaining income opportunities for certain landholders through carbon-financed activities. Evidence indicates that these outputs are more focused on sustaining existing land-based roles and providing niche project-related work rather than generating broad new employment, with carbon finance serving as a key mechanism enabling continued forest protection alongside modest economic activity.",
+  "outcome_summary": "Evidence suggests the project contributes to livelihood stability primarily for landowners and associated stakeholders by diversifying income sources through carbon credit revenue and improved forest management. Evidence indicates that these financial flows help make conservation-focused land use more economically viable, supporting continued income where traditional activities may be less sustainable, and contributing to net positive socio-economic effects for those directly deriving livelihoods from the project area.",
+  "impact_summary": "Evidence does not indicate clear long-term structural poverty reduction impacts at the community level, as documented benefits are concentrated mainly among landowners and project proponents rather than wider vulnerable populations. Evidence suggests the project’s broader long-term contribution is more aligned with sustaining conservation-compatible income models than transforming underlying poverty conditions across the wider community."
+
+,
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "The project poses zero unemployment potential because private access is restricted and firewood collection permits reduce demand for illegally sourced firewood. Logging of native forests employs only a tiny proportion of Tasmania’s workforce, indicating limited employment impact.",
+        "probability": 0.9111
+      },
+      {
+        "sentence": "Logging has historically provided a major source of employment and income, and environmental campaigns for forest conservation have arguably not recognised the socio‑economic impact of banning logging of native forests.",
+        "probability": 0.8876
+      },
+      {
+        "sentence": "Moreover, these projects create alternative employment sources, including fieldwork to assess and monitor forests protected under VCS IFM projects.",
+        "probability": 0.8748
+      },
+      {
+        "sentence": "Carbon financed IFM projects provide comparable employment to foresters and income to landowners while protecting the carbon stocks and biodiversity of Tasmania’s native forests. This helps reduce political and social tension associated with land use management in Tasmania.",
+        "probability": 0.8498
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Define alternatives to the project activity: In this scenario, the project activity involves continuing the pre-project land use—keeping the native forest standing—and using carbon finance to generate revenue from improved forest management.",
+        "probability": 0.8054
+      },
+      {
+        "sentence": "Under the conditions of the contract agreement with Forests Alive, by the time the projects reach validation, the entirety of the project costs has already been paid.",
+        "probability": 0.7034
+      },
+      {
+        "sentence": "Owning large areas of land and engaging in activities such as grazing and cropping provides an opportunity to leverage funding to cover the modest, ongoing project costs, without including revenue from credit sales.",
+        "probability": 0.6957
+      },
+      {
+        "sentence": "However, the project proponent and developer hope that successful projects will encourage the use of VCS and carbon finance by landowners, thereby protecting the biodiversity and carbon sinks of native and old-growth forests in Tasmania.",
+        "probability": 0.6006
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The project will also have the additional benefits of enhancing local biodiversity (which is undermined by harvesting events and practices), diversifying landowners’ income, and maintaining both aesthetic and recreational values of the Tasmanian landscape.",
+        "probability": 0.8084
+      },
+      {
+        "sentence": "Each project proponent has other income sources and potentially credit that provides callable financial resources.",
+        "probability": 0.7892
+      },
+      {
+        "sentence": "The project activity generates income only from the sale of carbon credits.",
+        "probability": 0.763
+      },
+      {
+        "sentence": "The owners are seeking an alternative that will provide them with a comparable income while protecting and improving the native forests of the region.",
+        "probability": 0.7129
+      },
+      {
+        "sentence": "Carbon financed IFM projects provide comparable employment to foresters and income to landowners while protecting the carbon stocks and biodiversity of Tasmania’s native forests. This helps reduce political and social tension associated with land use management in Tasmania.",
+        "probability": 0.7078
+      },
+      {
+        "sentence": "Improved forest management is not a financially competitive land use without carbon finance, because it generates no other revenue; this type of project is also uncommon in the region.",
+        "probability": 0.6234
+      },
+      {
+        "sentence": "Such action would also negate any landowner income derived from selling carbon credits (i.e., the project scenario).",
+        "probability": 0.5938
+      },
+      {
+        "sentence": "The project is expected to achieve cash flow breakeven in less than four years, indicating a rapid return on investment.",
+        "probability": 0.5925
+      },
+      {
+        "sentence": "The project is expected to reach cash flow breakeven within 4 to 7 years, indicating a relatively quick return on investment.",
+        "probability": 0.5128
+      },
+      {
+        "sentence": "Firstly, carbon credits may continue to increase in value, especially those with biodiversity and socioeconomic premiums, such as Redd Forests’ projects.",
+        "probability": 0.5035
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Where baseline activities are subsistence‑driven, net positive community impacts are demonstrated.",
+        "probability": 0.6319
+      },
+      {
+        "sentence": "With regard to generating net positive impacts on the social and economic well‑being of the local communities who derive livelihoods from the project area, in the case of Tasmanian projects, this refers to the landowner (project proponent).",
+        "probability": 0.6238
+      },
+      {
+        "sentence": "Section 2.3.2(3) requires a demonstration that a participatory assessment of the positive and negative impacts of the project activities on the local communities who derive livelihoods from the project area has been completed and demonstrates net positive benefits to the social and economic well-being of these communities.",
+        "probability": 0.6173
+      },
+      {
+        "sentence": "Section 2.3.2.3 states: 'To achieve the mitigation credit, it shall be demonstrated that a current participatory assessment of the positive and negative impacts of the project activities on the local communities who derive livelihoods from the project area has been completed and demonstrates net positive benefits on the social and economic well‑being of these communities.'",
+        "probability": 0.5875
+      },
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well‑being of local communities who derive livelihoods from the project area.",
+        "probability": 0.5433
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_605\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

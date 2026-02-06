@@ -1,0 +1,194 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_658",
+  "final_score_0_100": 64.58,
+  "final_score_0_1": 0.6458,
+  "components": {
+    "output_raw": 28.4,
+    "outcome_raw": 8.1,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.966,
+    "outcome_norm": 0.8901,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 25,
+      "OUTCOME": 6,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 7,
+      "O3": 5,
+      "O5": 13,
+      "R3": 3,
+      "R4": 3
+    },
+    "core_output_unique_sentences": 25
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+    "output_summary": "Evidence suggests the project delivers poverty-related outputs through large-scale local employment, reportedly providing jobs for hundreds of people in an economically vulnerable region, while also supporting forest restoration and protection activities. Evidence indicates the project contributes to capacity building by training workers and community members in sustainable forestry, nursery management, soil recovery, and plantation management, alongside technical support for local outgrower nurseries that create small business opportunities. Carbon finance and institutional funding appear to play a central role in enabling these activities and sustaining project operations.",
+  "outcome_summary": "Evidence suggests these outputs contribute to improved income opportunities and financial stability for some participating workers and stakeholders, with project-related employment and forest-based revenues offering higher or more stable earnings than baseline conditions. Evidence indicates that financial returns from timber and carbon credits help support ongoing operations and long-term land management, contributing to net positive socio-economic effects for those directly engaged with the project area.",
+  "impact_summary": "Evidence does not clearly indicate long-term structural poverty reduction impacts across the wider community, as documented benefits focus mainly on employment, training, and income linked directly to project participation. Evidence suggests the project’s longer-term contribution is oriented toward sustaining conservation-based livelihood models and incremental economic improvement rather than driving transformative reductions in underlying poverty conditions at a broader regional scale."
+,
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "The project provides local benefits such as improved water quality, enhanced biodiversity, and employment for 400 people.",
+        "probability": 0.9535
+      },
+      {
+        "sentence": "The first group acknowledged that the company is providing employment to local families while simultaneously restoring and protecting the surrounding forests and existing fauna.",
+        "probability": 0.9237
+      },
+      {
+        "sentence": "Perhaps more important are job opportunities, because the project zone is located in an impoverished area, and the project employed 400 people.",
+        "probability": 0.916
+      },
+      {
+        "sentence": "FM-BAM employs highly skilled Peruvian foresters and expert consultants to manage the reforestation site, supporting effective implementation.",
+        "probability": 0.7775
+      },
+      {
+        "sentence": "As commercial-scale afforestation and reforestation are not prevailing practices, there is a lack of skilled or properly trained labour in the region.",
+        "probability": 0.7638
+      },
+      {
+        "sentence": "Regarding forest management, the project proponent has additional staff in community relations, silvicultural practices, and area security.",
+        "probability": 0.7441
+      },
+      {
+        "sentence": "Only 17% of families have employment, while most work on subsistence agriculture.",
+        "probability": 0.6499
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The project area does not include any land where local communities live, but the Campo Verde project incorporates capacity building with local people on sustainable forestry management, low‑impact logging techniques, and nursery and plantation management.",
+        "probability": 0.9406
+      },
+      {
+        "sentence": "The project proponent started a rehabilitation program with research institutions and environmental NGOs to restore soil conditions before installing timber plantations.",
+        "probability": 0.9184
+      },
+      {
+        "sentence": "This is due not only to employment and income potential but also to the opportunity to learn new techniques in soil recovery, weed management, fertilisation, reforestation, nursery production, and disease control.",
+        "probability": 0.8988
+      },
+      {
+        "sentence": "All personnel, including managers and laborers, were trained and demonstrated competence to perform their roles in the project.",
+        "probability": 0.6684
+      },
+      {
+        "sentence": "The company must strengthen its communication about the project’s benefits to local communities by organizing visits, workshops, and other strategies to reverse the negative perception of uninformed authorities.",
+        "probability": 0.6086
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Moreover, COFIDE, the government‑sponsored Peruvian development bank, offers funding for projects for up to 10 years only (74).",
+        "probability": 0.8512
+      },
+      {
+        "sentence": "Also, the project provides technical and financial support for outgrower nurseries, thereby providing an opportunity for local communities to establish business enterprises.",
+        "probability": 0.8097
+      },
+      {
+        "sentence": "Carbon finance and revenues from carbon emission offsets will provide sufficient funding for the project to undertake the planned operations.",
+        "probability": 0.7973
+      },
+      {
+        "sentence": "The consideration paid by this pre-purchase of carbon rights provides the financing necessary for the project to undertake its operations.",
+        "probability": 0.7119
+      },
+      {
+        "sentence": "The project proponent has secured the funding needed to cover project activities.",
+        "probability": 0.7097
+      },
+      {
+        "sentence": "In 2003, the project received financial support from the Regional Government of Ucayali and Fondo de las Américas (US government funds) to implement a pilot project with the goal of validating the model of recovering degraded lands over 100 hectares.",
+        "probability": 0.7072
+      },
+      {
+        "sentence": "Cash‑flow projections show that carbon finance will fund the project’s planned operations through year 30.",
+        "probability": 0.6786
+      },
+      {
+        "sentence": "The first activity of the project was the application for financial support from the Regional Government of Ucayali and Fondo de las Américas (US government funds) in 2003 to implement a pilot project with the goal of validating the model of recovering degraded lands over 100 hectares.",
+        "probability": 0.6432
+      },
+      {
+        "sentence": "An updated agreement in October 2008 committed about $10 million for the first ten years of implementation.",
+        "probability": 0.5788
+      },
+      {
+        "sentence": "Reforestation through direct planting or assisted natural regeneration requires considerable investment in the initial years, including negotiations with stakeholders to expel grazing animals, funding for nursery development, planting costs, maintenance, fire prevention, and firefighting.",
+        "probability": 0.5763
+      },
+      {
+        "sentence": "SFM‑BAM will generate revenue from voluntary carbon credit sales and certified high‑value timber.",
+        "probability": 0.5306
+      },
+      {
+        "sentence": "Thus, carbon finance has provided the funding mechanism for the “Campo Verde” project and removed the investment barrier preventing its implementation.",
+        "probability": 0.5285
+      },
+      {
+        "sentence": "http://www.congreso.gob.pe/comisiones/2007/presupuesto/libro/TOMO1/25_Ucayali.pdf 72. USAID, microNOTE #27, Rural and Agricultural Finance: Emerging Practices from Peruvian Financial Institutions, April 2007.",
+        "probability": 0.507
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Reforestation in the Campo Verde project generates revenue from timber and carbon, with the value of the forest inventory increasing over time.",
+        "probability": 0.6365
+      },
+      {
+        "sentence": "The financial analysis indicates sufficient income to cover costs and support long‑term management.",
+        "probability": 0.5753
+      },
+      {
+        "sentence": "Project income averages US$ 407 per month, more than twice the income without the project.",
+        "probability": 0.5644
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Net positive community impacts are demonstrated when baseline activities are subsistence-driven.",
+        "probability": 0.6158
+      },
+      {
+        "sentence": "Community Engagement: Less than 50 percent of households living within the project area who rely on it have been consulted. Less than 20 percent of households living within 20 km of the project boundary outside the project area, who rely on it, have been consulted. Mitigation: The project generates net positive impacts on the social and economic well-being of local communities who derive livelihoods from the project area. Total Score: Community Engagement.",
+        "probability": 0.6011
+      },
+      {
+        "sentence": "This is due not only to employment and income potential but also to the opportunity to learn new techniques in soil recovery, weed management, fertilisation, reforestation, nursery production, and disease control.",
+        "probability": 0.5543
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_658\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

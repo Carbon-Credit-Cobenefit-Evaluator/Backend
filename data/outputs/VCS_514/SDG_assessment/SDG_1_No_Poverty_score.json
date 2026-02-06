@@ -1,0 +1,459 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_514",
+  "final_score_0_100": 93.88,
+  "final_score_0_1": 0.9388,
+  "components": {
+    "output_raw": 67.8,
+    "outcome_raw": 34.1,
+    "impact_raw": 5.6,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9855,
+    "outcome_norm": 0.9715,
+    "impact_norm": 0.8485,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 67,
+      "OUTCOME": 26,
+      "IMPACT": 4
+    },
+    "by_rule_unique_sentences": {
+      "I3": 4,
+      "O2": 25,
+      "O3": 26,
+      "O5": 9,
+      "O6": 7,
+      "R3": 7,
+      "R4": 17,
+      "R5": 2
+    },
+    "core_output_unique_sentences": 60
+  },
+  "rules_present": {
+    "OUTPUT": ["O2", "O3", "O5", "O6"],
+    "OUTCOME": ["R3", "R4", "R5"],
+    "IMPACT": ["I3"]
+  },
+  "penalties": [],
+  "output_summary": "Evidence suggests the project delivers direct poverty-reduction outputs by creating substantial local employment, including opportunities for women, improving income stability for hundreds of community members. Evidence also indicates the project provides skills training in sustainable land management and livelihoods, strengthens community capacity, and supports essential services such as access to clean water and local infrastructure, with additional contributions to education and community development supported by carbon credit revenues.",
+  "outcome_summary": "Evidence suggests these outputs lead to improved livelihoods and greater economic security, with workers and community members benefiting from more stable incomes, enhanced skills, and increased participation in local development activities. Evidence indicates that inclusion of vulnerable groups and reinvestment of carbon credit revenues help sustain these socio-economic gains over time, contributing to stronger and more resilient local economic conditions.",
+  "impact_summary": "Evidence suggests the project contributes to longer-term poverty reduction and social empowerment, particularly through increased involvement of women in employment, training, and community roles. Evidence indicates that strengthened inclusion, skills development, and community participation in decision-making support more equitable and resilient socio-economic structures, extending benefits beyond immediate project activities.",
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "Sustainable Development Contributions: Net impact on SDG indicators, current project contributions, and contributions over the project lifetime; neighboring communities benefited from safe drinking water services; implemented activities increased continuous maintenance of water services for the community within the farm property; over 1,500 individuals from the community benefited from water services from the farms of the project; full‑time and seasonal employment opportunities were implemented; 392 people were employed, including 14 women (368 permanent employment, 24 seasonal employment); more than 300 annual jobs were created; tons of greenhouse gas emissions avoided or removed: during this monitoring period, the project activity achieved the removal of 121,707.49 tons of CO₂; during the project lifetime, 3.9 million tons of CO₂ are planned to be removed over 42 years, with 394,784 tCO₂ removed during the project lifetime; forest area under sustainable management and conservation: 103 hectares of natural area within farm properties were kept as natural forest during the monitoring period, up to 103 hectares of natural area have been continuously conserved within farm properties.",
+        "probability": 0.9654
+      },
+      {
+        "sentence": "By restoring the land, the project creates jobs for nearby communities, offers an alternative to predation and deforestation, and delivers environmental benefits.",
+        "probability": 0.9647
+      },
+      {
+        "sentence": "Afforestation, reforestation, and revegetation (ARR) are activities that increase carbon stocks in woody biomass and, in some cases, soils by establishing, increasing, or restoring vegetative cover through planting, sowing, or human-assisted natural regeneration of woody vegetation (VCS Program Definitions). CCB v2.0 and VCS v3.0. Monitoring report: CCB Version 2, VCS Version 3. Category metrics and achievements during the monitoring period include: number of hectares of existing production forest land where IFM7 practices have occurred as a result of the project’s activities, measured against the without-project scenario; number of hectares of non-forest land where improved land management has occurred, measured against the without-project scenario; total number of community members who have improved skills and/or knowledge from training provided as part of project activities; number of female community members who have improved skills and/or knowledge from training; total number of people employed in project activities, expressed as number of full-time employees; number of women employed in project activities, expressed as number of full-time employees. Monitoring indicates >300 community members trained, 5% total employment, and 8 full-time employees. 'Employed in project activities' means people directly working on project activities in return for compensation (financial or otherwise), including employees, contracted workers, sub-contracted workers, and community members paid to carry out project-related work.",
+        "probability": 0.9519
+      },
+      {
+        "sentence": "The project provides economic opportunities, employing 392 individuals during 2016–2022 and improving local income stability.",
+        "probability": 0.9479
+      },
+      {
+        "sentence": "The project expects to employ women as full-time employees, representing 5% of total employment by the end of the project.",
+        "probability": 0.9343
+      },
+      {
+        "sentence": "The project helps conserve biodiversity by providing jobs in neighboring villages to reduce the impact of illegal logging, preserving high‑conservation‑value areas that offer extended habitat for species, and promoting sustainable practices to reduce pressure on natural ecosystems.",
+        "probability": 0.9298
+      },
+      {
+        "sentence": "The project employs 14 women, about 5% of the workforce, and provides training that increases their empowerment and community support.",
+        "probability": 0.9253
+      },
+      {
+        "sentence": "In addition, as stated in previous sections, project activities provide economic opportunities for the local community (formal and permanent job opportunities).",
+        "probability": 0.9201
+      },
+      {
+        "sentence": "The without-project scenario would not generate any additional community or biodiversity benefits, given that previous land uses provide few employment opportunities, little community involvement, and no ecosystem improvements.",
+        "probability": 0.9134
+      },
+      {
+        "sentence": "The project provides economic opportunities, creating jobs and benefiting individuals through philanthropy.",
+        "probability": 0.9096
+      },
+      {
+        "sentence": "The project positively impacts the surrounding population by providing long‑term jobs, legal benefits, training, and health benefits.",
+        "probability": 0.9066
+      },
+      {
+        "sentence": "The project provides economic opportunities for the community, and 392 individuals were employed during the monitoring period (2016–2022), improving local income stability.",
+        "probability": 0.8996
+      },
+      {
+        "sentence": "Indirect benefits of the project, such as increased employment in nearby communities and worker benefits, are expected to reduce illegal activities like illegal extraction of flora and fauna.",
+        "probability": 0.8973
+      },
+      {
+        "sentence": "The project created jobs for the community, as confirmed by farm records and interviews.",
+        "probability": 0.8913
+      },
+      {
+        "sentence": "The project provides environmental protection, increases employment opportunities, protects flora and fauna, safeguards water sources, and prevents erosion in several community groups.",
+        "probability": 0.8759
+      },
+      {
+        "sentence": "The project creates long-term jobs, benefiting local communities through employment, training, and provisioning.",
+        "probability": 0.8591
+      },
+      {
+        "sentence": "Number of women expected to have improved livelihoods or income generated as a result of project activities is estimated to be 5% of total employment by the end of the project lifetime.",
+        "probability": 0.8537
+      },
+      {
+        "sentence": "By the end of the project, 5% of total employment will be female community members who have improved skills and knowledge through training.",
+        "probability": 0.8503
+      },
+      {
+        "sentence": "The project brings benefits to offsite communities by providing additional employment opportunities, improving the local environment, and mitigating the impacts of climate change on the project zone.",
+        "probability": 0.8323
+      },
+      {
+        "sentence": "Every year, the project provides economic opportunities for the community. CCB v3.0 and VCS v4.4. Stakeholder groups impacted include workers of participating farms, neighboring community members, and leaders. Results show individuals employed during the monitoring period (2016–) improving local income stability.",
+        "probability": 0.8147
+      },
+      {
+        "sentence": "The project contributes to building a skilled labor force in the community.",
+        "probability": 0.8014
+      },
+      {
+        "sentence": "The project improved the well-being of 392 women, contributing to increased employment opportunities for more than 300 people, representing a 5% rise in total employment.",
+        "probability": 0.764
+      },
+      {
+        "sentence": "The project increases the number of women employed, with 14 women (~5%) employed during the monitoring period, contributing to empowerment. Training and employment opportunities support women's empowerment.",
+        "probability": 0.763
+      },
+      {
+        "sentence": "The project provides training and education benefits, improving employment opportunities for the surrounding population.",
+        "probability": 0.7015
+      },
+      {
+        "sentence": "The project provides environmental protection, increases employment opportunities, improves economic income, offers permanent employment, protects water sources, supports education through school internships, and donates to local communities.",
+        "probability": 0.5497
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "Four farms provided training that improved skills and knowledge for 14 female community members.",
+        "probability": 0.9635
+      },
+      {
+        "sentence": "The project achieved net removals of 121,668.49 t CO₂, with a planned total sequestration of 3,900,439 t CO₂ over 42 years, while also improving skills of female community members through training.",
+        "probability": 0.962
+      },
+      {
+        "sentence": "The project positively impacts the surrounding population by providing long‑term jobs, legal benefits, training, and health benefits.",
+        "probability": 0.9489
+      },
+      {
+        "sentence": "Between years 7 and 36, the project will tap natural rubber sap and provide training to new employees, enhancing skills and employment.",
+        "probability": 0.9354
+      },
+      {
+        "sentence": "The project provides training and education benefits, improving employment opportunities for the surrounding population.",
+        "probability": 0.9241
+      },
+      {
+        "sentence": "The project creates long-term jobs, benefiting local communities through employment, training, and provisioning.",
+        "probability": 0.9234
+      },
+      {
+        "sentence": "The project intends to sustain climate, community, and biodiversity benefits beyond its lifetime through community empowerment, such as training in integrated pest control, forest management, fire control, worker safety, adherence to international and national norms, forest certification, and conservation awareness (see section 4.2 Net Positive Community Impacts).",
+        "probability": 0.9204
+      },
+      {
+        "sentence": "Through training and collaborative efforts, the project ensures that community members contribute to and benefit from biodiversity‑friendly practices, fostering a culture of conservation that extends beyond the project area.",
+        "probability": 0.9172
+      },
+      {
+        "sentence": "Farm personnel received technical training on good rubber plantation management, enhancing capacity building skills.",
+        "probability": 0.917
+      },
+      {
+        "sentence": "The project led socialization events and coordinated community engagement, enhancing participation and monitoring.",
+        "probability": 0.9069
+      },
+      {
+        "sentence": "From years 7 to 36, the project will tap natural rubber sap and train new employees.",
+        "probability": 0.901
+      },
+      {
+        "sentence": "The project builds capacity by ensuring personnel are knowledgeable in the farm’s normative framework and related activities.",
+        "probability": 0.8734
+      },
+      {
+        "sentence": "14 female community members improved skills and knowledge through project training.",
+        "probability": 0.873
+      },
+      {
+        "sentence": "The project coordinates data flows, provides technical training, and conducts stakeholder consultations to ensure compliance with VCS and CCBS requirements, enhancing community engagement and monitoring.",
+        "probability": 0.8683
+      },
+      {
+        "sentence": "The project expects to improve the skills and knowledge of more than 300 community members through training.",
+        "probability": 0.8481
+      },
+      {
+        "sentence": "The project provides training to new employees during the tapping of natural rubber sap.",
+        "probability": 0.8393
+      },
+      {
+        "sentence": "Community engagement and acceptance increased through interactive consultations and workshops.",
+        "probability": 0.8285
+      },
+      {
+        "sentence": "The project applies QA/QC procedures and provides opportunities for community involvement in planning and verification.",
+        "probability": 0.8172
+      },
+      {
+        "sentence": "By the end of the project, 5% of total employment will be female community members who have improved skills and knowledge through training.",
+        "probability": 0.8038
+      },
+      {
+        "sentence": "Describe the training provided for the project’s employees and relevant community members.",
+        "probability": 0.7714
+      },
+      {
+        "sentence": "Through two years of interactive consultations with local and indigenous communities, volunteers, and stakeholders, the project increased community engagement, acceptance, and knowledge, aligning project goals with community expectations.",
+        "probability": 0.7685
+      },
+      {
+        "sentence": "During monitoring, 392 community members improved their skills and knowledge through training, with more than 300 expected by the end of the project.",
+        "probability": 0.7573
+      },
+      {
+        "sentence": "During the monitoring period, 277 individuals participated in a socialization event about biodiversity, receiving information on project monitoring and benefits.",
+        "probability": 0.7566
+      },
+      {
+        "sentence": "A total of 392 community members improved their skills and knowledge through project training, including CCB monitoring and biodiversity management, as confirmed by interviews and training records.",
+        "probability": 0.7247
+      },
+      {
+        "sentence": "Social and biodiversity monitoring and socialization of the project impacts will be carried out, promoting community participation to improve the ecosystem.",
+        "probability": 0.7177
+      },
+      {
+        "sentence": "The project increases the number of women employed, with 14 women (~5%) employed during the monitoring period, contributing to empowerment. Training and employment opportunities support women's empowerment.",
+        "probability": 0.632
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "The project provides indirect benefits to communities through donations and outreach, documented by invoices and verified regularly.",
+        "probability": 0.883
+      },
+      {
+        "sentence": "The project will generate verified emission reductions that are registered with a VCS-approved registry, contracted, and delivered, and will be traded to generate financial benefits for the project.",
+        "probability": 0.8644
+      },
+      {
+        "sentence": "Although benefits vary depending on the project area due to proximity to local communities and resource access, the project offered life insurance. Some projects created investment groups to incentivize savings. Donations were given to local schools and communities, including water tanks, gas for volunteer firefighters, resource donations for infrastructure development, road restoration, supervised practices in administrative offices, authorized use of local rivers and springs, donations for local festivities, church remodeling, and pipes for local sewage.",
+        "probability": 0.8337
+      },
+      {
+        "sentence": "The project issues verified emission reductions, facilitating carbon trading and generating revenue.",
+        "probability": 0.7853
+      },
+      {
+        "sentence": "Additionally, project revenues will help fund monitoring of the project's climate, community, and biodiversity goals.",
+        "probability": 0.7552
+      },
+      {
+        "sentence": "The project provides environmental protection, increases employment opportunities, improves economic income, offers permanent employment, protects water sources, supports education through school internships, and donates to local communities.",
+        "probability": 0.6554
+      },
+      {
+        "sentence": "The project has improved well-being by creating more employment opportunities, increasing economic income, providing educational support, protecting environmental resources, and enhancing community infrastructure and morale through donations.",
+        "probability": 0.6422
+      },
+      {
+        "sentence": "Diversified revenue sources, such as carbon credits, enable participants to fund protection measures.",
+        "probability": 0.5484
+      },
+      {
+        "sentence": "Community events in 2018 and 2022 attracted 277 participants, and philanthropic benefits were recognized locally, strengthening community support.",
+        "probability": 0.5268
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "The project improved access to education for 392 people, with more than 300 expected by project end, enhancing their livelihoods.",
+        "probability": 0.7539
+      },
+      {
+        "sentence": "Assistance with community infrastructure (such as roads) when it benefits the farm and the community; authorized passage through the farm for low‑risk individuals who have a valid reason.",
+        "probability": 0.7277
+      },
+      {
+        "sentence": "The project improved water quality and access to drinking water for 392 people, benefiting more than 300 individuals overall.",
+        "probability": 0.6989
+      },
+      {
+        "sentence": "The project provides environmental protection, increases employment opportunities, improves economic income, offers permanent employment, protects water sources, supports education through school internships, and donates to local communities.",
+        "probability": 0.6515
+      },
+      {
+        "sentence": "Infrastructure improvements within the farm, aimed at boosting production, will also help nearby communities by providing better roads and access.",
+        "probability": 0.6013
+      },
+      {
+        "sentence": "Although benefits vary depending on the project area due to proximity to local communities and resource access, the project offered life insurance. Some projects created investment groups to incentivize savings. Donations were given to local schools and communities, including water tanks, gas for volunteer firefighters, resource donations for infrastructure development, road restoration, supervised practices in administrative offices, authorized use of local rivers and springs, donations for local festivities, church remodeling, and pipes for local sewage.",
+        "probability": 0.5447
+      },
+      {
+        "sentence": "Particularly in the northern areas, the project participant has invested in local storage, market logistics, and infrastructure development to enable market access.",
+        "probability": 0.5336
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Workers derive income and livelihood directly from project activities and are directly impacted.",
+        "probability": 0.7951
+      },
+      {
+        "sentence": "Carbon credit revenues support responsible management and help include marginal groups during commodity price declines.",
+        "probability": 0.7666
+      },
+      {
+        "sentence": "The project improved the well-being of 392 community members and generated income for more than 300 people.",
+        "probability": 0.6448
+      },
+      {
+        "sentence": "Provide opportunities for community involvement in planning. The community derives economic benefits from the project, including increased women empowerment.",
+        "probability": 0.6166
+      },
+      {
+        "sentence": "Recognizing that these farms, through income from carbon credits and commitments acquired by participating in the project, allow workers to receive decent wages recognized by law and additional benefits to their monthly salary (two additional salaries per year).",
+        "probability": 0.5962
+      },
+      {
+        "sentence": "The project has improved well-being by creating more employment opportunities, increasing economic income, providing educational support, protecting environmental resources, and enhancing community infrastructure and morale through donations.",
+        "probability": 0.5955
+      },
+      {
+        "sentence": "Community members are directly or indirectly benefited by project philanthropy, leading to economic support for the project. The community supports and communicates the project to others, as evidenced by events in 2018 and 2022 with 277 participants. Philanthropic benefits were recognized through community perception surveys and event records.",
+        "probability": 0.5675
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The project improved livelihoods for 392 people and increased the number of hectares better managed for biodiversity conservation by 103 ha.",
+        "probability": 0.8422
+      },
+      {
+        "sentence": "Workers derive income and livelihood directly from project activities and are directly impacted.",
+        "probability": 0.7443
+      },
+      {
+        "sentence": "Neighboring communities participate in the economic opportunities provided by the project and continue to have a positive perception of project activities.",
+        "probability": 0.7386
+      },
+      {
+        "sentence": "Workers of participating farms receive indirect livelihood benefits, enhancing community connection and environmental stewardship.",
+        "probability": 0.718
+      },
+      {
+        "sentence": "The project is expected to improve the livelihoods of more than 300 people by the end of its lifetime.",
+        "probability": 0.707
+      },
+      {
+        "sentence": "During monitoring, 392 people experienced improved livelihoods, and the project is projected to benefit more than 300 people by its lifetime.",
+        "probability": 0.6579
+      },
+      {
+        "sentence": "Neighbouring communities participate in the economic opportunities provided by the project and continue to have a positive perception of its activities.",
+        "probability": 0.6287
+      },
+      {
+        "sentence": "Participating farm owners receive livelihood benefits, retain full land rights, and support environmental stewardship.",
+        "probability": 0.6216
+      },
+      {
+        "sentence": "The project brings benefits to offsite communities by providing additional employment opportunities, improving the local environment, and mitigating the impacts of climate change on the project zone.",
+        "probability": 0.5924
+      },
+      {
+        "sentence": "The project seeks to provide economic opportunities for community members.",
+        "probability": 0.5858
+      },
+      {
+        "sentence": "The project has improved well-being by creating more employment opportunities, increasing economic income, providing educational support, protecting environmental resources, and enhancing community infrastructure and morale through donations.",
+        "probability": 0.5797
+      },
+      {
+        "sentence": "Every year, the project provides economic opportunities for the community. CCB v3.0 and VCS v4.4. Stakeholder groups impacted include workers of participating farms, neighboring community members, and leaders. Results show individuals employed during the monitoring period (2016–) improving local income stability.",
+        "probability": 0.5779
+      },
+      {
+        "sentence": "During monitoring, 392 community members improved their skills and knowledge through training, with more than 300 expected by the end of the project.",
+        "probability": 0.5675
+      },
+      {
+        "sentence": "The project provides environmental protection, increases employment opportunities, improves economic income, offers permanent employment, protects water sources, supports education through school internships, and donates to local communities.",
+        "probability": 0.5546
+      },
+      {
+        "sentence": "During the monitoring period, 14 women experienced improved livelihoods or income from the project.",
+        "probability": 0.5445
+      },
+      {
+        "sentence": "The project improved the well-being of 392 community members and generated income for more than 300 people.",
+        "probability": 0.5153
+      },
+      {
+        "sentence": "Provide economic opportunities for the community.",
+        "probability": 0.5042
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "The project improved access to education for 392 people, with more than 300 expected by project end, enhancing their livelihoods.",
+        "probability": 0.5561
+      },
+      {
+        "sentence": "Assistance with community infrastructure (such as roads) when it benefits the farm and the community; authorized passage through the farm for low‑risk individuals who have a valid reason.",
+        "probability": 0.5084
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The project provides equal employment opportunities, involving a number of women in project activities. Community members support the project and communicate this support to others. Women empowerment is increased, measured by participation in community leadership roles, contributing to a skilled labor force.",
+        "probability": 0.7352
+      },
+      {
+        "sentence": "Provide opportunities for community involvement in planning. The community derives economic benefits from the project, including increased women empowerment.",
+        "probability": 0.7209
+      },
+      {
+        "sentence": "The project improved the well-being of 392 women, contributing to increased employment opportunities for more than 300 people, representing a 5% rise in total employment.",
+        "probability": 0.5463
+      },
+      {
+        "sentence": "Number of women expected to have improved livelihoods or income generated as a result of project activities is estimated to be 5% of total employment by the end of the project lifetime.",
+        "probability": 0.5384
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_514\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "In 1993-1994, a lodge and bungalows were built to support ecotourism, creating jobs for local workers and increasing demand for agricultural goods.",
+        "probability": 0.9517
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "Promotion and client development focusing on educational tourism.",
+        "probability": 0.4694
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "As a result, by late 2011, management concluded that there were two economic options: 1) sell the timber and develop agriculture on the property, which would result in large‑scale logging; or 2) pursue carbon financing to maintain and protect the property and its associated biodiversity and ecosystem services.",
+        "probability": 0.5461
+      },
+      {
+        "sentence": "By 2011, management decided that there were two economic options: 1) engage in large‑scale logging and agricultural development of the property; or 2) pursue forest carbon financing to maintain the property.",
+        "probability": 0.6728
+      },
+      {
+        "sentence": "A key distinction between the project and other lands managed as private protected areas is that, at least in some cases, other areas can support the annual costs of management through outside means such as NGO‑supported and endorsed ecotourism (e.g., the American Bird Conservancy), direct support by NGOs, or private funds.",
+        "probability": 0.7222
+      },
+      {
+        "sentence": "The key distinction between the project and other lands managed as private protected areas is that other areas can support the annual costs of management through outside means such as NGO‑supported and endorsed ecotourism (e.g., the American Bird Conservancy), direct support by NGOs, or private funds.",
+        "probability": 0.7222
+      },
+      {
+        "sentence": "A key distinction between the Project and other lands managed as private protected areas is that, at least in some cases, other areas can support the annual costs of management through outside means such as NGO‑supported and endorsed ecotourism (e.g., the American Bird Conservancy), direct support by NGOs, or private funds.",
+        "probability": 0.7222
+      },
+      {
+        "sentence": "ECOAN policy is that all the benefits of tourism are reinvested in conservation activities, including the operations and improvement of our reserves.",
+        "probability": 0.8532
+      },
+      {
+        "sentence": "The project proponent has secured 100% of the funding required to implement the project.",
+        "probability": 0.6432
+      },
+      {
+        "sentence": "The VCS project funds will help reestablish the lodge for ecotourism and educational activities with universities.",
+        "probability": 0.6633
+      },
+      {
+        "sentence": "Other private protected areas receive NGO and private funding for management, which is not available to Yacumama landowners, making the project activity additional.",
+        "probability": 0.6909
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Building of lodges, bungalows, and infrastructure to support ecotourism operations.",
+        "probability": 0.5648
+      },
+      {
+        "sentence": "From 1992 to 1994, lodge buildings and other infrastructure were constructed to support the ecotourism operation.",
+        "probability": 0.5029
+      },
+      {
+        "sentence": "The two community benefits the project team envisioned at the beginning of the project (i.e., maintaining employment levels and supporting the local health clinic in Puerto Miguel) were confirmed by the village stakeholder meetings.",
+        "probability": 0.5014
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "If the project generates income other than from the sale of carbon credits, an investment analysis or benchmark analysis is required, in addition to financial benefits other than VCS‑related carbon.",
+        "probability": 0.7427
+      },
+      {
+        "sentence": "The proponent’s response indicated that revenues generated from lodge operations are only to sustain the lodge and are independent of the carbon project.",
+        "probability": 0.454
+      },
+      {
+        "sentence": "If the project is found to generate income other than from the sale of carbon credits, then an investment analysis or benchmark analysis is required.",
+        "probability": 0.4515
+      },
+      {
+        "sentence": "The eco‑lodge will continue to operate, generating revenue beyond the sale of carbon credits.",
+        "probability": 0.6986
+      },
+      {
+        "sentence": "Multi-crop/short-term fallow agriculture is less profitable than anticipated carbon credit revenue.",
+        "probability": 0.6656
+      },
+      {
+        "sentence": "Carbon credit sales provide revenue to achieve breakeven.",
+        "probability": 0.7788
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well‑being of the local communities who derive livelihoods from the project area.",
+        "probability": 0.4603
+      },
+      {
+        "sentence": "Mitigation: The project generates net positive impacts on the social and economic well‑being of the local communities who derive livelihoods from the project area, Total Community Engagement (CE).",
+        "probability": 0.4268
+      },
+      {
+        "sentence": "The most profitable alternative land use is expected to yield a present value between 20% higher and 20% lower than the project, and where baseline activities are subsistence-driven, net positive community impacts are demonstrated.",
+        "probability": 0.5723
+      },
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well‑being of local communities who derive livelihoods from the project area.",
+        "probability": 0.5433
+      },
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well‑being of local communities, providing direct and indirect benefits to residents of Puerto Miguel and lodge staff.",
+        "probability": 0.4146
+      }
+    ]
+  }
+}

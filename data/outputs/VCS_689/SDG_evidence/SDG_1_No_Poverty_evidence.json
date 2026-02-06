@@ -1,0 +1,132 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "The project activity has benefited the lives of native rural people by providing regular year‑round employment at the doorstep and free‑of‑cost fuel wood and fodder.",
+        "probability": 0.8112
+      },
+      {
+        "sentence": "Further, reforestation will generate employment for local communities, thereby helping to reduce migration from the project areas.",
+        "probability": 0.9263
+      },
+      {
+        "sentence": "Employment generation: The project activity has generated significant employment for the local community.",
+        "probability": 0.885
+      },
+      {
+        "sentence": "Project staff work on‑site and off‑site with local government officials and local village governing bodies.",
+        "probability": 0.5173
+      },
+      {
+        "sentence": "To facilitate employment generation through land development and other allied land‑based and related activities, including plantations.",
+        "probability": 0.9326
+      },
+      {
+        "sentence": "Indicators of the same are visible in socio‑economic well‑being: The project activity has benefited the lives of native rural residents by providing regular year‑round employment at the doorstep and free‑of‑cost fuel wood and fodder.",
+        "probability": 0.8599
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The project proponents must include a plan to provide orientation and training for the project’s employees and relevant community members, building locally relevant skills and knowledge over time.",
+        "probability": 0.8727
+      },
+      {
+        "sentence": "Farmers are now exposed to pioneering agro‑forestry techniques, better watershed management, land‑use planning, and soil‑moisture conservation.",
+        "probability": 0.8464
+      },
+      {
+        "sentence": "Examples include undertaking and disseminating research with wide-reaching applications, holding training workshops for community members from other locales, promoting farmer‑to‑farmer knowledge‑transfer activities, linking to regional databases, and working with interested academic, corporate, governmental, or non‑governmental organizations to replicate successful project activities.",
+        "probability": 0.9432
+      },
+      {
+        "sentence": "This may also help attract new players who can bring the capacity to implement advanced forestry practices and technologies.",
+        "probability": 0.6288
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "This may come through carbon finance revenue in the proposed project activity.",
+        "probability": 0.6427
+      },
+      {
+        "sentence": "This may come through carbon finance in the proposed project activity.",
+        "probability": 0.6259
+      },
+      {
+        "sentence": "The project can sell these carbon benefits in voluntary markets or retire them.",
+        "probability": 0.632
+      },
+      {
+        "sentence": "It is not a grouped project; Project Proponent Prakash Industries Limited is the project participant and will own the revenue from carbon credits.",
+        "probability": 0.6552
+      },
+      {
+        "sentence": "The agriculture sector provides farmers with security and incentives in the form of subsidies, support prices, soft loans, and income tax concessions.",
+        "probability": 0.8071
+      },
+      {
+        "sentence": "Projects can sell these carbon benefits in a voluntary market or retire them.",
+        "probability": 0.5072
+      },
+      {
+        "sentence": "Projects promoted by Scheduled Commercial Banks (SCBs), Regional Rural Banks, Land Development Banks, and Cooperative Banks were eligible for promotional grants/subsidies under the scheme.",
+        "probability": 0.8137
+      },
+      {
+        "sentence": "Funds for forestry in India account for only about 1% of the total funds allocated to various sectors.",
+        "probability": 0.4122
+      },
+      {
+        "sentence": "The project involves roles and activities including Project Manager, Farm Managers, Lands and Revenue Accounts Liaison, Farm Management, Earth care, Nursery Management, Plant establishment, Plant Health & Care, Stunted growth management, Plant protection, Site Irrigation, Plant fertigation, Labour management, Surprise physical validation, Silvicultural management of tree species, Preparation of CDM monitoring records, Project accounting, Benefit sharing (free fuel and fodder), area inhabitants, accounting of benefit sharing by weight in the registers, and annual plant enumeration (plot‑wise).",
+        "probability": 0.4421
+      },
+      {
+        "sentence": "In addition, local farmers are usually unable to fully finance forest establishment because it is hard for them to obtain loans from banks for reforestation activities (loans for agricultural activities are much easier to obtain). Therefore, without the proposed reforestation project activity the project area will not be reforested, and with the project activity the goals of ongoing reforestation programs or policies will not be reduced.",
+        "probability": 0.4092
+      },
+      {
+        "sentence": "In addition, local farmers are usually unable to fully finance forest establishment because it is difficult for them to obtain loans from banks for reforestation activities (loans for agricultural activities are much easier to obtain).",
+        "probability": 0.5679
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Construction of streets and walkways improves accessibility to the villages.",
+        "probability": 0.6348
+      },
+      {
+        "sentence": "The project implemented a drip irrigation system, fertilization schedule, and site fencing, and maintained equipment inventories.",
+        "probability": 0.5641
+      },
+      {
+        "sentence": "Soil and water conservation measures, including drip irrigation, have been implemented to mitigate extreme weather risks, and on‑site assessment confirms their effectiveness.",
+        "probability": 0.4128
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Based on a post‑project implementation survey conducted in the concerned villages, there has been a reported Rs. 20 increase in per man‑day wages after the implementation of the project activity.",
+        "probability": 0.5985
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Farmers are now exposed to pioneering agro‑forestry techniques, better watershed management, land‑use planning, and soil‑moisture conservation.",
+        "probability": 0.7376
+      },
+      {
+        "sentence": "Similarly, rural natives are likely to achieve good productivity on the lands due to the reclamation of wasteland through the proposed reforestation CDM project activity.",
+        "probability": 0.7279
+      },
+      {
+        "sentence": "Employment generation increased livelihood opportunities, positively impacting local communities.",
+        "probability": 0.8154
+      },
+      {
+        "sentence": "Adoption of improved cropping techniques and soil moisture conservation enhances agricultural productivity.",
+        "probability": 0.7103
+      }
+    ]
+  }
+}

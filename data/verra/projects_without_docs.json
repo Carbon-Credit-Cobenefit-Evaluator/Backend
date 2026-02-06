@@ -1,0 +1,536 @@
+{
+  "projects": [
+    {
+      "VCS_1764": {
+        "resourceIdentifier": "1764",
+        "resourceName": "Reforestation and Restoration of degraded mangrove lands, sustainable livelihoods and community development in Myanmar",
+        "description": "The proposed project falls under the ARR (Afforestation, reforestation, and Revegetation) category of the Verified Carbon Standard (VCS). The project will be implemented on 2265.47 ha of degraded lands of the Northern part of Ayeyarwady Division of Myanmar. The lands that will be restored under the project belong to Magyi, Thabawkan and Thaegone village tracts and this restoration will create a healthy mangrove ecosystem.  The objective of the project is to establish and maintain a sustainably managed mangrove ecosystem for carbon sequestration, natural disaster risk reduction, poverty reduction with sustainable livelihoods in the coastal communities. A vital component of the project is the conservation of bio-diversity and establishment of the first mangrove gene bank in Myanmar.  This project was open for public comment from 12 June - 12 July 2017. Comments that were received are summarized in the public comment summary (OTHER_1694_11JUL2017)..",
+        "location": {
+          "latitude": 17.067264,
+          "longitude": 94.465384
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "184006",
+        "total_buffer_pool_credits": 48937,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR; WRC",
+        "project_acreage": "2060 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_2723": {
+        "resourceIdentifier": "2723",
+        "resourceName": "CONDOTO REDD+",
+        "description": "The CONDOTO REDD+ Project seeks the conservation of forests located in the territories of the afro communities organized as the Major Community Council of Condoto and Iró, located within the municipalities of Condoto and Río Iró, in the department of Chocó. The project zone has a total area of 65.026 ha, out of which 46.191 ha were forest in 2015. The area is characterized for its high biodiversity and rain tropical forests, but also for the presence of deforestation activities and social conflicts. Deforestation drivers include mining activities, subsistence agriculture, and activities of illegal use. Social issues include absence of the state and lack of sanitation, education and health infrastructure and lack of technical guidance regarding sustainable production models.\r\n\r\nThe project aims to mitigate the effects caused by climate change by reducing CO2 emissions derived from deforestation and forest degradation, restore degraded forest lands, promote sustainable management of forests and develop productive activities to improve community welfare. The project also seeks to protect biodiversity and high conservation values, enhance ecological connectivity and secure natural habitats of vulnerable species (including those within some category of threat and those that represent ecological interest.",
+        "location": {
+          "latitude": 5.089546,
+          "longitude": -76.652079
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "249943",
+        "total_buffer_pool_credits": 44132,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "65452 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification"
+      }
+    },
+    {
+      "VCS_1378": {
+        "resourceIdentifier": "1378",
+        "resourceName": "Forestry Project for the Basin of the Chinchina River, an Environmental and Productive Alternative for the City and the Region",
+        "description": "The primary objective of this project is to regulate and improve the quantity and quality of fresh water for the region’s communities by restoring the watersheds that supply their water systems, each duly identified as part of the Chinchiná River watershed restoration program. The program’s activities involve ecological restoration through assisted natural regeneration and reforestation. The species used for the assisted natural regeneration system come from the natural forests within the project boundary",
+        "location": {
+          "latitude": 4.5613,
+          "longitude": -75.21
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "12189",
+        "total_buffer_pool_credits": 28499,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "4539 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_672": {
+        "resourceIdentifier": "672",
+        "resourceName": "INFAPRO Rehabilitation of logged-over dipterocarp forest in Sabah, Malaysia",
+        "description": "The project rehabilitates 25,000 ha of severely logged-over mixed dipterocarp rainforest in Sabah, Malaysia and prevents relogging of the forest in this area. In the absence of the project activity, the forest would be re-logged and would only slowly recuperate due to the high quantities of vines and climbing bamboos suppressing the remnant trees and the natural regeneration process.",
+        "location": {
+          "latitude": 5.027872,
+          "longitude": 117.803684
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "138013",
+        "total_buffer_pool_credits": 51020,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "IFM",
+        "project_acreage": "25000 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification"
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification"
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification"
+      }
+    },
+    {
+      "VCS_1566": {
+        "resourceIdentifier": "1566",
+        "resourceName": "REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM)",
+        "description": "REDD+ Project Resguardo Indígena Unificado–Selva de Mataven (REDD+ RIU-SM) aims to develop a participatory process to achieve the establishment of an integrated management system of forests and lands of the reserve, to ensure its sustainability and to mitigate threats of its conservation, particularly avoiding deforestation through the implementation of a REDD+ Project (Reducing Emissions from Deforestation and Forest Degradation + conserving carbon stocks, sustainable management of forests and enhancement of forest reserves in developing countries) that allows providing compensation payments for ecosystem services. The technology corresponds to a REDD Project in accordance with standards established by the VCS. Specifically an activity “Avoiding Unplanned Deforestation and Degradation (AUDD)”. The Indigenous Reservation is located east of the high plain Orinoco Colombian region in the transition belt between the savannas of the Orinoco and the Amazon forests, in Department of Vichada",
+        "location": {
+          "latitude": 4.244444,
+          "longitude": -68.393333
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "3622352",
+        "total_buffer_pool_credits": 2845250,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "1150212 Hectares",
+        "ccb_project_status": "Verification approval requested ",
+        "sdvista_project_status": "Undergoing validation and verification"
+      }
+    },
+    {
+      "VCS_514": {
+        "resourceIdentifier": "514",
+        "resourceName": "Promoting Sustainable Development through Natural Rubber Tree Plantations in Guatemala",
+        "description": "Validation achieved to the CCB Standards Second Edition, Biodiversity Gold Level, on 27 February 2014. Gap validation to remove two farms from the project area and verification achieved to the CCB Standards Second Edition, Biodiversity Gold Level on 03 March 2017.  The project will establish rubber tree plantations in a project boundary of 2,366.16 hectares of degraded and degrading lands where the traditional use has been cattle grazing, which corresponds to eligible area. The species planted will be Hevea brasiliensis. Direct planting of H. brasiliensis in the project area began in 2007 and will continue through 2013. The real or effective planted area corresponds to 2,252.23 hectares which is given by planting density of natural rubber plantations.  This area excludes other vegetated areas within project boundary such as creeks, borders’ vegetation, and small spots of vegetation.",
+        "location": {
+          "latitude": 14.458248,
+          "longitude": -91.294307
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "46434",
+        "total_buffer_pool_credits": 49754,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "1433 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_605": {
+        "resourceIdentifier": "605",
+        "resourceName": "Protection of a Tasmanian native forest - Project 1 - REDD Forests Pilot",
+        "description": "This project is on the private land of a family who have owned and logged the land for over one hundred years. The site is therefore under threat of continued selective logging with natural regeneration, a land management policy implemented recently across a significant swathe of the property. The owners are seeking an alternative which will provide them with a comparable income, while protecting and improving the native forests of the region. This will support local biodiversity conservation, maintain watersheds and enhance carbon stocks.",
+        "location": {
+          "latitude": -41.823371,
+          "longitude": 146.971048
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "4956",
+        "total_buffer_pool_credits": 1932,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "48630 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_647": {
+        "resourceIdentifier": "647",
+        "resourceName": "Boden Creek Ecological Preserve Forest Carbon Project",
+        "description": "This REDD+ project is located on The Boden Creek Ecological Preserve (5213 ha), a private reserve located in southern Belize. The property was purchased in 1998 because of its strategic position as a critical biological corridor link between the terrestrial and the marine environments and because of its conservation importance.  It is validated and verified under VCS. The core objective of this project is to commercialize the forest carbon offsets at the Boden Creek Ecological Preserve near Punta Gorda, Belize, Central America.  This property has been the site of a groundbreaking effort to use ecotourism as a funding source for land preservation.  Due to the global economic downturn it is imperative that additional funding sources be secured to stabilize the operation.  This land is currently under immediate threat of land conversion for agriculture, and it contains documented populations of internationally protected biodiversity.",
+        "location": {
+          "latitude": 16.309633,
+          "longitude": -88.793452
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "57718",
+        "total_buffer_pool_credits": 29951,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "3980 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_658": {
+        "resourceIdentifier": "658",
+        "resourceName": "Reforestation of pastures in Campo Verde with native species, Pucallpa, Peru",
+        "description": "Widely viewed as a best-practice model for tropical forestry and sustainable development, this award-winning project has seen 919.3 hectares of degraded pasture land reforested with valuable native trees through direct planting and promotion of natural regeneration in the department of Ucayali in the Amazon region of Peru.",
+        "location": {
+          "latitude": -8.581915,
+          "longitude": -74.741264
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "5600",
+        "total_buffer_pool_credits": 2998,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "920 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_672": {
+        "resourceIdentifier": "672",
+        "resourceName": "INFAPRO Rehabilitation of logged-over dipterocarp forest in Sabah, Malaysia",
+        "description": "The project rehabilitates 25,000 ha of severely logged-over mixed dipterocarp rainforest in Sabah, Malaysia and prevents relogging of the forest in this area. In the absence of the project activity, the forest would be re-logged and would only slowly recuperate due to the high quantities of vines and climbing bamboos suppressing the remnant trees and the natural regeneration process.",
+        "location": {
+          "latitude": 5.027872,
+          "longitude": 117.803684
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "138013",
+        "total_buffer_pool_credits": 51020,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "IFM",
+        "project_acreage": "25000 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_689": {
+        "resourceIdentifier": "689",
+        "resourceName": "Reforestation of degraded land in Chhattisgarh, India",
+        "description": "The land to be reforested under the project activity has been a degraded land and would have continued to degrade in the absence of the project activity. The natural land conditions did not permit arrival and establishment of forest propagules. The project area is a revenue area, obtained from the villagers and secluded from the forest lands. The lands under project activity are locally known as Bhata Lands that have poor water holding capacity; no vegetation and are heavily prone to wind and water erosion. Thus, the major purposes of the project activity are to: 1. Enhance carbon sink through reforestation. 2. Reclaim the degraded land in a sustainable manner 3. Reduce pressure on natural forests of the region 4. Uplift socio-economic status of native rural",
+        "location": {
+          "latitude": 21.543921,
+          "longitude": 81.25426
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "5007",
+        "total_buffer_pool_credits": 4402,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "282 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_818": {
+        "resourceIdentifier": "818",
+        "resourceName": "Protection of the Bolivian Amazon Forest",
+        "description": "Validation achieved to the CCB Standards Second Edition, Biodiversity Gold Level, on 26 March 2012; expired on 26 March 2017.This project will protect the Bolivian Amazon forest from planned deforestation, initially protecting 235 has of tropical rain forest. The methodology implemented is:·VM0007 REDD Methodology Framework but limited to the planned deforestation activities Protection of the project areas under this methodology will prevent the emissions from deforestation and conversion to pastures and allow the forest to reclaim its status as a primary forest.The project is a grouped project and the instances must be located in the only geographic area defined by the union of the Departments of Pando or Beni in Bolivia.  The instances must be under threat of planned deforestation for conversion to agricultural activities as defined under VM0007 at the time the project proponent took ownership of the project area.",
+        "location": {
+          "latitude": -12.147935,
+          "longitude": -66.286896
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "5885",
+        "total_buffer_pool_credits": 6925,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "235 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_824": {
+        "resourceIdentifier": "824",
+        "resourceName": "TIST Program in Uganda, VCS 001",
+        "description": "Since its inception in 1999, over 63,000 participants organized into over 8,900 TIST Small Groups have planted over ten million trees in Tanzania, India, Kenya, and Uganda - accomplishing GhG sequestration through tree planting, creating a potential long-term income stream, and developing sustainable environments and livelihoods. Currently over 5,000 TIST participants in over 800 Small Groups are registered in the TIST program in Uganda and are working to break their local cycle of deforestation, drought and famine.  The trees planted in tens of thousands of discrete groves and land parcels are already beginning to reduce erosion, stabilize and enrich the soil, and will soon be providing shade.  This PD is for a subset of the reforestation project in Uganda and applies to 291 of the Small Groups, 1,662 members, 1,000 project areas and 777.1 ha.  TIST Program in Uganda VCS-001, -002 -003 and -004 comprise the project TIST Program in Uganda CCB-001.  Undergoing verification to the CCB St",
+        "location": {
+          "latitude": 0.557316,
+          "longitude": 30.176894
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "24348",
+        "total_buffer_pool_credits": 27224,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "777 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_856": {
+        "resourceIdentifier": "856",
+        "resourceName": "The Chocó-Darién Conservation Corridor REDD Project",
+        "description": "The Chocó-Darién Conservation Corridor is the first REDD+ project to be issued credits for activities co-designed and implemented on a community-owned, collective land title. The project protects 13,465 hectares of tropical rainforest in the Darién region of northwest Colombia, one of the most biologically diverse regions on the planet. Developed by Anthrotect, the project is co-designed and managed with COCOMASUR, an Afro-Colombian community association in the municipality of Acandí that received collective title to the project area in 2005. Cattle ranching is very common in Acandí, and there are an estimated 47,000 heads of cattle in the vicinity of the project. Working together, COCOMASUR and Anthrotect have designed a strategy to stop the spread of ranching into the project area, thereby protecting Afro-Colombian livelihoods as well as the forests on which they depend.",
+        "location": {
+          "latitude": 8.468405,
+          "longitude": -77.341723
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "80938",
+        "total_buffer_pool_credits": 82913,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "13465 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_904": {
+        "resourceIdentifier": "904",
+        "resourceName": "Reduced Emissions from Deforestation and Degradation in Community Forests – Oddar Meanchey, Cambodia",
+        "description": "Verification to the CCB Standards Second Edition, Climate, Community & Biodiversity Gold Levels, achieved on 28 August 2013; expired 27 August 2018.The Oddar Meanchey project is Cambodia’s first REDD project, supporting 13 Community Forestry Groups in reducing deforestation through the implementation of project activities designed to address key drivers of deforestation and improve livelihoods across nearly 65,000 hectares. The project is being implemented by the Forestry Administration of Cambodia, Pact, Terra Global Capital and the Children's Development Association, with funding support provided by the Clinton Foundation, United Nations Development Programme, Terra Global Capital and Pact, and pro-bono legal counsel provided by SNR Denton.",
+        "location": {
+          "latitude": 14.267419,
+          "longitude": 103.786252
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "204792",
+        "total_buffer_pool_credits": 5969,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "63831 Hectares",
+        "ccb_project_status": "Verification expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_934": {
+        "resourceIdentifier": "934",
+        "resourceName": "The Mai Ndombe REDD+ Project",
+        "description": "The Mai Ndombe REDD+ Project, located in western DRC, Africa, will protect 248,956 hectares of forest from industrial logging, unsustainable fuel wood extraction and slash and burn agriculture. Carbon validation will be undertaken by the Verified Carbon Standard (VCS) and major socio-economic co-benefits ensured by the Climate, Community and Biodiversity (CCB) standard. The project is developed and managed in a joint venture by forest carbon leaders ERA-Ecosystem Restoration Associates Inc. and Wildlife Works Carbon LLC. This groundbreaking project will be the first of its kind in the Congo Basin and utilizes the novel methodology developed by Wildlife Works, VM0009, 'Methodology for Avoided Deforestation' approved by the VCS in October, 2012. The project is estimated to deliver over 175MT CO2-e over 30 years.",
+        "location": {
+          "latitude": -1.957187,
+          "longitude": 18.043932
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "5671613",
+        "total_buffer_pool_credits": 4309734,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "299640 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_953": {
+        "resourceIdentifier": "953",
+        "resourceName": "The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem",
+        "description": "The project consists of the purchase and protection of 4,745 ha of forested land with High Conservation Values in the eastern Chaco-Pantanal transition zone in Alto Paraguay, threatened in the absence of the project with transformation into cattle ranching. The project goal is to conserve the natural and cultural values of the area, including its sequestered carbon. Climate benefits are achieved by preventing deforestation.Ownership and management of the area is shared between a Paraguayan biodiversity conservation NGO (Guyra Paraguay) and the Yshir indigenous community (represented by the Unión de Comunidades de la Nación Yshir or UCINY), with legal safeguards to ensure permanence of conservation management regime. The project is also submitted for CCBA validation.This is an initial project instance of a grouped project. Other instances are envisaged, replicating the same pattern.PUBLIC COMMENT PERIOD:This project was open for public comment from 01 November - 01 December 2019. 1)CCB_MONIT_REP_SUM_ESP_DRAFT_953_25FEB2013_24FEB20182)CCB_MONIT_REP_ENG_DRAFT_953_25FEB2013_24FEB2018",
+        "location": {
+          "latitude": -20.967034,
+          "longitude": -58.976599
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "12784",
+        "total_buffer_pool_credits": 12417,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "4745 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_961": {
+        "resourceIdentifier": "961",
+        "resourceName": "‘El Arriero ’ Afforestation on degraded grasslands under extensive grazing project",
+        "description": "The project comprises a total of 5,377 ha of land previously under extensive grazing by beef cattle, on which Afforestation for obtaining high-value, long-lived timber products and for sequestering large amounts of carbon dioxide from the atmosphere will be established.",
+        "location": {
+          "latitude": -32.789946,
+          "longitude": -55.23134
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "18271",
+        "total_buffer_pool_credits": 193841,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "5377 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_994": {
+        "resourceIdentifier": "994",
+        "resourceName": "TIST Program in India, VCS-001",
+        "description": "Since its inception in 1999, over 63,000 participants organized into over 8,900 TIST Small Groups have planted over ten million trees in Tanzania, India, Kenya, Uganda, Nicaragua, and Honduras - accomplishing GhG sequestration through tree planting, creating a potential long-term income stream, and developing sustainable environments and livelihoods. Currently over 50,000 TIST participants in over 6,900 Small Groups are registered in the TIST program in Kenya and are working to break their local cycle of deforestation, drought and famine.  The trees planted in tens of thousands of discrete groves and land parcels are already beginning to reduce erosion, stabilize and enrich the soil, and will soon be providing shade.    VCS 001:  This is a VCS grouped project, is a subset of the TIST reforestation project in India and applies to 452 Small Groups, 2,599 members, 924 project areas and 671.8 ha.  TIST Progam in India VCS 001 is the same project as TIST Program in India CCB 001.,",
+        "location": {
+          "latitude": 12.510175,
+          "longitude": 79.66785
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "11047",
+        "total_buffer_pool_credits": 27551,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "2382 Hectares",
+        "ccb_project_status": "Verification approved",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1071": {
+        "resourceIdentifier": "1071",
+        "resourceName": "Jatropha Agroforestry Senegal",
+        "description": "The Jatropha Agroforestry Senegal project developes Jatropha curcas plantations in the Fatick, Kaffrine and Kaolack regions, in central-western agricultural region of the Senegal. The Jatropha curcas plantations will cover a total area of 1411 hectares by the year 2020. The project proponent, African National Oil Corporation s.a.r.l. (ANOC), is developing the project in collaboration with CarbonSinkGroup s.r.l (www.carbonsink.it) and Agroils Technologies SpA (www.agroils.com).",
+        "location": {
+          "latitude": 13.991189,
+          "longitude": -16.466134
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "1742",
+        "total_buffer_pool_credits": 141,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "ARR",
+        "project_acreage": "1411 Hectares",
+        "ccb_project_status": null,
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1118": {
+        "resourceIdentifier": "1118",
+        "resourceName": "Suruí Forest Carbon Project",
+        "description": "The Suruí Forest Carbon Project (SFCP) aims to halt deforestation and its associated greenhouse gas (GHG) emissions in an area under deforestation pressure in the Sete de Setembro Indigenous Territory (TISS). The project is based on four themes: Forest Protection and Environment, Food Security and Sustainable Production, Institutional Strengthening; Development and implementation of a financial mechanism - Suruí Fund. This set of activities is designed to end deforestation in the TISS by attacking its two main roots: the lack of economic alternatives to ensure the well-being of the Paiter Suruí, and the appearance of external actors to conduct illegal activities. In order to establish the baseline of the project, a projection model of land use change in the TISS was developed. This model is called SimSuruí and is based on system dynamics to represent the existing system in TISS, its agents and their interactions with the surrounding vegetation. The objective of the SFCP is to prevent 13,575.3 hectares of tropical forests from being cleared in the TISS for 30 years (crediting period), to avoid the emission a long term average of 7,423,806.2 tCO2e in the atmosphere and to contribute to the preservation of the Paiter Suruí lifestyle and traditions.",
+        "location": {
+          "latitude": -11.009945,
+          "longitude": -61.151479
+        },
+        "vcs_project_status": "Late to verify",
+        "estimated_annual_emission_reduction": "247460",
+        "total_buffer_pool_credits": 24183,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "31994 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1122": {
+        "resourceIdentifier": "1122",
+        "resourceName": "April Salumei Rainforest Community Conservation Project",
+        "description": "The April Salumei REDD Project is the pilot project for Papua New Guinea. The aim of the project is to protect the forest and biodiversity of the area (603,579ha) whilst providing an important source of income for the traditional owners. The traditional owners have formed the April Salumei Working Group to assist with the management of the project. 60% of all revenue goes directly to the landowners who actively determine the allocation of funds to activities such health care, education facilities, infrastructure and the development sustainable agricultural activities for the local people whilst preserving the rich cultural traditions and culture.  The project was validated to the Climate, Community & Biodiversity Standards 2nd Ed. at the gold level for exceptional biodiversity benefits (the validation expired 12 June 2016). Appropriately, Papua New Guinea is one of the world’s most biologically diverse regions on the planet, and is home to an estimated 5 – 7% of the world’s total biodiversity.",
+        "location": {
+          "latitude": -4.66352,
+          "longitude": 142.679259
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "1628812",
+        "total_buffer_pool_credits": 297168,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "IFM; REDD",
+        "project_acreage": "196703 Hectares",
+        "ccb_project_status": "Validation expired",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1133": {
+        "resourceIdentifier": "1133",
+        "resourceName": "Yacumama Forest Carbon Project",
+        "description": "The overall goal for the Yacumama Forest Carbon Project (“Project”) is to protect and conserve the tropical lowland floodplain forest on Yacumama, a privately held lodge, research, education, and conservation area, in the Amazon Basin of Peru, for long-term carbon sequestration. In addition, the Project also serves to protect, maintain, and (for some taxa) improve native biodiversity while supporting local community livelihoods by increasing sustainable economic opportunities. The climate objective for the Project is to avoid emissions from deforestation and degradation. The entire property including the Project Area will, by economic necessity, be sold by the owners in the absence of funding from carbon financing. Because the owners have legal permission to harvest the entire property, which under Peruvian law transfers with the sale, the most likely buyer would be a company who would harvest the entire property, sell the valuable wood, burn the remaining woody biomass, and implement agricultural conversion on the fertile floodplain soils.",
+        "location": {
+          "latitude": -4.60025,
+          "longitude": -73.409591
+        },
+        "vcs_project_status": "Verification approval requested",
+        "estimated_annual_emission_reduction": "51013",
+        "total_buffer_pool_credits": 44646,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "2387 Hectares",
+        "ccb_project_status": "Project withdrawn",
+        "sdvista_project_status": null
+      }
+    },
+    {
+      "VCS_1175": {
+        "resourceIdentifier": "1175",
+        "resourceName": "AVOIDING PLANNED DEFORESTATION AND DEGRADATION IN THE VALDIVIAN COASTAL RESERVE, CHILE",
+        "description": "The Valdivian Coastal Reserve is part of an ancient temperate rainforest rising from Chile’s southern coastline. Owned and managed by The Nature Conservancy since 2003, the 50,251 hectare (124,173 acre) Reserve is home to biological treasures such as Olivillo trees, living up to 400 years, Alerce trees, with a lifespan of more than 3,000 years, and one of the world’s smallest deer called the pudú. By purchasing the Reserve in 2003, the Conservancy was able to stop an immediate threat of deforestation associated with the construction of a coastal highway through the property, and to stop the ongoing conversion of native forest to exotic plantations, by cancelling the legal and transferrable forest management permits which had allowed forest conversion. With these actions taken to stop deforestation and degradation of native forests, more than 350,000 tons of CO2 emissions are estimated to have been prevented from being released into the atmosphere—the equivalent of taking more than 67,000 passenger vehicles off U.S. roads for one full year. The Conservancy has been working closely with neighboring fishing villages and indigenous communities to maintain traditional land uses and to encourage compatible local economic development as part of the Valdivian Coastal Reserve’s overall conservation strategy. The Conservancy works with partners to make the Reserve both accessible and educational to all visitors, driving tourism that is crucial for the economic sustainability of local communities. Tourists represent a market for sustainably produced goods, such as locally gathered organic honey and herbal teas. Thus, the project not only helps fight climate change and protects biodiversity, but it also supports sustainable economic activities for local people.",
+        "location": {
+          "latitude": -40.202382,
+          "longitude": -73.709187
+        },
+        "vcs_project_status": "Registered",
+        "estimated_annual_emission_reduction": "58154",
+        "total_buffer_pool_credits": 32434,
+        "primary_project_category": "Agriculture Forestry and Other Land Use",
+        "subcategory": "REDD",
+        "project_acreage": "50251 Hectares",
+        "ccb_project_status": "Verification expired",
+        "sdvista_project_status": null
+      }
+    }
+  ]
+}

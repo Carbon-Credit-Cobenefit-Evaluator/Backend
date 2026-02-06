@@ -1,0 +1,214 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_953",
+  "final_score_0_100": 62.76,
+  "final_score_0_1": 0.6276,
+  "components": {
+    "output_raw": 36.9,
+    "outcome_raw": 5.2,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9736,
+    "outcome_norm": 0.8387,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 33,
+      "OUTCOME": 4,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 10,
+      "O3": 7,
+      "O5": 15,
+      "O6": 1,
+      "R4": 4
+    },
+    "core_output_unique_sentences": 32
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5",
+      "O6"
+    ],
+    "OUTCOME": [
+      "R4"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "Financial support and employment opportunities were provided to UCINY members, enhancing community resilience and conservation capacity.",
+        "probability": 0.9413
+      },
+      {
+        "sentence": "Afforestation, reforestation and revegetation (ARR) are activities that increase carbon stocks in woody biomass (and in some cases soils) by establishing, increasing, and/or restoring vegetative cover through planting, sowing, and/or human‑assisted natural regeneration of woody vegetation (VCS Program Definitions). Improved forest management (IFM) are activities that change forest management practices and increase carbon stock on forest lands managed for wood products such as saw timber, pulpwood, and fuelwood (VCS Program Definitions). CCB v2.0, VCS v3.4 Monitoring Report: CCB Version 2, VCS Version 3. Category Metric: Number of female community members who have improved skills and/or knowledge resulting from training provided as part of project activities. Metric 5: Total number of people employed in project activities, expressed as number of full‑time employees. Metric 6: Number of women employed in project activities, expressed as number of full‑time employees. Total number of people with livelihoods or improved income generated as a result of project activities. Number of women with improved livelihoods or income generated as a result of project activities. Total number of people for whom health services were improved as a result of project activities, measured against the without‑project scenario. Number of women for whom health services were improved as a result of project activities, measured against the without‑project scenario. Total number of people for whom access to, or quality of, education was improved as a result of project activities, measured against the without‑project scenario. Achievements during Monitoring Period: Data not available. Achievements during the Project Lifetime: Data not available. One full‑time employee; Six Yshir employed in biodiversity monitoring (part‑time); (Data available: number of hours worked) not total of. One full‑time employee; 21 members as part‑time employee (Data not available: total number of hours worked).",
+        "probability": 0.9322
+      },
+      {
+        "sentence": "Additionally, employment opportunities have been generated for the communities through project implementation.",
+        "probability": 0.929
+      },
+      {
+        "sentence": "Employment opportunities have been generated for the community through the project implementation, for example, through monitoring carried out.",
+        "probability": 0.9193
+      },
+      {
+        "sentence": "During the monitoring period, the project employed one full-time employee and six part-time employees; over the project lifetime, it employed one full-time employee and 21 part-time employees.",
+        "probability": 0.9006
+      },
+      {
+        "sentence": "Community members receive paid work opportunities, capacity building, and training in conservation management through support to technicians in biodiversity and forest monitoring, which could also be applied to other protected areas and expand paid employment opportunities in this field.",
+        "probability": 0.8255
+      },
+      {
+        "sentence": "Community members who received employment opportunities through the installation of the carbon monitoring permanent plots (© Guyra Paraguay, 2013) consider the net well‑being impacts for all identified community groups. The project supports the provision of ecosystem services, including water supply from the forests, maintenance of water spring quality, quantity of available water, and regulation of surface and underground waters.",
+        "probability": 0.8005
+      },
+      {
+        "sentence": "Feb 2011: Cumulative to 31/8/2015, natural capital hectares of land secured for the conservation of forest cover, stored carbon, biodiversity, and cultural importance to the Yshir-Chamacoco and for traditional use by the Yshir-Chamacoco; transfers of project land to Yshir-Chamacoco through the Union of the Communities of the Yshir Nation (UCINY); number of beneficiaries of the ecosystem services conserved: 0 – process initiated (section 3.2.1); Yshiro community members: total 1,915 (1,012 males and 903 females); financial capital: payments made to UCINY $18,980; payments to community members employed during the project $8,045 ($2,372.50 accrued); social capital: payments made to UCINY $18,980; number of activities funded by money given to UCINY; human capital: number of visits and specific efforts in which the community was involved; carbon; biodiversity; number of visits by the forest officer ($2,372.50 accrued); attended 8 proceedings before the Instituto Paraguayo del Indígena (INDI) and authorities; 4 meetings of the UCINY Council of Leaders; number of activities undertaken to enhance knowledge of the HCV savannah to enhance in the forest and palm; carbon; biodiversity; physical capital: hectares of land secured for the conservation of forest cover, stored carbon, biodiversity, and cultural importance to the Yshir-Chamacoco and for traditional use by the Yshir-Chamacoco; transfers of project land to Yshir-Chamacoco through the Union of the Communities of the Yshir Nation (UCINY); 0 – process initiated (section 3.2.1); additionally, as noted in G3.2.1, a shared management agreement drawn up between Guyra Paraguay and UCINY, stating the joint aim to maintain the area in perpetuity under a conservation regime that retains its biodiversity and cultural values has been signed (Annexe 4).",
+        "probability": 0.6463
+      },
+      {
+        "sentence": "Other benefits to community and biodiversity from project activities include community members trained for biodiversity monitoring, people employed in project activities, people with improved livelihoods or income, people whose health services improved, people whose access to or quality of education improved, people who experienced increased water quality and/or improved access to drinking water, and community members whose well-being improved.",
+        "probability": 0.6196
+      },
+      {
+        "sentence": "The project is coordinated by a Forestry Engineer, who coordinates actions with technicians in administrative, social, and biodiversity areas.",
+        "probability": 0.5118
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "During monitoring, seven Yshir Nation members were trained in biodiversity monitoring.",
+        "probability": 0.9321
+      },
+      {
+        "sentence": "Community members receive paid work opportunities, capacity building, and training in conservation management through support to technicians in biodiversity and forest monitoring, which could also be applied to other protected areas and expand paid employment opportunities in this field.",
+        "probability": 0.9032
+      },
+      {
+        "sentence": "A training plan has been developed to transfer these skills to community members over the project life (see CCBA PDD).",
+        "probability": 0.8979
+      },
+      {
+        "sentence": "Over the project lifetime, 15 Yshir Nation members were trained to install carbon monitoring permanent plots, and seven were trained in biodiversity monitoring.",
+        "probability": 0.8973
+      },
+      {
+        "sentence": "The project undertook activities to enhance knowledge of high conservation value areas in forest and palm savannah, focusing on carbon and biodiversity.",
+        "probability": 0.8092
+      },
+      {
+        "sentence": "AENOR has verified that the project activities have been carried out and that communities or other participants have been supported by the project proponent through environmental awareness, natural resources conservation workshops, technical monitoring trainings, informative meetings, and donations.",
+        "probability": 0.539
+      },
+      {
+        "sentence": "Afforestation, reforestation and revegetation (ARR) are activities that increase carbon stocks in woody biomass (and in some cases soils) by establishing, increasing, and/or restoring vegetative cover through planting, sowing, and/or human‑assisted natural regeneration of woody vegetation (VCS Program Definitions). Improved forest management (IFM) are activities that change forest management practices and increase carbon stock on forest lands managed for wood products such as saw timber, pulpwood, and fuelwood (VCS Program Definitions). CCB v2.0, VCS v3.4 Monitoring Report: CCB Version 2, VCS Version 3. Category Metric: Number of female community members who have improved skills and/or knowledge resulting from training provided as part of project activities. Metric 5: Total number of people employed in project activities, expressed as number of full‑time employees. Metric 6: Number of women employed in project activities, expressed as number of full‑time employees. Total number of people with livelihoods or improved income generated as a result of project activities. Number of women with improved livelihoods or income generated as a result of project activities. Total number of people for whom health services were improved as a result of project activities, measured against the without‑project scenario. Number of women for whom health services were improved as a result of project activities, measured against the without‑project scenario. Total number of people for whom access to, or quality of, education was improved as a result of project activities, measured against the without‑project scenario. Achievements during Monitoring Period: Data not available. Achievements during the Project Lifetime: Data not available. One full‑time employee; Six Yshir employed in biodiversity monitoring (part‑time); (Data available: number of hours worked) not total of. One full‑time employee; 21 members as part‑time employee (Data not available: total number of hours worked).",
+        "probability": 0.5288
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Payment of USD 11,862.5 to improve the quality of the communities, integrate UCINY, manage and strengthen the organization, defend ancestral territory, and generate development projects that benefit the communities; achievements during the project lifetime include monitoring supplies acquired to strengthen monitoring (five traps), pitfall camera traps, and books for the library.",
+        "probability": 0.9044
+      },
+      {
+        "sentence": "In the PIR of the last verification, a USD 1 million grant from the Global Conservation Fund leveraged by the project was used to establish a Capital Fund administered by World Land Trust to support management in the San Rafael area.",
+        "probability": 0.8717
+      },
+      {
+        "sentence": "A US$1 million grant from the Global Conservation Fund, leveraged by the project, has been used to establish a capital fund administered by World Land Trust to support management in the San Rafael area.",
+        "probability": 0.8716
+      },
+      {
+        "sentence": "The project paid USD 4,745 annually to the UCINY, totaling USD 11,862.50 during the monitoring period to improve community quality of life and strengthen the organization, and USD 33,215 over its lifetime.",
+        "probability": 0.8623
+      },
+      {
+        "sentence": "AENOR has verified that the project activities have been carried out and that communities or other participants have been supported by the project proponent through environmental awareness, natural resources conservation workshops, technical monitoring trainings, informative meetings, and donations.",
+        "probability": 0.8322
+      },
+      {
+        "sentence": "During the monitoring period, the project paid USD 11,862.5 to improve the quality of life of UCINY communities and strengthen the organization for defense of their ancestral territory.",
+        "probability": 0.8308
+      },
+      {
+        "sentence": "It aims to prevent and reduce GHG emissions from deforestation and increase carbon reserves in the Dry Chaco Forest complex through the establishment of payment for environmental services.",
+        "probability": 0.8177
+      },
+      {
+        "sentence": "These are grant‑supported and also involve World Land Trust and Guyra Paraguay, operating in partnership with financial backing from the Global Environmental Facility (GEF) and Arcadia Foundation. G3.7.",
+        "probability": 0.7908
+      },
+      {
+        "sentence": "On the contrary, the project benefits are channeled through UCINY, ensuring that annual payments of USD 4,745 are equitably distributed among community members, with no barriers preventing benefits from reaching poorer households.",
+        "probability": 0.7809
+      },
+      {
+        "sentence": "Payments to community members supporting the project activities totaled $1,432.50 from September 2015 to February 2018.",
+        "probability": 0.7717
+      },
+      {
+        "sentence": "The land purchase is financed by the project proponent in exchange for the carbon rights.",
+        "probability": 0.7506
+      },
+      {
+        "sentence": "The project has provided leverage for two further major initiatives designed to promote landscape connectivity across the Chaco, funded respectively through the Global Environmental Facility and the Arcadia Foundation.",
+        "probability": 0.7431
+      },
+      {
+        "sentence": "These funds were also used for management and strengthening of the organization, defense of their ancestral territory, and generation of development projects that benefit the communities.",
+        "probability": 0.7272
+      },
+      {
+        "sentence": "The project provides an annual payment of USD 4,745 to the Union of the Communities of the Yshir Nation (UCINY).",
+        "probability": 0.7168
+      },
+      {
+        "sentence": "The funds were also used for other community meetings and for maintenance of the Bahía Negra Youth Center.",
+        "probability": 0.6506
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Community members who received employment opportunities through the installation of the carbon monitoring permanent plots (© Guyra Paraguay, 2013) consider the net well‑being impacts for all identified community groups. The project supports the provision of ecosystem services, including water supply from the forests, maintenance of water spring quality, quantity of available water, and regulation of surface and underground waters.",
+        "probability": 0.5812
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Other benefits to community and biodiversity from project activities include community members trained for biodiversity monitoring, people employed in project activities, people with improved livelihoods or income, people whose health services improved, people whose access to or quality of education improved, people who experienced increased water quality and/or improved access to drinking water, and community members whose well-being improved.",
+        "probability": 0.8236
+      },
+      {
+        "sentence": "The project improved livelihoods for 2,174 people during the monitoring period and throughout its lifetime.",
+        "probability": 0.7716
+      },
+      {
+        "sentence": "The presented results demonstrate a net social benefit to community members participating in the project compared to the scenario without the project.",
+        "probability": 0.7442
+      },
+      {
+        "sentence": "The results show a net social benefit to community members participating in the project compared to early 2011 (immediate pre-project) conditions.",
+        "probability": 0.7428
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_953\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

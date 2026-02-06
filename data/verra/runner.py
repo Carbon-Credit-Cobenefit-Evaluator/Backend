@@ -74,5 +74,26 @@ async def run_all(project_url: str, max_docs: int = 2):
 
 
 if __name__ == "__main__":
-    PROJECT_URL = "https://registry.verra.org/app/projectDetail/VCS/514"
-    asyncio.run(run_all(PROJECT_URL, max_docs=10))
+    # =========================
+    # USE CASE A: Single project (current)
+    # =========================
+    # PROJECT_URL = "https://registry.verra.org/app/projectDetail/VCS/514"
+    # asyncio.run(run_all(PROJECT_URL, max_docs=10))
+
+    # =========================
+    # USE CASE B: Multiple projects (sequential)
+    # =========================
+    PROJECT_IDS = [
+        514, 605, 647, 658, 672, 689, 818, 824, 856, 904,
+        934, 953, 961, 994, 1071, 1118, 1122, 1133, 1175
+    ]
+
+    async def run_many():
+        for pid in PROJECT_IDS:
+            url = f"https://registry.verra.org/app/projectDetail/VCS/{pid}"
+            try:
+                await run_all(url, max_docs=10)
+            except Exception as e:
+                print(f"❌ Failed for VCS_{pid}: {e}")
+
+    asyncio.run(run_many())

@@ -6,6 +6,12 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 
+# ✅ LLM imports (Groq via LangChain)
+from langchain.chat_models import init_chat_model
+from langchain_core.messages import SystemMessage, HumanMessage
+
+from config.settings import GROQ_MODEL_NAME, logger
+
 
 def _load_json(path: Path) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as f:
@@ -19,7 +25,6 @@ def _write_json(path: Path, data: Dict[str, Any]) -> None:
 
 
 def _normalize_sentence(s: str) -> str:
-    # stable dedupe key (lightweight)
     return " ".join((s or "").strip().lower().split())
 
 
@@ -58,7 +63,6 @@ def _filter_unique_rule_evidence(
     for rule, items in (satisfied_rules or {}).items():
         level = rule_to_level.get(rule)
         if level not in ("OUTPUT", "OUTCOME", "IMPACT"):
-            # rule not part of SDG1 rule ontology -> ignore
             continue
 
         thr = float(thresholds.get(level, 0.0))
@@ -81,7 +85,6 @@ def _filter_unique_rule_evidence(
             kept.append({"sentence": sent, "probability": round(prob, 4)})
 
         if kept:
-            # sort best evidence first
             kept.sort(key=lambda x: x["probability"], reverse=True)
             filtered[rule] = kept
             counts_by_rule[rule] = len(kept)
@@ -99,6 +102,33 @@ def _weighted_sum(
         w = float(rule_weights.get(rule, 1.0))
         total += float(cnt) * w
     return total
+
+
+# ✅ LLM summary helper
+def _summarize_level(llm, level_name: str, sentences: List[str]) -> str:
+    if not sentences:
+        return ""
+
+    # prevent giant prompts
+    max_sentences = 80
+    sents = sentences[:max_sentences]
+
+    prompt = (
+        f"Summarize SDG-1 evidence at the {level_name} level.\n\n"
+        f"Rules:\n"
+        f"- Use ONLY the evidence sentences below.\n"
+        f"- Do NOT invent new numbers/dates/claims.\n"
+        f"- Output 3–6 bullet points.\n"
+        f"- Keep it simple and factual.\n\n"
+        f"Evidence:\n" + "\n".join(f"- {s}" for s in sents)
+    )
+
+    resp = llm.invoke([
+        SystemMessage(content="You produce faithful summaries strictly grounded in provided evidence."),
+        HumanMessage(content=prompt),
+    ])
+
+    return (getattr(resp, "content", str(resp)) or "").strip()
 
 
 def assess_sdg1_for_project(
@@ -204,7 +234,6 @@ def assess_sdg1_for_project(
     # ----------------------------
     # No-caps normalization (0..1)
     # ----------------------------
-    # norm = x / (1 + x)
     def _no_cap_norm(x: float) -> float:
         x = float(x)
         if x <= 0:
@@ -228,6 +257,39 @@ def assess_sdg1_for_project(
     for rule, items in filtered_evidence.items():
         evidence_by_rule[rule] = items
 
+    # ----------------------------
+    # ✅ NEW: Summaries (OUTPUT / OUTCOME / IMPACT)
+    # ----------------------------
+    output_sents: List[str] = []
+    outcome_sents: List[str] = []
+    impact_sents: List[str] = []
+
+    # sentences are already sorted by probability desc per rule
+    for rule, items in evidence_by_rule.items():
+        lvl = rule_to_level.get(rule)
+        sents = [it.get("sentence", "") for it in (items or []) if it.get("sentence")]
+
+        if lvl == "OUTPUT":
+            output_sents.extend(sents)
+        elif lvl == "OUTCOME":
+            outcome_sents.extend(sents)
+        elif lvl == "IMPACT":
+            impact_sents.extend(sents)
+
+    llm = init_chat_model(
+        GROQ_MODEL_NAME,
+        model_provider="groq",
+        temperature=0.2
+    )
+
+    logger.info(
+        f"[ASSESS] LLM summaries: OUTPUT={len(output_sents)}, OUTCOME={len(outcome_sents)}, IMPACT={len(impact_sents)}"
+    )
+
+    output_summary = _summarize_level(llm, "OUTPUT", output_sents)
+    outcome_summary = _summarize_level(llm, "OUTCOME", outcome_sents)
+    impact_summary = _summarize_level(llm, "IMPACT", impact_sents)
+
     output_path = (
         project_root
         / "data"
@@ -242,6 +304,14 @@ def assess_sdg1_for_project(
         "project_id": str(project_id),
         "final_score_0_100": final_0_100,
         "final_score_0_1": round(final_0_1, 4),
+
+        # ✅ NEW FIELD
+        "summaries": {
+            "OUTPUT": output_summary,
+            "OUTCOME": outcome_summary,
+            "IMPACT": impact_summary,
+        },
+
         "components": {
             "output_raw": round(raw_O, 4),
             "outcome_raw": round(raw_R, 4),
@@ -265,7 +335,6 @@ def assess_sdg1_for_project(
         },
         "penalties": penalties,
 
-        # ✅ renamed (optional but clearer)
         "evidence_by_rule": evidence_by_rule,
 
         "source_files": {

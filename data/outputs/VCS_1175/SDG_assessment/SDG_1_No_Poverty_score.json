@@ -1,0 +1,327 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_1175",
+  "final_score_0_100": 89.73,
+  "final_score_0_1": 0.8973,
+  "components": {
+    "output_raw": 54.6,
+    "outcome_raw": 9.1,
+    "impact_raw": 4.2,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.982,
+    "outcome_norm": 0.901,
+    "impact_norm": 0.8077,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 52,
+      "OUTCOME": 7,
+      "IMPACT": 3
+    },
+    "by_rule_unique_sentences": {
+      "I3": 3,
+      "O2": 6,
+      "O3": 25,
+      "O5": 15,
+      "O6": 6,
+      "R3": 4,
+      "R4": 1,
+      "R5": 2
+    },
+    "core_output_unique_sentences": 46
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5",
+      "O6"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "IMPACT": [
+      "I3"
+    ]
+  },
+  "penalties": [],
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "Ecotourism creates indirect employment for 14 local guides and supports local tourism, lodging, and restaurant businesses, while a TNC Social Programs Coordinator develops community programs, delivering benefits beyond the baseline scenario.",
+        "probability": 0.9751
+      },
+      {
+        "sentence": "Ecotourism has provided an indirect form of employment for community members, with 14 local guides and a variety of local businesses related to tourism, lodging, and restaurants.",
+        "probability": 0.9508
+      },
+      {
+        "sentence": "The Reserve employs 6 full‑time rangers, 5 seasonal firefighters, contracts 8 community members for native forest restoration, and provides sporadic jobs in trail development, fence building, construction, and product production.",
+        "probability": 0.9308
+      },
+      {
+        "sentence": "The Comité de Turismo Rural collaborates in reserve care, provides office space and infrastructure for guides, offers training, and coordinates tourism, supporting local guide employment and tourism promotion since 2009.",
+        "probability": 0.782
+      },
+      {
+        "sentence": "The project is managed by staff with more than five years of experience, ensuring competent execution of activities.",
+        "probability": 0.6658
+      },
+      {
+        "sentence": "TNC employs a dedicated Social Programs Coordinator at the VCR to maintain strong relationships with surrounding communities and various local organizations.",
+        "probability": 0.6178
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The project finances training and tours for rangers and community leaders, and develops public visitation areas in the VCR, enhancing community engagement and tourism.",
+        "probability": 0.966
+      },
+      {
+        "sentence": "Training is developed in Chaihuín for small local entrepreneurs in tourism, administration, and accounting management, enhancing local capacity.",
+        "probability": 0.9398
+      },
+      {
+        "sentence": "He suggests a participatory process to design a sustainable development strategy, build capacity, support community organizations, and define forest use, among others.",
+        "probability": 0.9365
+      },
+      {
+        "sentence": "TNC mitigated this risk by improving training and capacity building for local institutions, as described in Section 5.1 of the Community Engagement Plan /12/. During the site visit, interviewees confirmed that they were trained in natural resource management skills, business and entrepreneurship, sustainable livelihoods support, and establishment and strengthening of governance.",
+        "probability": 0.9318
+      },
+      {
+        "sentence": "The project provides office space, infrastructure, and training for reserve guides, improving guide capacity. It also assists residents in obtaining legal land titles along the National Park border, strengthening community ownership.",
+        "probability": 0.9302
+      },
+      {
+        "sentence": "The program is primarily aimed at visitors, as a way to minimize the environmental impact of tourist activities, but it is also directed toward the local community, for example, through education initiatives in local schools.",
+        "probability": 0.9156
+      },
+      {
+        "sentence": "The project supports studies, practicals, and thesis work by UACH students within the VCR, fostering research and conservation skills.",
+        "probability": 0.911
+      },
+      {
+        "sentence": "The project supports studies, practical work, and thesis projects at UACH within the VCR, and funds a household waste project in Huape, Chaihuín, and Huiro, improving waste management and providing educational opportunities.",
+        "probability": 0.9061
+      },
+      {
+        "sentence": "Develop training in the town of Chaihuín aimed at small local entrepreneurs in tourism, administration, and accounting management.",
+        "probability": 0.8776
+      },
+      {
+        "sentence": "This plan includes training and support for microenterprises linked to ecotourism within the reserve.",
+        "probability": 0.8508
+      },
+      {
+        "sentence": "The project is associated with the neighboring association in the UNDP-SSP project, conducting environmental education workshops in schools from 2006 to 2010.",
+        "probability": 0.8366
+      },
+      {
+        "sentence": "The project supplies office space, infrastructure, and training for reserve guides, strengthening local capacity.",
+        "probability": 0.8121
+      },
+      {
+        "sentence": "Environmental Education and Outreach Program: This program aims to educate visitors about the conditions and characteristics of the site, the available resources, and the measures being taken for conservation of these resources.",
+        "probability": 0.8034
+      },
+      {
+        "sentence": "TNC collaborates with the Antillanca Indigenous Community to care for and monitor the reserve, providing office space, equipment, and training for guides on the 'los alerces' trail, which supports community livelihoods. The project also donated land for a cemetery and a relocation parcel, though the cemetery parcel will remain with TNC.",
+        "probability": 0.7311
+      },
+      {
+        "sentence": "The program also aims to provide experiences and knowledge about the conservation value of species and ecosystems in the area.",
+        "probability": 0.7156
+      },
+      {
+        "sentence": "It also aims to provide experiences and knowledge about the conservation value of species and ecosystems in the area.",
+        "probability": 0.6862
+      },
+      {
+        "sentence": "The Comité de Turismo Rural collaborates in reserve care, provides office space and infrastructure for guides, offers training, and coordinates tourism, supporting local guide employment and tourism promotion since 2009.",
+        "probability": 0.6738
+      },
+      {
+        "sentence": "They also provided technical support for a solid waste management project financed by CONAMA, improving waste handling in the region.",
+        "probability": 0.6217
+      },
+      {
+        "sentence": "The community guides association collaborates in reserve care and monitoring, providing office space, infrastructure, and training for guides, and offers exclusive guiding of the 'Los Alerces' trail.",
+        "probability": 0.6123
+      },
+      {
+        "sentence": "Moreover, the program will develop environmental outreach programs for the public, locally and regionally, to convey the progress and scope of conservation within the reserve.",
+        "probability": 0.5848
+      },
+      {
+        "sentence": "Generate and promote scientific, technical, biological, and socio-cultural research activities to increase knowledge of the area and continually improve the Conservation and Management Plans.",
+        "probability": 0.5803
+      },
+      {
+        "sentence": "The local project management team, led by the Reserve’s Director, Conservation Project Assistant, and Social Program Coordinator, brings extensive forestry expertise, ensuring effective management of the VCR.",
+        "probability": 0.5781
+      },
+      {
+        "sentence": "The project supports studies, practicals, and thesis work by UACH students within the VCR and operates a wildlife rescue center for recovery and release of wildlife.",
+        "probability": 0.5579
+      },
+      {
+        "sentence": "They also provide environmental education programs for school children.",
+        "probability": 0.5483
+      },
+      {
+        "sentence": "An initial program, formed under the direction and support of WWF staff in 2000, had been articulating the social connection with conservation in the communities of the region since before the purchase of the VCR.",
+        "probability": 0.5277
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "A joint agreement with UNDP-PPS, WWF, and TNC provides financing and support for community projects in the VCR buffer zone, benefiting local communities.",
+        "probability": 0.9022
+      },
+      {
+        "sentence": "The project secures protection of carbon stocks through a contractual agreement with a large international conservation organization, enabling the development of carbon credit projects and supporting Chile’s first forest carbon projects verified under the VCS.",
+        "probability": 0.875
+      },
+      {
+        "sentence": "The Project Areas generate carbon credits that will help finance community outreach activities, and TNC has decided that, in the interest of a holistic approach to conservation and human well-being, to treat these five communities as integral stakeholders and project beneficiaries and to recognize them as Community Groups according to CCB guidelines.",
+        "probability": 0.8224
+      },
+      {
+        "sentence": "These activities support more sustainable use of the area’s natural resources by establishing codes of conduct while providing incentives to benefit local communities over the long term.",
+        "probability": 0.8123
+      },
+      {
+        "sentence": "The grant requires a conservation easement to facilitate the development and operation of the land as a project activity capable of generating carbon credits and monetized ecosystem service provisions that may arise from time to time (current opportunities include Verified Carbon Units generated under the Verified Carbon Standard), including for the purposes of ensuring protection; the Grant Agreement was executed in 2012 and is confidential, and the philanthropic donor’s “VCR Selection Study” was published in April 2012.",
+        "probability": 0.788
+      },
+      {
+        "sentence": "The project mitigates potential revenue loss by relying on grants, government funding, ecosystem services payments, or SD VISta assets. This financial support helps maintain the project’s sustainability.",
+        "probability": 0.7745
+      },
+      {
+        "sentence": "Implemented activities to support local tourism.",
+        "probability": 0.7706
+      },
+      {
+        "sentence": "It also receives donations for the Comunidad Indígena Antillana, supporting indigenous community development.",
+        "probability": 0.7388
+      },
+      {
+        "sentence": "The project supplied prizes for a fundraising campaign, encouraging community participation and generating funds for conservation initiatives.",
+        "probability": 0.7122
+      },
+      {
+        "sentence": "Technical support and financing from TNC, UNDP-PPS, and WWF were provided to community projects in the VCR buffer zone, aiding early project implementation.",
+        "probability": 0.7117
+      },
+      {
+        "sentence": "The project supplied prizes for a fundraising campaign, encouraging community participation and raising funds for conservation activities.",
+        "probability": 0.7051
+      },
+      {
+        "sentence": "This plan includes training and support for microenterprises linked to ecotourism within the reserve.",
+        "probability": 0.5345
+      },
+      {
+        "sentence": "As shown in section 1.12, TNC has control of the project area and ownership of the carbon credits.",
+        "probability": 0.5269
+      },
+      {
+        "sentence": "This includes, but is not limited to, biodiversity credits, species banking, water certificates, and nutrient certificates.",
+        "probability": 0.5179
+      },
+      {
+        "sentence": "A grant will cancel project debt and create an endowment fund, ensuring long-term financial sustainability.",
+        "probability": 0.5164
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "The collaborative agreement for the Colún sector supplies firewood to a school, benefiting local education.",
+        "probability": 0.8541
+      },
+      {
+        "sentence": "Donated water rights and land enabled the construction of a rural water supply system for Chaihuín, improving access to clean water.",
+        "probability": 0.8141
+      },
+      {
+        "sentence": "The project supplied wood to construct a booth for selling local foods, supporting small businesses and promoting regional cuisine.",
+        "probability": 0.7547
+      },
+      {
+        "sentence": "Firewood was supplied to a school as part of a trial sustainable marine resource management project with the Chaihuín fishermen’s union.",
+        "probability": 0.6925
+      },
+      {
+        "sentence": "Gravel supplied under this agreement improved roads, supporting reserve monitoring and guide services.",
+        "probability": 0.6812
+      },
+      {
+        "sentence": "Gravel was supplied to improve roads, and a picnic area was offered free of charge, improving visitor access and experience.",
+        "probability": 0.5927
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Conversion of native clearance for coastal highway forest and $14,790,041 Conservation of the project area $-2,195,106 (Negative). As can be seen in the table above, Alternative 1 yields an NPV of US$14,790,041, higher than Alternative 2, and therefore is demonstrated to be more financially competitive than the project activity without carbon revenues.",
+        "probability": 0.8834
+      },
+      {
+        "sentence": "Even after the purchase of the VCR, carbon revenue remains critical to help finance the establishment of an endowment for long-term operations and to help pay off the original acquisition costs, which were paid for through a loan from TNC’s internal Land Purchase Fund, with no other immediate sources of finance to repay the entirety of the loan identified as of the project start date.",
+        "probability": 0.7875
+      },
+      {
+        "sentence": "As demonstrated above, the project activity, without revenue from carbon credits, is not the most financially attractive land use alternative, and it is not a common practice in the region.",
+        "probability": 0.7082
+      },
+      {
+        "sentence": "Mitigation: Where there is a potential loss compared to the most profitable alternative land use activity, the project is not for profit or has additional financial support (e.g., via grants, government funding, ecosystem services payments, or SD VISta assets) to overcome expected revenue loss.",
+        "probability": 0.563
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "There are no land tenure disputes in the project area, confirmed by local authorities. The local community has full access to the reserve for activities such as non‑timber forest product collection, controlled grazing, fishing, and forestry collectives, supporting local livelihoods.",
+        "probability": 0.7062
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "The collaborative agreement for the Colún sector supplies firewood to a school, benefiting local education.",
+        "probability": 0.547
+      },
+      {
+        "sentence": "Donated water rights and land enabled the construction of a rural water supply system for Chaihuín, improving access to clean water.",
+        "probability": 0.5163
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The project has received the Free Prior Informed Consent of the communities whose customary rights are affected by the project at the beginning of the project /15/.",
+        "probability": 0.6188
+      },
+      {
+        "sentence": "The project has received the Free Prior Informed Consent of the communities whose customary rights are affected.",
+        "probability": 0.5971
+      },
+      {
+        "sentence": "Women in the communities have more financial independence and contribute to family income.",
+        "probability": 0.5661
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_1175\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

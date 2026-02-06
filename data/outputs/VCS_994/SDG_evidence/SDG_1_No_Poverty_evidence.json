@@ -1,0 +1,638 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "2,960 women and 7,900 community members improved their livelihoods as a result of the project. The improvement was attributed to employment opportunities for TIST staff and quantifiers, tree stipends, and training on sustainable development and conservation farming.",
+        "probability": 0.9182
+      },
+      {
+        "sentence": "TIST employs staff with environmental science expertise and has financial resources to support climate actions. Trainings on conservation farming and climate change awareness are provided to farmers based on their needs.",
+        "probability": 0.4472
+      },
+      {
+        "sentence": "The project employed 3 salaried employees and 9 volunteers throughout its duration.",
+        "probability": 0.9394
+      },
+      {
+        "sentence": "During the monitoring period, 7,900 farmers, including 2,844 women, received cash income from TIST activities, and 16 cluster servants and leadership council members were employed, though the number of women cluster servants decreased to one.",
+        "probability": 0.935
+      },
+      {
+        "sentence": "The project employed 2,960 women as full‑time employees, enhancing their skills and knowledge.",
+        "probability": 0.9297
+      },
+      {
+        "sentence": "The project employed 14 salaried employees, 2 contractors, and 10 volunteers during the monitoring period. These employment figures remained consistent over the project lifetime.",
+        "probability": 0.9409
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "During an onsite visit, interviews conducted with farmers confirmed that they are receiving benefits from the project, i.e., monetized benefits including payment of tree stipends, trainings on various sustainable development programs.",
+        "probability": 0.7811
+      },
+      {
+        "sentence": "Benefits, including training on sustainable development topics, provide information on tree stipends and the 70% profit share as per the GHG contract to the TIST farmers.",
+        "probability": 0.8506
+      },
+      {
+        "sentence": "TIST has a well‑developed capacity‑building program that provides training in subjects such as conservation farming, nursery reforestation, climate‑change development, biodiversity, soil and water management, basic education and digital literacy, livelihood/skill training programs, and runs the program like a business.",
+        "probability": 0.8808
+      },
+      {
+        "sentence": "Biodiversity training encourages farmers to plant indigenous trees and preserve trees for soil productivity, ecotourism, and wildlife benefits.",
+        "probability": 0.8205
+      },
+      {
+        "sentence": "As documented in the PD and MR, TIST benefits poor farmers by providing carbon revenues and training on sustainable development tools.",
+        "probability": 0.9058
+      },
+      {
+        "sentence": "Additionally, farmers in over 2,823 project areas receive training on biodiversity and natural resource management.",
+        "probability": 0.765
+      },
+      {
+        "sentence": "As long as there is a carbon market to support these programs, there is potential to reach more subsistence farmers, plant more trees, sequester more carbon, provide more training, improve food security, address deforestation, provide sustainable fuel‑wood supplies, create more islands of biodiversity, and provide health benefits and training.",
+        "probability": 0.7096
+      },
+      {
+        "sentence": "TIST trains farmers to enrich the soil using biological materials and to plant indigenous trees that allow other flora and fauna to thrive.",
+        "probability": 0.8309
+      },
+      {
+        "sentence": "Farmers are the main focus of the project, since TIST was designed to benefit poor farmers by providing carbon revenues and training on sustainable development tools.",
+        "probability": 0.8573
+      },
+      {
+        "sentence": "The program supports farmers in planting trees to meet the challenges of climate change and to develop strategies for issues such as high winds, drought, and erosion.",
+        "probability": 0.6543
+      },
+      {
+        "sentence": "This report (16 March 2021 to 15 October 2023) Validation (Third Edition): 10‑December‑2023 (pending) Gold Level criteria Community: This project has substantial economic and non‑economic benefits for poor farmers, including carbon income, improved crop yields, new crops, education, health trainings, and leadership development.",
+        "probability": 0.9553
+      },
+      {
+        "sentence": "2,960 women and 7,900 community members improved their livelihoods as a result of the project. The improvement was attributed to employment opportunities for TIST staff and quantifiers, tree stipends, and training on sustainable development and conservation farming.",
+        "probability": 0.8265
+      },
+      {
+        "sentence": "7,900 community members improved their well-being through the project. The program provided training on sustainable development and conservation farming, tree stipends, and access to fruits and nuts from planted trees.",
+        "probability": 0.91
+      },
+      {
+        "sentence": "The project mitigated the risk of losing the carbon market by providing training and tangible benefits such as fruits, nuts, fuelwood, and timber, which improve farmers' livelihoods even without carbon revenues.",
+        "probability": 0.8192
+      },
+      {
+        "sentence": "The project made $223,398 in environmental payments to small groups. A total of 7,165 members received carbon benefits, 9,387 members benefited from capacity building, and 8,608 members benefited from improved landscape beauty.",
+        "probability": 0.911
+      },
+      {
+        "sentence": "During the project lifetime, 5,599 community members (2,072 women and 3,438 men) improved their skills and knowledge through training. During the monitoring period, 29 people (11 women and 18 men) were reported to have not improved.",
+        "probability": 0.8656
+      },
+      {
+        "sentence": "This period saw 4,557 person‑sessions of social and economic training delivered to members. The training also covered famine, AIDS, and conservation farming, which can double crop yields. Audit records confirmed the accuracy of the training data.",
+        "probability": 0.8892
+      },
+      {
+        "sentence": "TIST employs staff with environmental science expertise and has financial resources to support climate actions. Trainings on conservation farming and climate change awareness are provided to farmers based on their needs.",
+        "probability": 0.7219
+      },
+      {
+        "sentence": "TIST promotes tree planting through the carbon credit program and mitigates high farmer expectations by improving awareness through seminars and training.",
+        "probability": 0.9124
+      },
+      {
+        "sentence": "Initial milestones included field visits, stakeholder consultations, seminars, small group registration, monitoring system deployment, staff hiring, quantifier training, and trainer training.",
+        "probability": 0.7095
+      },
+      {
+        "sentence": "During the monitoring period, 11 women improved skills or knowledge through project training. Over the project lifetime, 2,072 women benefited.",
+        "probability": 0.8884
+      },
+      {
+        "sentence": "TIST members receive capacity building in agriculture, business skills, nursery development, and reforestation.",
+        "probability": 0.9247
+      },
+      {
+        "sentence": "Members benefiting from social and economic training decreased slightly from 4,784 to 4,759, a reduction of 25. TIST provides training on issues such as famine and AIDS, and Conservation Farming can double crop yields, with 85% of members benefiting from the training.",
+        "probability": 0.9073
+      },
+      {
+        "sentence": "The audit team interviewed the Range Forest Officer about TIST project activities, noting benefits to farmers from project implementation, support from the Tamil Nadu Forest Department, seedling distribution, and farmer training.",
+        "probability": 0.693
+      },
+      {
+        "sentence": "The Forest Range Officer reported that TIST project activities provide benefits to farmers, including distribution of nursery seedlings and training from the Tamil Nadu Forest Department and TIST.",
+        "probability": 0.9399
+      },
+      {
+        "sentence": "Sixty TIST farmers were visited and interviewed about best practices, cluster training, economic benefits including tree stipend payments, and changes in socio‑economic status after joining TIST.",
+        "probability": 0.9305
+      },
+      {
+        "sentence": "New participatory agreements follow the same procedures as initial instances, ensuring that newly added farmers receive benefit sharing, training, and data collection consistent with the project’s GHG contract.",
+        "probability": 0.6873
+      },
+      {
+        "sentence": "2,960 women improved their livelihoods or income through project training activities.",
+        "probability": 0.945
+      },
+      {
+        "sentence": "During the monitoring period, TIST India trained 26 people in biodiversity and 652 in natural resource management, and achieved 14,682 tonnes of CO₂ removal, meeting SDG indicator 15.2.1.",
+        "probability": 0.8843
+      },
+      {
+        "sentence": "The project planted its first trees between 2004 and 2011, marking the start of its environmental impact. Expansion added new groups, members, and trees, increasing the project's reach. Regular monitoring, training, seminars, and stakeholder consultations supported ongoing improvements.",
+        "probability": 0.8258
+      },
+      {
+        "sentence": "Training on fire risk reduction and profit sharing provides strong incentives for farmers to remain in the program, minimizing dropout. The project’s widespread coverage across thousands of square kilometers mitigates natural risks such as drought and fire. Biodiversity benefits include more trees planted, improved soil fertility, and better water retention.",
+        "probability": 0.8033
+      },
+      {
+        "sentence": "Members of small groups in PD receive training to address social and economic challenges.",
+        "probability": 0.7804
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Farmers will receive all other benefits from trees, including tree stipends for each live tree, and after 20 years from the start date of the first project activity instance of the small group, they will receive a 70% share of profits.",
+        "probability": 0.7478
+      },
+      {
+        "sentence": "Small Group members are paid for each tree they plant and maintain.",
+        "probability": 0.8093
+      },
+      {
+        "sentence": "It has been verified that farmers are benefiting from the project terms of carbon stipend, including payments for trees planted, which harvest nuts, fodder, poles, and firewood.",
+        "probability": 0.6986
+      },
+      {
+        "sentence": "Firstly, members receive small tree incentives for each live tree they plant and maintain.",
+        "probability": 0.8166
+      },
+      {
+        "sentence": "The farmers keep all the other benefits, including an advanced cash payment for carbon based on tree count and a 70% share of profits after 20 years.",
+        "probability": 0.7165
+      },
+      {
+        "sentence": "During an onsite visit, interviews conducted with farmers confirmed that they are receiving benefits from the project, i.e., monetized benefits including payment of tree stipends, trainings on various sustainable development programs.",
+        "probability": 0.9164
+      },
+      {
+        "sentence": "Community: Share 70% of the profits from the carbon revenues with the TIST members.",
+        "probability": 0.7469
+      },
+      {
+        "sentence": "The economic benefits provided to the farmers are in the form of tree stipends for each live tree in the grove.",
+        "probability": 0.8562
+      },
+      {
+        "sentence": "They constitute carbon and tree payments to farmers (FDI).",
+        "probability": 0.713
+      },
+      {
+        "sentence": "Benefits, including training on sustainable development topics, provide information on tree stipends and the 70% profit share as per the GHG contract to the TIST farmers.",
+        "probability": 0.6834
+      },
+      {
+        "sentence": "TIST makes stipend payments for the trees every three months and encourages the groups.",
+        "probability": 0.814
+      },
+      {
+        "sentence": "These payments are made at least annually based on the number of live trees counted each year.",
+        "probability": 0.7823
+      },
+      {
+        "sentence": "Second, under the terms of the Project Participant’s contracts with the TIST Small Groups, the farmers receive an annual advance on their potential carbon revenues, which eliminates the need for credit.",
+        "probability": 0.8105
+      },
+      {
+        "sentence": "As documented in the PD and MR, TIST benefits poor farmers by providing carbon revenues and training on sustainable development tools.",
+        "probability": 0.5978
+      },
+      {
+        "sentence": "They plant their own trees on their own land, and the 4.4.4 Benefit Sharing Mechanisms (CCB, GL2.6) ensure that all monetized benefits reported in Sections 4.4.1 to 4.4.3 are received by the members.",
+        "probability": 0.7379
+      },
+      {
+        "sentence": "The carbon credits create a new “virtual” cash crop for participants who gain all the direct benefits of growing trees and also receive quarterly cash stipends based on the GHG benefits created by their efforts.",
+        "probability": 0.7399
+      },
+      {
+        "sentence": "Additionally, as part of the program, TIST members receive tree stipends for live groves.",
+        "probability": 0.8613
+      },
+      {
+        "sentence": "TIST is making payments to the Small Groups for their trees.",
+        "probability": 0.792
+      },
+      {
+        "sentence": "Cumulative cash payments, including carbon stipend, carbon revenue share, and any other payment for environmental services paid to the Small Groups in TIST India.",
+        "probability": 0.7906
+      },
+      {
+        "sentence": "However, due to their low income, farmers participating in TIST have little opportunity for investment loans or capital.",
+        "probability": 0.6792
+      },
+      {
+        "sentence": "Farmers are the main focus of the project, since TIST was designed to benefit poor farmers by providing carbon revenues and training on sustainable development tools.",
+        "probability": 0.7428
+      },
+      {
+        "sentence": "The trees and their benefits are retained by the members.",
+        "probability": 0.4387
+      },
+      {
+        "sentence": "Interviews with farmers confirmed that tree stipends are directly credited to their bank accounts.",
+        "probability": 0.7217
+      },
+      {
+        "sentence": "After 20 years of the agreement, when the project becomes self‑funding from the sale of carbon credits, they will receive 70 % of the net carbon revenues.",
+        "probability": 0.5079
+      },
+      {
+        "sentence": "Total carbon payments to community.",
+        "probability": 0.5509
+      },
+      {
+        "sentence": "Tree incentives are paid to members in small groups for each live tree they have planted and maintained. Total payments increased from $148,275 to $371,673, an increase of $223,398. The audit team confirmed that the tree incentives are provided by the PP and cross‑checked payments in the TIST database.",
+        "probability": 0.7521
+      },
+      {
+        "sentence": "Project activities positively impacted vulnerable TIST members, who earn $1 or less per day and make up 53% of the membership. They received $2,340 over the project's lifespan and $279 during the verification period, mainly through tree stipends for each live tree.",
+        "probability": 0.5145
+      },
+      {
+        "sentence": "7,900 community members improved their well-being through the project. The program provided training on sustainable development and conservation farming, tree stipends, and access to fruits and nuts from planted trees.",
+        "probability": 0.6157
+      },
+      {
+        "sentence": "Carbon payments to all TIST members totaled $223,398 during the monitoring period and $371,673 over the project lifetime. The payments were verified through database queries and beneficiary interviews.",
+        "probability": 0.7658
+      },
+      {
+        "sentence": "Total payments to TIST members increased from $131,751 to $148,275, an increase of $16,524. Small group members receive payments for each tree they plant and maintain, and will receive 70% of net carbon revenues when the project becomes self‑f funding.",
+        "probability": 0.7714
+      },
+      {
+        "sentence": "Farmers were expected to receive annual tree stipends based on live trees, but interviews revealed they received stipends only a few times, not annually.",
+        "probability": 0.4524
+      },
+      {
+        "sentence": "Benefits are distributed to farmers through voucher scripts during cluster meetings, with no barriers to access other than the farmer’s choice not to participate.",
+        "probability": 0.8502
+      },
+      {
+        "sentence": "The project made $223,398 in environmental payments to small groups. A total of 7,165 members received carbon benefits, 9,387 members benefited from capacity building, and 8,608 members benefited from improved landscape beauty.",
+        "probability": 0.6698
+      },
+      {
+        "sentence": "The program promotes tree planting through carbon credit programs, which has high potential to attract carbon markets.",
+        "probability": 0.5051
+      },
+      {
+        "sentence": "Carbon payments increased by 646 members, from 4,580 to 5,256, including 1,867 to 2,112 women and 2,713 to 3,144 men. Members receive income for each tree they plant and maintain, and at year 20 they will receive 70% of net carbon revenues.",
+        "probability": 0.6223
+      },
+      {
+        "sentence": "TIST employs staff with environmental science expertise and has financial resources to support climate actions. Trainings on conservation farming and climate change awareness are provided to farmers based on their needs.",
+        "probability": 0.4659
+      },
+      {
+        "sentence": "Carbon payments totaled $16,524 during the monitoring period and $148,275 over the project lifetime.",
+        "probability": 0.61
+      },
+      {
+        "sentence": "Carbon payments increased from 5,315 to 7,165 members, with members receiving tree incentives per live tree planted.",
+        "probability": 0.8316
+      },
+      {
+        "sentence": "Members receive carbon payments.",
+        "probability": 0.8143
+      },
+      {
+        "sentence": "TIST members in India receive carbon payments.",
+        "probability": 0.8013
+      },
+      {
+        "sentence": "New participatory agreements follow the same procedures as initial instances, ensuring that newly added farmers receive benefit sharing, training, and data collection consistent with the project’s GHG contract.",
+        "probability": 0.5952
+      },
+      {
+        "sentence": "Payments were made for 59 trees, totaling INR 5,687.64, with an average of 2,205 trees paid per quarter.",
+        "probability": 0.7434
+      },
+      {
+        "sentence": "The consultation process in TIST Uganda included benefit sharing and grievance mechanisms, ensuring new participatory agreements were added and monitored.",
+        "probability": 0.5488
+      },
+      {
+        "sentence": "Payments were made for 18,849 trees, totaling INR 1,937.64, with an average of 2,253 trees paid per quarter.",
+        "probability": 0.7708
+      },
+      {
+        "sentence": "Payments were made for 58,450 trees, totaling INR 3,696, with an average of 783 trees paid per quarter.",
+        "probability": 0.7584
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Farmers will receive all other benefits from trees, including tree stipends for each live tree, and after 20 years from the start date of the first project activity instance of the small group, they will receive a 70% share of profits.",
+        "probability": 0.4817
+      },
+      {
+        "sentence": "With an improving market, more trees are planted, soil fertility and water retention increase (i.e., biodiversity benefits), and more profit is shared with farmers (i.e., community benefits), providing a greater incentive to stay in the program.",
+        "probability": 0.7415
+      },
+      {
+        "sentence": "The farmers keep all the other benefits, including an advanced cash payment for carbon based on tree count and a 70% share of profits after 20 years.",
+        "probability": 0.5161
+      },
+      {
+        "sentence": "Carbon credit sales generate participant income and provide project funding to address agricultural, HIV/AIDS, nutritional, and fuel challenges.",
+        "probability": 0.8566
+      },
+      {
+        "sentence": "Increased profit-sharing with farmers and biodiversity benefits—including more trees planted, improved soil fertility, and better water retention—provide strong incentives for farmers to remain in the program.",
+        "probability": 0.8453
+      },
+      {
+        "sentence": "Exceptional community benefits arise from allocating 70% of carbon revenues to TIST members.",
+        "probability": 0.6871
+      },
+      {
+        "sentence": "Small groups benefit from a new income source: the sale of carbon credits that result from sequestering carbon from the atmosphere into the biomass of trees and soil.",
+        "probability": 0.7568
+      },
+      {
+        "sentence": "Carbon credit sales generate income and fund projects addressing various challenges.",
+        "probability": 0.8513
+      },
+      {
+        "sentence": "Second, under the terms of the Project Participant’s contracts with the TIST Small Groups, the farmers receive an annual advance on their potential carbon revenues, which eliminates the need for credit.",
+        "probability": 0.4221
+      },
+      {
+        "sentence": "The carbon credits create a new “virtual” cash crop for participants who gain all the direct benefits of growing trees and also receive quarterly cash stipends based on the GHG benefits created by their efforts.",
+        "probability": 0.6225
+      },
+      {
+        "sentence": "After 20 years of the agreement, when the project becomes self‑funding from the sale of carbon credits, they will receive 70 % of the net carbon revenues.",
+        "probability": 0.7086
+      },
+      {
+        "sentence": "This report (16 March 2021 to 15 October 2023) Validation (Third Edition): 10‑December‑2023 (pending) Gold Level criteria Community: This project has substantial economic and non‑economic benefits for poor farmers, including carbon income, improved crop yields, new crops, education, health trainings, and leadership development.",
+        "probability": 0.7202
+      },
+      {
+        "sentence": "Project activities positively impacted vulnerable TIST members, who earn $1 or less per day and make up 53% of the membership. They received $2,340 over the project's lifespan and $279 during the verification period, mainly through tree stipends for each live tree.",
+        "probability": 0.7903
+      },
+      {
+        "sentence": "Economic benefits per farmer were estimated at $262, and $427 for women, during the monitoring period. Farmers benefited from carbon stipend payments and income from trees, including nuts, fodder, poles, and firewood, as well as from domesticated animals and byproducts.",
+        "probability": 0.753
+      },
+      {
+        "sentence": "Total payments to TIST members increased from $131,751 to $148,275, an increase of $16,524. Small group members receive payments for each tree they plant and maintain, and will receive 70% of net carbon revenues when the project becomes self‑f funding.",
+        "probability": 0.4709
+      },
+      {
+        "sentence": "To counter low market prices, the project offers a low‑cost program that maximizes shareable profits and attracts buyers, improving sales prices and farmer livelihoods.",
+        "probability": 0.5538
+      },
+      {
+        "sentence": "During the project lifetime, 5,599 people improved their livelihoods or income as a result of the project activities.",
+        "probability": 0.7047
+      },
+      {
+        "sentence": "The program promotes tree planting through carbon credit programs, which has high potential to attract carbon markets.",
+        "probability": 0.4312
+      },
+      {
+        "sentence": "Carbon payments increased by 646 members, from 4,580 to 5,256, including 1,867 to 2,112 women and 2,713 to 3,144 men. Members receive income for each tree they plant and maintain, and at year 20 they will receive 70% of net carbon revenues.",
+        "probability": 0.5389
+      },
+      {
+        "sentence": "The program has high potential to attract future carbon credit markets, generating additional income.",
+        "probability": 0.7558
+      },
+      {
+        "sentence": "Household incomes improved through cash remuneration based on the number of trees planted.",
+        "probability": 0.7493
+      },
+      {
+        "sentence": "The risk of farmer dropout is mitigated by the large existing participation and growing market, leading to more trees, soil fertility, water retention, and profits for farmers.",
+        "probability": 0.653
+      },
+      {
+        "sentence": "Project activities generate a net positive impact on the well‑being of poor TIST members. The average member received $1,878 over the project lifetime and $346 during the verification period.",
+        "probability": 0.5481
+      },
+      {
+        "sentence": "Project activities generate a net positive impact on the well‑being of vulnerable TIST members, who make up 53% of the membership. The average vulnerable member received $2,002 over the project lifetime and $369 during the verification period.",
+        "probability": 0.6537
+      },
+      {
+        "sentence": "The cost of a 500‑tree plantation includes $30 for seedlings and $29 for labor, with live tree income of $17.",
+        "probability": 0.6147
+      },
+      {
+        "sentence": "The project generated a net positive impact on the well‑being of female TIST members. Survey calculations show women benefit more than the average member, receiving an average of $3,063 over the project lifetime. During the verification period, women received $565 in benefits.",
+        "probability": 0.5283
+      },
+      {
+        "sentence": "Conservation farming practices may increase incomes by improving farm productivity.",
+        "probability": 0.7798
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Since the project activity involves planting tree species on private lands of farmers, it increases fuelwood, crop yields, and fruit production.",
+        "probability": 0.7351
+      },
+      {
+        "sentence": "The organization has developed TIST, a program that brings tangible benefits to its participating farmers and will incent them to adopt their practices even if the market fails.",
+        "probability": 0.8524
+      },
+      {
+        "sentence": "Farmers confirmed that they have been receiving benefits from the project, leading to improved livelihood.",
+        "probability": 0.8608
+      },
+      {
+        "sentence": "The farmers are receiving these benefits.",
+        "probability": 0.8029
+      },
+      {
+        "sentence": "TIST has developed a program that brings tangible benefits to its participating farmers and will incentivize them to continue their practices even if the market fails.",
+        "probability": 0.8288
+      },
+      {
+        "sentence": "Conservation: Additionally, tangible benefits such as fruits, nuts, fuelwood, and timber from the trees planted as part of the program benefit farmers and improve their livelihoods, even in the absence of the carbon market.",
+        "probability": 0.7208
+      },
+      {
+        "sentence": "Additionally, tangible benefits such as fruits, nuts, fuelwood, and timber from the trees planted as part of the program provide farmers with additional incentives and improve their livelihoods, even in the absence of the carbon market.",
+        "probability": 0.8284
+      },
+      {
+        "sentence": "As long as there is a carbon market to support these programs, there is potential to reach more subsistence farmers, plant more trees, sequester more carbon, provide more training, improve food security, address deforestation, provide sustainable fuel‑wood supplies, create more islands of biodiversity, and provide health benefits and training.",
+        "probability": 0.6073
+      },
+      {
+        "sentence": "On‑site observations and interviews with TIST farmers confirmed reduced soil loss and improved land productivity.",
+        "probability": 0.6473
+      },
+      {
+        "sentence": "Project activities implemented will generate benefits in the quality of the environment and in the living conditions of local stakeholders.",
+        "probability": 0.6908
+      },
+      {
+        "sentence": "This report (16 March 2021 to 15 October 2023) Validation (Third Edition): 10‑December‑2023 (pending) Gold Level criteria Community: This project has substantial economic and non‑economic benefits for poor farmers, including carbon income, improved crop yields, new crops, education, health trainings, and leadership development.",
+        "probability": 0.8856
+      },
+      {
+        "sentence": "2,960 women and 7,900 community members improved their livelihoods as a result of the project. The improvement was attributed to employment opportunities for TIST staff and quantifiers, tree stipends, and training on sustainable development and conservation farming.",
+        "probability": 0.4436
+      },
+      {
+        "sentence": "7,900 community members improved their well-being through the project. The program provided training on sustainable development and conservation farming, tree stipends, and access to fruits and nuts from planted trees.",
+        "probability": 0.6597
+      },
+      {
+        "sentence": "Economic benefits per farmer were estimated at $262, and $427 for women, during the monitoring period. Farmers benefited from carbon stipend payments and income from trees, including nuts, fodder, poles, and firewood, as well as from domesticated animals and byproducts.",
+        "probability": 0.422
+      },
+      {
+        "sentence": "Farmers planted vulnerable species on 231 hectares of land, plus 75 hectares of riparian woodlots and 42 hectares of hillside woodlots, improving biodiversity management.",
+        "probability": 0.4615
+      },
+      {
+        "sentence": "The project mitigated the risk of losing the carbon market by providing training and tangible benefits such as fruits, nuts, fuelwood, and timber, which improve farmers' livelihoods even without carbon revenues.",
+        "probability": 0.7641
+      },
+      {
+        "sentence": "To counter low market prices, the project offers a low‑cost program that maximizes shareable profits and attracts buyers, improving sales prices and farmer livelihoods.",
+        "probability": 0.6332
+      },
+      {
+        "sentence": "During the project lifetime, 5,599 people improved their livelihoods or income as a result of the project activities.",
+        "probability": 0.7011
+      },
+      {
+        "sentence": "Farmers reported that the project generates net positive impacts on their social and economic well‑being, leading to improved livelihoods. The audit team confirmed these benefits and noted an acceptable risk rating.",
+        "probability": 0.7234
+      },
+      {
+        "sentence": "Farmers interviewed reported economic benefits from tree stipend payments and improved socio‑economic status after joining TIST. Monitoring activities include tree measurements and boundary mapping.",
+        "probability": 0.7215
+      },
+      {
+        "sentence": "Net positive community impacts are demonstrated, with baseline subsistence farming. The risk rating is acceptable.",
+        "probability": 0.4802
+      },
+      {
+        "sentence": "During the monitoring period, 11 women experienced improved livelihoods or income from the project. Over the project lifetime, 2,072 women benefited.",
+        "probability": 0.5396
+      },
+      {
+        "sentence": "The number of Small Groups decreased from 1,144 to 1,086, a reduction of 58. Empowerment and best practices within Small Groups improve farm production, health, and farmer life, supporting gender equality and providing community benefits such as wood, shade, lumber, fruit, and improved crop yields.",
+        "probability": 0.6983
+      },
+      {
+        "sentence": "The project identified farmer dissatisfaction due to delayed payments and plans to improve payment review, awareness of policies, and payment increases after GHG credit initialization.",
+        "probability": 0.4123
+      },
+      {
+        "sentence": "Project activities generate a net positive impact on the well‑being of poor TIST members. The average member received $1,878 over the project lifetime and $346 during the verification period.",
+        "probability": 0.8577
+      },
+      {
+        "sentence": "Project activities generate a net positive impact on the well‑being of vulnerable TIST members, who make up 53% of the membership. The average vulnerable member received $2,002 over the project lifetime and $369 during the verification period.",
+        "probability": 0.7524
+      },
+      {
+        "sentence": "2,960 women improved their livelihoods or income through project training activities.",
+        "probability": 0.4096
+      },
+      {
+        "sentence": "The TIST program was designed to benefit farmers without causing negative impacts. The only identified negative impact was a farmer feeling too busy, which can be self‑mitigated.",
+        "probability": 0.5918
+      },
+      {
+        "sentence": "During the current verification period, the project provided $262 in economic benefits to 7,900 farmers, reducing poverty. Over the project lifetime, it has delivered $2,194 in economic benefits to the same farmers. Farmers reported that the tree stipends improved their livelihoods.",
+        "probability": 0.6689
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "The number of Small Groups decreased from 1,144 to 1,086, a reduction of 58. Empowerment and best practices within Small Groups improve farm production, health, and farmer life, supporting gender equality and providing community benefits such as wood, shade, lumber, fruit, and improved crop yields.",
+        "probability": 0.4095
+      }
+    ],
+    "R6": [
+      {
+        "sentence": "By addressing food security, TIST helps farmers prepare for the impacts of climate change.",
+        "probability": 0.4384
+      },
+      {
+        "sentence": "Additionally, tangible benefits such as fruits, nuts, fuelwood, and timber from the trees planted as part of the program provide farmers with additional incentives and improve their livelihoods, even in the absence of the carbon market.",
+        "probability": 0.4207
+      },
+      {
+        "sentence": "As long as there is a carbon market to support these programs, there is potential to reach more subsistence farmers, plant more trees, sequester more carbon, provide more training, improve food security, address deforestation, provide sustainable fuel‑wood supplies, create more islands of biodiversity, and provide health benefits and training.",
+        "probability": 0.6805
+      },
+      {
+        "sentence": "Adoption of conservation farming increased crop production and improved food security and nutrition, with some farmers reporting production rises from two to eight bags.",
+        "probability": 0.4421
+      },
+      {
+        "sentence": "The number of fruit and nut trees owned by TIST members decreased from 219,326 to 196,205, a reduction of 23,121. Members retain ownership of the trees and their products, gaining food security and economic benefits from fruit and nut trees.",
+        "probability": 0.4404
+      }
+    ],
+    "I1": [
+      {
+        "sentence": "The number of Small Groups decreased from 1,144 to 1,086, a reduction of 58. Empowerment and best practices within Small Groups improve farm production, health, and farmer life, supporting gender equality and providing community benefits such as wood, shade, lumber, fruit, and improved crop yields.",
+        "probability": 0.4703
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The project acknowledges and upholds customary land rights by ensuring that land use rights remain with the landowners.",
+        "probability": 0.5796
+      },
+      {
+        "sentence": "Project activities positively impacted vulnerable TIST members, who earn $1 or less per day and make up 53% of the membership. They received $2,340 over the project's lifespan and $279 during the verification period, mainly through tree stipends for each live tree.",
+        "probability": 0.4044
+      },
+      {
+        "sentence": "During the monitoring period, 11 women experienced improved livelihoods or income from the project. Over the project lifetime, 2,072 women benefited.",
+        "probability": 0.5007
+      },
+      {
+        "sentence": "During the monitoring period, 11 women improved skills or knowledge through project training. Over the project lifetime, 2,072 women benefited.",
+        "probability": 0.4603
+      },
+      {
+        "sentence": "Female TIST members face no barriers to accessing benefits except a farmer’s decision not to implement the program.",
+        "probability": 0.5807
+      },
+      {
+        "sentence": "The number of Small Groups decreased from 1,144 to 1,086, a reduction of 58. Empowerment and best practices within Small Groups improve farm production, health, and farmer life, supporting gender equality and providing community benefits such as wood, shade, lumber, fruit, and improved crop yields.",
+        "probability": 0.6864
+      },
+      {
+        "sentence": "2,960 women improved their livelihoods or income through project training activities.",
+        "probability": 0.5544
+      },
+      {
+        "sentence": "The project generated a net positive impact on the well‑being of female TIST members. Survey calculations show women benefit more than the average member, receiving an average of $3,063 over the project lifetime. During the verification period, women received $565 in benefits.",
+        "probability": 0.7055
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_647",
+  "final_score_0_100": 63.65,
+  "final_score_0_1": 0.6365,
+  "components": {
+    "output_raw": 24.9,
+    "outcome_raw": 6.7,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9614,
+    "outcome_norm": 0.8701,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 23,
+      "OUTCOME": 5,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 12,
+      "O3": 3,
+      "O5": 7,
+      "O6": 1,
+      "R3": 2,
+      "R4": 3
+    },
+    "core_output_unique_sentences": 22
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5",
+      "O6"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "output_summary": "Evidence suggests the project delivers poverty-related outputs mainly through employment of local community members in forest protection, patrol, and property management roles, alongside engagement in eco-tourism activities intended to create conservation-compatible jobs. Evidence indicates that project activities also include outreach to nearby communities, collaboration with local stakeholders, and operational support such as training recommendations and improved safety measures, while carbon finance and related funding mechanisms help sustain project operations and associated local employment.",
+  "outcome_summary": "Evidence suggests these outputs contribute to modest livelihood benefits for certain local stakeholders, particularly those directly employed in patrol, protection, and eco-tourism roles, and for land managers involved in project implementation. Evidence indicates that income from carbon finance and conservation-linked activities can help stabilize financial returns relative to alternative land uses, supporting continued engagement in forest protection while maintaining or slightly improving economic conditions for those directly connected to the project.",
+  "impact_summary": "Evidence does not indicate clear long-term structural poverty reduction impacts at the broader community level, as documented benefits are largely tied to project-specific employment and conservation-related income streams. Evidence suggests the project’s longer-term contribution is centered on sustaining conservation-compatible livelihood models rather than producing transformative changes in underlying poverty conditions across the wider population."
+,
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "BCEP Forest Carbon Project 1.8 – Project description: The major project activities are: partner with BLE to conduct ecotourism activities at the site to generate jobs for local people; control access to the site through regular patrols; continue outreach with local communities; place a restrictive covenant on the property; and monitor results.",
+        "probability": 0.9644
+      },
+      {
+        "sentence": "The audit verified the project's emissions reductions for 2011-2015 with no material error. The audit resolved six non-conformances and confirmed that project activities include forest protection, community outreach, and employment of local community members as forest guards.",
+        "probability": 0.9633
+      },
+      {
+        "sentence": "The project employs local community members as property caretakers and patrolmen, providing employment opportunities.",
+        "probability": 0.942
+      },
+      {
+        "sentence": "Activities implemented as part of the project to reduce deforestation include community outreach and employment of local community members as project forest guards or other project staff positions.",
+        "probability": 0.9387
+      },
+      {
+        "sentence": "While this outcome has reduced the community benefits of the project, BCEP continues to employ an average of 9 local people per year to conduct patrols of the project area, and forest protection activities have continued unabated throughout the period.",
+        "probability": 0.9331
+      },
+      {
+        "sentence": "The project consists of protecting the property for the duration of the project through patrols, outreach, and job creation for local villages.",
+        "probability": 0.9257
+      },
+      {
+        "sentence": "The project consists of protecting the property for the duration of the project through patrols, outreach, job creation for local villages, and placing a restrictive covenant on the property deeds for the life of the project.",
+        "probability": 0.9223
+      },
+      {
+        "sentence": "The project creates employment for local communities through patrol and protection activities, generating net positive social and economic benefits.",
+        "probability": 0.9182
+      },
+      {
+        "sentence": "The project employs an average of 9 people on site, including the caretaker, who patrol the project area and look after it for pay.",
+        "probability": 0.9165
+      },
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well‑being of local communities by providing employment in patrol and protection activities.",
+        "probability": 0.9038
+      },
+      {
+        "sentence": "The project activity involves sustainable development by involving and employing members of local communities in eco‑tourism activities in the project area, helping develop new livelihoods compatible with conservation and furthering community development goals.",
+        "probability": 0.8532
+      },
+      {
+        "sentence": "The VCS PDD describes engaging locals with employment but lacks specific mechanisms for educating community members about forest protection.",
+        "probability": 0.6985
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "The project recommends training employees for dangerous situations, stocking camps with first aid kits, and equipping patrolmen with radios to improve emergency response.",
+        "probability": 0.747
+      },
+      {
+        "sentence": "Project activities focus on forest protection and include meetings with local stakeholders around the project area, engaging government officials and local NGOs, implementing the REDD project management and monitoring plans with local partners and contracted staff, conducting periodic forest carbon inventories, and modeling deforestation.",
+        "probability": 0.6403
+      },
+      {
+        "sentence": "The VCS PDD describes engaging locals with employment but lacks specific mechanisms for educating community members about forest protection.",
+        "probability": 0.6256
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "This includes, but is not limited to, biodiversity credits, species banking, water certificates, and nutrient certificates. Forest Trends, “Our Initiatives,” http://www.forest-trends.org/#. VCS Version 3 Monitoring Report: Participation under Other GHG Programs.",
+        "probability": 0.8158
+      },
+      {
+        "sentence": "Carbon financing will stabilize the protection and maintenance budget, which includes patrols, monitoring, outreach to local communities, road maintenance, trail maintenance, and other activities.",
+        "probability": 0.7809
+      },
+      {
+        "sentence": "The major project activities are: partner with BLE to conduct eco‑tourism activities at the site to generate income for expenses of maintaining and managing the property; control access to the project site through regular patrols; continue to interact with the local communities; place a restrictive covenant on the titles; and monitor results.",
+        "probability": 0.7705
+      },
+      {
+        "sentence": "The project has secured 100% of funding needed to cover the total cash out before breakeven and is already breakeven. A long-term financial strategy is in place, including an endowment with annuity-paying investments covering implementation costs.",
+        "probability": 0.7526
+      },
+      {
+        "sentence": "The project has a credible long-term financial strategy, including an endowment and annuity-paying investments. Funding will be provided through an investment trust with annuity payments guaranteeing income for BCEP employees for the lifetime of the project.",
+        "probability": 0.7163
+      },
+      {
+        "sentence": "The project has secured 100% of the funding needed to cover total cash out before breakeven.",
+        "probability": 0.5494
+      },
+      {
+        "sentence": "A long-term financial strategy is in place, including an endowment with annuity‑paying investments covering implementation costs.",
+        "probability": 0.5037
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Carbon financing will stabilize the protection and maintenance budget, which includes patrols, monitoring, outreach to local communities, road maintenance, trail maintenance, and other activities.",
+        "probability": 0.5252
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Net revenues/financial returns from the project to all relevant stakeholders are higher than pre‑project levels or similar to alternative land uses.",
+        "probability": 0.6774
+      },
+      {
+        "sentence": "Therefore at least one of the baseline scenarios is more profitable than the project scenario excluding the carbon project income.",
+        "probability": 0.6617
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Nevertheless, surrounding communities earn their livelihoods through a mixture of ecotourism, subsistence farming, and small‑scale agricultural market participation.",
+        "probability": 0.7164
+      },
+      {
+        "sentence": "The goal of the project is to develop it as a carbon sink by conserving and protecting the property, which will maintain its biodiversity values and enhance the local economic environment with sustainable livelihoods through private‑sector eco‑tourism.",
+        "probability": 0.7052
+      },
+      {
+        "sentence": "The project activity involves sustainable development by involving and employing members of local communities in eco‑tourism activities in the project area, helping develop new livelihoods compatible with conservation and furthering community development goals.",
+        "probability": 0.5933
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_647\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

@@ -18,8 +18,8 @@ if __name__ == "__main__":
     # OPTION A — Run pipeline from an existing local project folder
     # ============================================================
 
-    project_id = "VCS_1378"
-    run_pipeline(project_id, mode="full")
+    # project_id = "VCS_1378"
+    # run_pipeline(project_id, mode="full")
     
 
     # ============================================================
@@ -41,10 +41,10 @@ if __name__ == "__main__":
     # ============================================================
     # OPTION D — Batch run existing local folders (full)
     # ============================================================
-    """
+
     for p in list_projects():
         run_pipeline(p, mode="full")
-    """
+ 
 
     # ============================================================
     # OPTION E — Batch run existing local folders (inference only)

@@ -1,27 +1,71 @@
 {
   "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "The project is being managed by a significant number of experienced staff: Dr. Waidi Sinun, Group Manager of the Conservation & Environmental Management Division, has held that position since mid‑2003.",
+        "probability": 0.4743
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "Early activities such as INFAPRO, the New England project on Reduced Impact Logging, the INIKEA project, and the SFM project in Deramakot Forest Reserve play an important role in creating awareness and fostering support for sustainable forest management.",
+        "probability": 0.4318
+      },
+      {
+        "sentence": "Paper presented at the Seminar on Practising Sustainable Forest Management: Lessons Learned and Future Challenges, 20–22 August 2002, Kota Kinabalu, Sabah.",
+        "probability": 0.5795
+      },
+      {
+        "sentence": "The area is actively managed by the local project proponent, who has trained and equipped staff to contain this natural risk.",
+        "probability": 0.8777
+      }
+    ],
     "O5": [
       {
         "sentence": "The forest rehabilitation fund is intended, among others, for the implementation of reforestation plans.",
         "probability": 0.6651
       },
       {
-        "sentence": "An initiative to raise external funds for sustainable forest management is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
-        "probability": 0.7169
+        "sentence": "Alternatively, a forest rehabilitation fee must be paid to the forest rehabilitation fund (see sections 4B and 4E of the Forest Enactment).",
+        "probability": 0.5334
       },
       {
-        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest in order to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
-        "probability": 0.7714
+        "sentence": "An initiative to raise external funds for SFM is the Malua Wildlife Habitat Conservation Bank (or Malua BioBank).",
+        "probability": 0.6824
+      },
+      {
+        "sentence": "The licensee has sufficient financial means to implement forest rehabilitation in the concession and decides to invest to enhance the commercial timber values in the forest and to fulfill the requirements of the Sustainable Forest Management License Agreement to develop and implement a plan for rehabilitation and silvicultural treatment of the logged forest.",
+        "probability": 0.7974
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "The Sabah Forest Enactment 1968 and Forest Rules 1969 require management plans for forest activities, ensuring sustainable harvesting and use of timber for internal infrastructure within forest reserves.",
+        "probability": 0.4394
       }
     ],
     "R3": [
       {
-        "sentence": "Logging of the remaining forest stand provides additional income.",
-        "probability": 0.7337
+        "sentence": "Logging of the remaining forest stand provides some additional income.",
+        "probability": 0.7378
       },
       {
         "sentence": "The timber revenues are a main source of income for the concession holder, so all available timber within the permitted diameter classes that can be economically extracted is harvested.",
         "probability": 0.7088
+      },
+      {
+        "sentence": "An NPV analysis shows that the INFAPRO project is expected to be at least 50 % more profitable than relogging, indicating a higher opportunity cost for relogging.",
+        "probability": 0.5851
+      },
+      {
+        "sentence": "The project recovered costs from 1992-2006 through SGS carbon credit sales, achieving a breakeven point in less than four years.",
+        "probability": 0.7899
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Planting activities increase productivity in degraded forest areas.",
+        "probability": 0.466
       }
     ]
   }

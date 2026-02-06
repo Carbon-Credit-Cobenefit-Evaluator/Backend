@@ -1,0 +1,242 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_1122",
+  "final_score_0_100": 65.65,
+  "final_score_0_1": 0.6565,
+  "components": {
+    "output_raw": 36.1,
+    "outcome_raw": 10.3,
+    "impact_raw": 0.0,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.973,
+    "outcome_norm": 0.9115,
+    "impact_norm": 0.0,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 34,
+      "OUTCOME": 8,
+      "IMPACT": 0
+    },
+    "by_rule_unique_sentences": {
+      "O2": 7,
+      "O3": 11,
+      "O5": 8,
+      "O6": 8,
+      "R3": 3,
+      "R4": 3,
+      "R5": 2
+    },
+    "core_output_unique_sentences": 26
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5",
+      "O6"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "IMPACT": []
+  },
+  "penalties": [],
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "Through multiple project initiatives and investments—such as the Light Up April Salumei, allocation of funds to schools, tree plantation, and the Eaglewood initiatives—more fully detailed in later sections of this report, the project has promoted economic development and sustainable agriculture across various ILGs, supporting the creation of sustainable enterprises that generate jobs and incomes, assist with poverty alleviation, and align closely with the UN Sustainable Development Goals.",
+        "probability": 0.8796
+      },
+      {
+        "sentence": "The Project further complies with the Convention by employing and training Community Rangers to patrol the Project Area, including wetland areas, and to collect and report relevant data.",
+        "probability": 0.8384
+      },
+      {
+        "sentence": "The project will employ forest stewards to patrol the area, educate villagers, and monitor for degradation, ensuring that low population activities do not lead to forest loss.",
+        "probability": 0.8026
+      },
+      {
+        "sentence": "To avoid greenhouse gas emissions related to planned deforestation and timber harvest in the Project Area, the project aims to increase community wellbeing through improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits, and to maximize biodiversity value by preventing habitat loss and species loss. v3.1 PROJECT DESCRIPTION:",
+        "probability": 0.7289
+      },
+      {
+        "sentence": "The initiative employed and trained representatives from each landowner company to deliver, install and maintain the solar lights provided.",
+        "probability": 0.7181
+      },
+      {
+        "sentence": "Section 1.7 of the Project Description outlines all pertinent project activities, including: “Community: To result in a net increase in the wellbeing of communities in the Project Area via improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits.”",
+        "probability": 0.6705
+      },
+      {
+        "sentence": "Should timber revenues be used to develop agricultural jobs for ILGs?",
+        "probability": 0.5377
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "In addition, the project aims to encourage sustainable development and environmental protection in the Project Area, and to increase sustainable livelihoods and education to combat poverty.",
+        "probability": 0.9539
+      },
+      {
+        "sentence": "Furthermore, the project aims to protect the forest resource and therefore the general way of life for future generations, including education on traditional ways of life and enhancing community through communication, meeting places, and skill/knowledge sharing.",
+        "probability": 0.9512
+      },
+      {
+        "sentence": "The April Salumei REDD project will demarcate areas for subsistence gardening, consider community customs, and provide training to local land groups to support sustainable land use.",
+        "probability": 0.9226
+      },
+      {
+        "sentence": "We have also identified the need to enhance training and development in sustainable agriculture to mitigate future rotational farming through re‑growth garden areas.",
+        "probability": 0.9217
+      },
+      {
+        "sentence": "The project employed experts in nursery management practices that trained representatives from each landowner company to develop sustainable nurseries in their ILGs.",
+        "probability": 0.9092
+      },
+      {
+        "sentence": "The project trained landowner representatives to install solar lights, improving education and health services.",
+        "probability": 0.907
+      },
+      {
+        "sentence": "The initiative trained landowner representatives to develop sustainable nurseries in their ILGs.",
+        "probability": 0.8775
+      },
+      {
+        "sentence": "The initiative employed and trained representatives from each landowner company to deliver, install and maintain the solar lights provided.",
+        "probability": 0.7853
+      },
+      {
+        "sentence": "Sustainable agriculture development: The Project will employ agricultural experts to test and implement culturally appropriate agricultural regimes that also improve productivity. v3.1 PROJECT DESCRIPTION:",
+        "probability": 0.7737
+      },
+      {
+        "sentence": "The Project further complies with the Convention by employing and training Community Rangers to patrol the Project Area, including wetland areas, and to collect and report relevant data.",
+        "probability": 0.6204
+      },
+      {
+        "sentence": "Environmental Accounting Services led technical design and development of the carbon project, including fieldwork, remote sensing analysis, and historical land use change analysis, and provided forest inventory data and provincial land use planning.",
+        "probability": 0.5397
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "This was due to a personal agreement made with one village so that funding could be generated.",
+        "probability": 0.8066
+      },
+      {
+        "sentence": "The project assists Papua New Guinea in achieving its goals under the Act to protect and use forest resources (in this case, carbon credits and forest products) while also conserving the forest resource. Relevant laws, regulations, and conventions for Papua New Guinea can be accessed at: http://www.ilo.org/dyn/natlex/country_profiles.nationalLaw?p_lang=en&p_country=Papua%20New%20Guinea v3.0 PROJECT DESCRIPTION:",
+        "probability": 0.7091
+      },
+      {
+        "sentence": "The annual general meeting included distribution of minutes and face-to-face meetings with landowner chairmen and community members, providing updates on project activities, finances, and social developments.",
+        "probability": 0.6841
+      },
+      {
+        "sentence": "The income generated is shared with the communities in accordance with the Project Agreements.",
+        "probability": 0.6314
+      },
+      {
+        "sentence": "Please include an investment analysis to clearly demonstrate that carbon revenues are required to make this project work.",
+        "probability": 0.5811
+      },
+      {
+        "sentence": "The aim of this project is to protect the forest and biodiversity of the Project Area while providing an important source of income for the impoverished landowners who reside within it.",
+        "probability": 0.5598
+      },
+      {
+        "sentence": "Sustainable revenue from GHG credit sales is essential to fund the forest protection project, ensuring its implementation.",
+        "probability": 0.5509
+      },
+      {
+        "sentence": "Through multiple project initiatives and investments—such as the Light Up April Salumei, allocation of funds to schools, tree plantation, and the Eaglewood initiatives—more fully detailed in later sections of this report, the project has promoted economic development and sustainable agriculture across various ILGs, supporting the creation of sustainable enterprises that generate jobs and incomes, assist with poverty alleviation, and align closely with the UN Sustainable Development Goals.",
+        "probability": 0.5091
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "To avoid greenhouse gas emissions related to planned deforestation and timber harvest in the Project Area, the project aims to increase community wellbeing through improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits, and to maximize biodiversity value by preventing habitat loss and species loss. v3.1 PROJECT DESCRIPTION:",
+        "probability": 0.902
+      },
+      {
+        "sentence": "Section 1.7 of the Project Description outlines all pertinent project activities, including: “Community: To result in a net increase in the wellbeing of communities in the Project Area via improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits.”",
+        "probability": 0.8353
+      },
+      {
+        "sentence": "The project complies with the requirements of the Act to promote sustainable development of the environment (protection) and economy (carbon credits, alternative livelihoods) while supporting the social (education, auxiliary police, community facilities) and physical wellbeing (healthcare) of the local community.",
+        "probability": 0.7338
+      },
+      {
+        "sentence": "The project also aims to improve the wellbeing of local communities in the Project Area through the development of viable sustainable agriculture opportunities, by improving access to healthcare, education, and infrastructure, and preserving the local communities’ rich cultural traditions and customs.",
+        "probability": 0.7243
+      },
+      {
+        "sentence": "Therefore, the project aims to protect the forest and its rich biodiversity while improving the overall wellbeing of local communities, supporting sustainable agricultural opportunities, improving access to healthcare, education, and infrastructure, and preserving the rich cultural traditions and customs of the indigenous peoples.",
+        "probability": 0.7062
+      },
+      {
+        "sentence": "In addition to protecting the forest and biodiversity in the project area, the project goals include providing income to landowners who reside there, improving the overall wellbeing of local communities, supporting sustainable agricultural opportunities, improving access to healthcare, education, and infrastructure, all while preserving the rich cultural traditions and customs of the indigenous peoples.",
+        "probability": 0.6659
+      },
+      {
+        "sentence": "Solar power lights were delivered to 30 community schools, 26 health centres, and aid posts within the project area.",
+        "probability": 0.6636
+      },
+      {
+        "sentence": "The project distributed funds to local incorporated land groups to build resource centres, improving community infrastructure between 2015 and 2017.",
+        "probability": 0.5195
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "There is also the problem that, because logging is not managed on a sustained‑yield basis, cash incomes to local groups exist only for a few years as the logging company moves through a particular forest area, and do not provide sustained and certain income streams.",
+        "probability": 0.6533
+      },
+      {
+        "sentence": "The socio‑economic wellbeing of local communities will also be improved through income and community development programs.",
+        "probability": 0.5808
+      },
+      {
+        "sentence": "Should timber revenues be used to develop agricultural jobs for ILGs?",
+        "probability": 0.5082
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The project design focuses on supporting activities that reduce the drivers of deforestation and forest degradation, emphasizing proven technologies, products, or services across three main areas: 1) forest conservation; 2) sustainable agriculture development; and 3) small enterprise development, as described below.",
+        "probability": 0.6532
+      },
+      {
+        "sentence": "1.7.2 Community related activities: Supporting sustainable projects and livelihoods for the local community is considered crucial to the success of the project.",
+        "probability": 0.5617
+      },
+      {
+        "sentence": "There is significant support for development in this area, and as soon as investment for infrastructure is made, significant areas within the Project boundary would be converted to agriculture (most likely palm oil, coffee, cocoa, and rice).",
+        "probability": 0.5264
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "To avoid greenhouse gas emissions related to planned deforestation and timber harvest in the Project Area, the project aims to increase community wellbeing through improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits, and to maximize biodiversity value by preventing habitat loss and species loss. v3.1 PROJECT DESCRIPTION:",
+        "probability": 0.7644
+      },
+      {
+        "sentence": "Section 1.7 of the Project Description outlines all pertinent project activities, including: “Community: To result in a net increase in the wellbeing of communities in the Project Area via improved health standards, education, transportation, employment opportunities, community support for conservation, and equitable distribution of project benefits.”",
+        "probability": 0.6306
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_1122\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}

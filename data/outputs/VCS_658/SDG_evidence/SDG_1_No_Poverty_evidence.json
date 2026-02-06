@@ -1,0 +1,216 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "The first group acknowledged that the company is providing employment to local families while simultaneously restoring and protecting the surrounding forests and existing fauna.",
+        "probability": 0.9237
+      },
+      {
+        "sentence": "As commercial-scale afforestation and reforestation are not prevailing practices, there is a lack of skilled or properly trained labour in the region.",
+        "probability": 0.7638
+      },
+      {
+        "sentence": "Regarding forest management, the project proponent has additional staff in community relations, silvicultural practices, and area security.",
+        "probability": 0.7441
+      },
+      {
+        "sentence": "Perhaps more important are job opportunities, because the project zone is located in an impoverished area, and the project employed 400 people.",
+        "probability": 0.916
+      },
+      {
+        "sentence": "The project provides local benefits such as improved water quality, enhanced biodiversity, and employment for 400 people.",
+        "probability": 0.9535
+      },
+      {
+        "sentence": "Only 17% of families have employment, while most work on subsistence agriculture.",
+        "probability": 0.6499
+      },
+      {
+        "sentence": "FM-BAM employs highly skilled Peruvian foresters and expert consultants to manage the reforestation site, supporting effective implementation.",
+        "probability": 0.7775
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "Also, the project provides technical and financial support for outgrower nurseries, thereby providing an opportunity for local communities to establish business enterprises.",
+        "probability": 0.4303
+      },
+      {
+        "sentence": "As commercial-scale afforestation and reforestation are not prevailing practices, there is a lack of skilled or properly trained labour in the region.",
+        "probability": 0.4163
+      },
+      {
+        "sentence": "The company must strengthen its communication about the project’s benefits to local communities by organizing visits, workshops, and other strategies to reverse the negative perception of uninformed authorities.",
+        "probability": 0.6086
+      },
+      {
+        "sentence": "This is due not only to employment and income potential but also to the opportunity to learn new techniques in soil recovery, weed management, fertilisation, reforestation, nursery production, and disease control.",
+        "probability": 0.8988
+      },
+      {
+        "sentence": "The project proponent started a rehabilitation program with research institutions and environmental NGOs to restore soil conditions before installing timber plantations.",
+        "probability": 0.9184
+      },
+      {
+        "sentence": "The project area does not include any land where local communities live, but the Campo Verde project incorporates capacity building with local people on sustainable forestry management, low‑impact logging techniques, and nursery and plantation management.",
+        "probability": 0.9406
+      },
+      {
+        "sentence": "All personnel, including managers and laborers, were trained and demonstrated competence to perform their roles in the project.",
+        "probability": 0.6684
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "Also, the project provides technical and financial support for outgrower nurseries, thereby providing an opportunity for local communities to establish business enterprises.",
+        "probability": 0.8097
+      },
+      {
+        "sentence": "The project is located on private property owned by BAM, and the project works with its own financial sources.",
+        "probability": 0.4152
+      },
+      {
+        "sentence": "The first activity of the project was the application for financial support from the Regional Government of Ucayali and Fondo de las Américas (US government funds) in 2003 to implement a pilot project with the goal of validating the model of recovering degraded lands over 100 hectares.",
+        "probability": 0.6432
+      },
+      {
+        "sentence": "The project proponent has secured the funding needed to cover project activities.",
+        "probability": 0.7097
+      },
+      {
+        "sentence": "In 2003, the project received financial support from the Regional Government of Ucayali and Fondo de las Américas (US government funds) to implement a pilot project with the goal of validating the model of recovering degraded lands over 100 hectares.",
+        "probability": 0.7072
+      },
+      {
+        "sentence": "Reforestation through direct planting or assisted natural regeneration requires considerable investment in the initial years, including negotiations with stakeholders to expel grazing animals, funding for nursery development, planting costs, maintenance, fire prevention, and firefighting.",
+        "probability": 0.5763
+      },
+      {
+        "sentence": "Thus, carbon finance has provided the funding mechanism for the “Campo Verde” project and removed the investment barrier preventing its implementation.",
+        "probability": 0.5285
+      },
+      {
+        "sentence": "Thus, carbon finance has provided the funding mechanism for the “Campo Verde” project and removed the institutional barriers preventing its implementation.",
+        "probability": 0.4906
+      },
+      {
+        "sentence": "Moreover, COFIDE, the government‑sponsored Peruvian development bank, offers funding for projects for up to 10 years only (74).",
+        "probability": 0.8512
+      },
+      {
+        "sentence": "Carbon finance and revenues from carbon emission offsets will provide sufficient funding for the project to undertake the planned operations.",
+        "probability": 0.7973
+      },
+      {
+        "sentence": "http://www.congreso.gob.pe/comisiones/2007/presupuesto/libro/TOMO1/25_Ucayali.pdf 72. USAID, microNOTE #27, Rural and Agricultural Finance: Emerging Practices from Peruvian Financial Institutions, April 2007.",
+        "probability": 0.507
+      },
+      {
+        "sentence": "As documented below, the project made several efforts to raise finance from a variety of sources, all of which were unsuccessful until SFM agreed to finance the reforestation activities.",
+        "probability": 0.4991
+      },
+      {
+        "sentence": "The sale of carbon emission offsets under the guidelines of the Voluntary Carbon Credits Standard, and,",
+        "probability": 0.4583
+      },
+      {
+        "sentence": "The consideration paid by this pre-purchase of carbon rights provides the financing necessary for the project to undertake its operations.",
+        "probability": 0.7119
+      },
+      {
+        "sentence": "SFM‑BAM will generate revenue from voluntary carbon credit sales and certified high‑value timber.",
+        "probability": 0.5306
+      },
+      {
+        "sentence": "Cash‑flow projections show that carbon finance will fund the project’s planned operations through year 30.",
+        "probability": 0.6786
+      },
+      {
+        "sentence": "The pre‑purchase of carbon rights under the Assignment Agreement financed the project’s operations.",
+        "probability": 0.4429
+      },
+      {
+        "sentence": "An updated agreement in October 2008 committed about $10 million for the first ten years of implementation.",
+        "probability": 0.5788
+      },
+      {
+        "sentence": "The management team has significant experience in AFOLU project design, implementation, carbon accounting, and reporting, having managed projects through validation, verification, and issuance of GHG credits under the VCS Program or other approved GHG programs.",
+        "probability": 0.4418
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "Staff maintain positive relationships and provide social and health support to up to eight nearby communities.",
+        "probability": 0.418
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The average monthly income of the project is more than twice the income in the without‑project scenario (US$ 407).",
+        "probability": 0.4117
+      },
+      {
+        "sentence": "Thus, reforestation projects require considerable up‑front financing, with only long‑term returns for investors.",
+        "probability": 0.4929
+      },
+      {
+        "sentence": "Consequently, reforestation projects require considerable up‑front financing, with only long‑term returns for investors.",
+        "probability": 0.482
+      },
+      {
+        "sentence": "SFM’s principal revenues will come from supplying and trading carbon‑dioxide emission credits and offsets in the carbon market and from harvesting timber from its projects.",
+        "probability": 0.4601
+      },
+      {
+        "sentence": "However, the Campo Verde project secured an investor when it was presented as a project that would generate sellable carbon credits.",
+        "probability": 0.4976
+      },
+      {
+        "sentence": "Future income – Alternative land uses are unlikely to occur in the future. Low.",
+        "probability": 0.4261
+      },
+      {
+        "sentence": "Reforestation in the Campo Verde project generates revenue from timber and carbon, with the value of the forest inventory increasing over time.",
+        "probability": 0.6365
+      },
+      {
+        "sentence": "Project income averages US$ 407 per month, more than twice the income without the project.",
+        "probability": 0.5644
+      },
+      {
+        "sentence": "SFM‑BAM will generate revenue from voluntary carbon credit sales and certified high‑value timber.",
+        "probability": 0.4066
+      },
+      {
+        "sentence": "The financial analysis indicates sufficient income to cover costs and support long‑term management.",
+        "probability": 0.5753
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "The pre‑project land use and the surrounding area support little economic activity, apart from cattle grazing and low‑density subsistence agriculture.",
+        "probability": 0.4755
+      },
+      {
+        "sentence": "The surrounding area currently supports little economic activity, apart from low‑density cattle grazing and subsistence agriculture.",
+        "probability": 0.4445
+      },
+      {
+        "sentence": "This is due not only to employment and income potential but also to the opportunity to learn new techniques in soil recovery, weed management, fertilisation, reforestation, nursery production, and disease control.",
+        "probability": 0.5543
+      },
+      {
+        "sentence": "Community Engagement: Less than 50 percent of households living within the project area who rely on it have been consulted. Less than 20 percent of households living within 20 km of the project boundary outside the project area, who rely on it, have been consulted. Mitigation: The project generates net positive impacts on the social and economic well-being of local communities who derive livelihoods from the project area. Total Score: Community Engagement.",
+        "probability": 0.6011
+      },
+      {
+        "sentence": "Net positive community impacts are demonstrated when baseline activities are subsistence-driven.",
+        "probability": 0.6158
+      },
+      {
+        "sentence": "The project restored degraded pasture, improving soil productivity, water availability, and biodiversity, and established timber plantations with a 20‑30 year harvest cycle that are monitored for growth.",
+        "probability": 0.4507
+      }
+    ]
+  }
+}

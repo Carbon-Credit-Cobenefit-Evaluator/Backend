@@ -1,0 +1,232 @@
+{
+  "satisfied_rules": {
+    "O2": [
+      {
+        "sentence": "The implementation of the project is largely based on developing new alternative sources of sustainable income to replace those activities that cause deforestation in the baseline, improving production chains of Brazil nuts, coffee, bananas, and handicrafts, and creating new sources of income such as tourism and the jobs created through the implementation and monitoring of the project.",
+        "probability": 0.9715
+      },
+      {
+        "sentence": "The project also expects to indirectly generate jobs outside of Surui land, linked to the productive sector, since commercial farming will be encouraged.",
+        "probability": 0.9033
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "CCB G 4.3 includes a plan to provide orientation and training for the project’s employees and relevant community members, with the objective of building locally useful skills and knowledge to increase local participation in project implementation.",
+        "probability": 0.9072
+      },
+      {
+        "sentence": "The actions implemented by the proponent to mitigate the raised concerns were also based on the financial mechanisms mentioned before and on training of indigenous environmental agents to help prevent the deforestation rate from increasing (Refs. 1, 4, and 34).",
+        "probability": 0.926
+      },
+      {
+        "sentence": "Implementation of participatory monitoring reduces the chance of these occurrences; long‑term climate monitoring; creation of a fire brigade to fight fires that occur in TI; maintenance of a 10% buffer of project carbon stocks; monitoring of climatic characteristics such as forest dynamics and biodiversity; maintenance of a 10% buffer of available carbon stocks; financial strategy based on diversified income sources; training of indigenous environmental officials to help prevent deforestation rate increases; establishment of adaptation strategies and support systems for villages; implementation of a diversified income generation strategy.",
+        "probability": 0.9126
+      },
+      {
+        "sentence": "This is a gap that needs to be addressed by projects seeking to develop alternative sources of income and ongoing training, whether from private companies, NGOs, or donors.",
+        "probability": 0.9632
+      },
+      {
+        "sentence": "Project proponents must explain how employees will be selected for positions and, where relevant, indicate how local community members, including women and other potentially underrepresented groups, will be given a fair chance to fill positions for which they can be trained.",
+        "probability": 0.7269
+      },
+      {
+        "sentence": "Products such as bananas, coffee, Brazil nuts, fish farming, and others will be encouraged through training and technical assistance, as well as the structuring and marketing of local products.",
+        "probability": 0.8459
+      },
+      {
+        "sentence": "The training plan involves activities that promote not only technical development but also the social organization and strengthening of local communities and associations by coupling traditional knowledge with new expertise.",
+        "probability": 0.9505
+      },
+      {
+        "sentence": "Some project actions, such as studies on the dynamics of biomass and carbon, may require specific skills that can be acquired through outside partnerships and contracts drawn up on a case‑by‑case basis.",
+        "probability": 0.8663
+      },
+      {
+        "sentence": "These activities, aimed at mitigating and adapting to local climate changes, include: strengthening and empowering institutions, people, and their organizations; encouraging technical agricultural expertise for the next generations; strengthening and enhancing productive chains from family farms through associations and cooperatives; seeking sources of biotechnology and genetic improvement for regional adaptation of cultivars tolerant to drought and heat; developing plans for land reclamation and reforestation; promoting agroforestry practices (SAFs); disseminating more sustainable agrosilvipastoral practices (e.g., tillage, land zoning); studying economic viability, sustainable use of extractive activities, and existing and potential commercial production.",
+        "probability": 0.8651
+      },
+      {
+        "sentence": "Mitigation measures include a diversified income strategy and training of indigenous environmental officials to prevent deforestation.",
+        "probability": 0.9516
+      },
+      {
+        "sentence": "Activities include mapping risks, re-establishing demarcation lines, building surveillance bases, training environmental agents, and enforcing with FUNAI and the Environmental Police.",
+        "probability": 0.7487
+      },
+      {
+        "sentence": "Mitigation actions include PCFS discounting, participatory monitoring, biodiversity monitoring, a diversified financial strategy, and training of indigenous environmental agents.",
+        "probability": 0.9348
+      },
+      {
+        "sentence": "Institutional strengthening activities improved communication, working structure, and unity among Paiter‑Suruí associations, and provided training to carry out their actions.",
+        "probability": 0.935
+      },
+      {
+        "sentence": "The management team comprises experienced professionals in AFOLU project design, carbon accounting, and GHG credit issuance under the VCS Program, supporting reliable project implementation.",
+        "probability": 0.5541
+      },
+      {
+        "sentence": "The project supports Paiter Suruí and non-indigenous people in monitoring and surveillance to defend their territory. Activities include mapping risks, re-establishing demarcation lines, constructing surveillance bases, training environmental agents, providing enforcement with FUNAI and the Environmental Police, and conducting routine surveillance expeditions.",
+        "probability": 0.9639
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "It supports projects and initiatives aimed at developing the market for ecosystem services to improve the living conditions of local communities.",
+        "probability": 0.8158
+      },
+      {
+        "sentence": "The Fund is now supporting projects to control and reduce forest destruction rates across a range of activities at the same time as promoting the preservation and sustainable uses of the Amazon Biome.",
+        "probability": 0.6029
+      },
+      {
+        "sentence": "June 2012, and every three years thereafter, summarizes the main goals of climate, biodiversity, and community. The PCFS seeks to consolidate forest conservation in the TISS through financial incentives from REDD+ and Payments for Ecosystem Services.",
+        "probability": 0.8769
+      },
+      {
+        "sentence": "Forest Trends provides support in the formulation and implementation of the project and strategy for raising funds and selling carbon credits generated by the project.",
+        "probability": 0.8868
+      },
+      {
+        "sentence": "The funding required to implement the project in 2011 comes from a combination of forward carbon sales (R$680,000) and counterpart contributions from the project partners (R$754,000).",
+        "probability": 0.8228
+      },
+      {
+        "sentence": "Development of a financial strategy based on multiple sources, not just carbon credits; creation of a permanent fund to support implementation of activities both during the lifetime of the project and after carbon credit transactions; some of the villages decide: (1) increased deforestation; 1‑Suruí culture appreciation not to participate in the project around obstaining villages; (2) obstaining villages begin to conduct deforestation activities in other territory areas initiatives, evoking change in attitude.",
+        "probability": 0.9083
+      },
+      {
+        "sentence": "In 2007, Brazil submitted a proposal to the UNFCCC for a voluntary mechanism to compensate developing countries that demonstrate real reductions in deforestation rates, which was later implemented nationally with the launch of the Amazon Fund in 2008.",
+        "probability": 0.7115
+      },
+      {
+        "sentence": "Common practice analysis: Efforts to conserve indigenous lands and support rural development do exist throughout the Amazon; however, there is no comparable mechanism for mobilizing comprehensive funding linked to commitments to conserve standing forest.",
+        "probability": 0.5471
+      },
+      {
+        "sentence": "Implementation of participatory monitoring reduces the chance of these occurrences; long‑term climate monitoring; creation of a fire brigade to fight fires that occur in TI; maintenance of a 10% buffer of project carbon stocks; monitoring of climatic characteristics such as forest dynamics and biodiversity; maintenance of a 10% buffer of available carbon stocks; financial strategy based on diversified income sources; training of indigenous environmental officials to help prevent deforestation rate increases; establishment of adaptation strategies and support systems for villages; implementation of a diversified income generation strategy.",
+        "probability": 0.4307
+      },
+      {
+        "sentence": "Funding required to implement the project in 2011 comes from a combination of forward carbon sales and counterpart contributions from the project partners.",
+        "probability": 0.8713
+      },
+      {
+        "sentence": "Functions in the project: provides support in the formulation and implementation of the project and strategy for raising funds and selling carbon credits generated by the PCFS.",
+        "probability": 0.8697
+      },
+      {
+        "sentence": "It arranges and prepares economic and financial mechanisms to ensure the long‑term financial sustainability of conservation initiatives, in addition to enhancing the capacity of local actors to work with the resources it helps to provide.",
+        "probability": 0.7242
+      },
+      {
+        "sentence": "PCFS Financing Mechanisms: The PCFS aims to ensure the financial sustainability of project activities through a fundraising strategy that mixes public funds with market channels for carbon credit transactions in the voluntary market.",
+        "probability": 0.7657
+      },
+      {
+        "sentence": "The first is the establishment of a permanent fund for the Surui people that can receive resources from emissions‑reduction transactions as well as philanthropic donations, ensuring the necessary flow of resources for income‑generation activities and monitoring of the territory.",
+        "probability": 0.887
+      },
+      {
+        "sentence": "A permanent fund and diversified financial strategy are established to ensure project activities can be implemented even if carbon credit revenue is insufficient.",
+        "probability": 0.8469
+      }
+    ],
+    "O6": [
+      {
+        "sentence": "The resulting scenario would be the maintenance and conservation of forest cover, the existence of alternative and sustainable sources of income for communities, and adequate provision of basic services such as health and education, among others.",
+        "probability": 0.5609
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "The second is that the implementation of project activities seeks to improve the supply chains of non-timber forest products and agricultural crops, guaranteeing income for the communities involved.",
+        "probability": 0.8074
+      },
+      {
+        "sentence": "Without carbon revenues, forest conservation and implementation of proposed project activities are not economically attractive compared to the baseline scenario.",
+        "probability": 0.5977
+      },
+      {
+        "sentence": "Complimentary to step 2 (investment analysis), scenario 1 (conservation without project revenues) is also constrained due to barriers relating to social conditions and land‑use practices as described in Sections 1.10 and 2.4 of this document, inter alia: i) demographic pressure on the land (e.g., increased demand on land due to population growth), with the Surui population projected to at least double in the next 30 years (Table 11, this document); ii) social conflict among interest groups in the region where the project takes place, with some community members benefiting disproportionately from timber and sharecropping agreements with neighboring farmers; income derived from Sub‑step 3b.",
+        "probability": 0.7186
+      },
+      {
+        "sentence": "However, when the net household financial balance is below the desired value, the income required to achieve the desired level is distributed between pasture leasing and the sharecropping system in coffee‑growing areas according to the proportions of these two crops cited by the Surui leaders in individual interviews in September 2010: [0–5,000] 55% cattle, 45% coffee; [5,000–10,000] 67% cattle, 33% coffee; [>10,000] 82%.",
+        "probability": 0.5402
+      },
+      {
+        "sentence": "For the biophysical variables that influence sharecropping and tenancy schemes, as well as the Surui’s own investment in livestock and agriculture made possible by timber revenues.",
+        "probability": 0.6905
+      },
+      {
+        "sentence": "Thus, it is expected that by the end of the project lifetime, such activities must be well structured and operating, ensuring their benefits even after the sale of carbon credits ends.",
+        "probability": 0.4426
+      },
+      {
+        "sentence": "The trend indicates that the Indigenous are increasingly turning to alternatives to earn the monetary income once provided by timber.",
+        "probability": 0.6861
+      },
+      {
+        "sentence": "In summary, the baseline scenario entails an increase in deforestation within the project area, driven by agriculture and livestock activities that today represent the most viable sources of income as an alternative to timber sales, which have provided an important source of income to the Surui in recent years.",
+        "probability": 0.6436
+      },
+      {
+        "sentence": "Opportunity cost analysis shows that the project, which includes carbon and Brazil nut sales, yields a net present value of US$2.0 million at a 10% discount rate, whereas the alternative land use without the project would generate US$6.9 million, indicating that the project’s opportunity cost is at least double that of project activities.",
+        "probability": 0.6596
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Mitigation: The project generates net positive impacts on the social and economic well-being of the local communities who derive livelihoods from the project area. A participatory assessment of the positive and negative impacts of the project activities on the Surui communities who derive livelihoods from the project area has been completed and demonstrates net positive benefits on the social and economic well-being of these communities.",
+        "probability": 0.6719
+      },
+      {
+        "sentence": "Products such as bananas, coffee, Brazil nuts, fish farming, and others will be encouraged through training and technical assistance, as well as the structuring and marketing of local products.",
+        "probability": 0.5015
+      },
+      {
+        "sentence": "Since activities based on sustainable income sources, such as Brazil‑nut extraction and other crafts, do not meet community demands due to low market prices and lack of production organization and technical assistance, the continuation and growth of agricultural activities is expected in the absence of project activities, which also means increased deforestation and forest degradation.",
+        "probability": 0.5684
+      },
+      {
+        "sentence": "In summary, the baseline scenario entails an increase in deforestation within the project area, driven by agriculture and livestock activities that today represent the most viable sources of income as an alternative to timber sales, which have provided an important source of income to the Surui in recent years.",
+        "probability": 0.4785
+      },
+      {
+        "sentence": "These activities, aimed at mitigating and adapting to local climate changes, include: strengthening and empowering institutions, people, and their organizations; encouraging technical agricultural expertise for the next generations; strengthening and enhancing productive chains from family farms through associations and cooperatives; seeking sources of biotechnology and genetic improvement for regional adaptation of cultivars tolerant to drought and heat; developing plans for land reclamation and reforestation; promoting agroforestry practices (SAFs); disseminating more sustainable agrosilvipastoral practices (e.g., tillage, land zoning); studying economic viability, sustainable use of extractive activities, and existing and potential commercial production.",
+        "probability": 0.4349
+      },
+      {
+        "sentence": "This project seeks to promote new economic alternatives for the Suruí to replace income sources from logging and more destructive productive activities.",
+        "probability": 0.4645
+      },
+      {
+        "sentence": "The project generates net positive impacts on the social and economic well-being of local communities who derive livelihoods from the area.",
+        "probability": 0.432
+      },
+      {
+        "sentence": "The project aims to improve economic conditions for the Paiter Suruí by providing alternative income sources that do not rely on deforestation.",
+        "probability": 0.7302
+      }
+    ],
+    "R5": [
+      {
+        "sentence": "The resulting scenario would be the maintenance and conservation of forest cover, the existence of alternative and sustainable sources of income for communities, and adequate provision of basic services such as health and education, among others.",
+        "probability": 0.465
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "Project proponents must explain how employees will be selected for positions and, where relevant, indicate how local community members, including women and other potentially underrepresented groups, will be given a fair chance to fill positions for which they can be trained.",
+        "probability": 0.4483
+      },
+      {
+        "sentence": "Disputes over illegal logging have been addressed through a July 2009 agreement among Suruí clans to participate in the REDD project and halt illegal logging.",
+        "probability": 0.4585
+      }
+    ]
+  }
+}

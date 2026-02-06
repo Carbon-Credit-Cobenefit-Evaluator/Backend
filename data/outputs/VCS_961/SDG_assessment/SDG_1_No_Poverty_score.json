@@ -1,0 +1,139 @@
+{
+  "sdg": "SDG_1_No_Poverty",
+  "project_id": "VCS_961",
+  "final_score_0_100": 78.84,
+  "final_score_0_1": 0.7884,
+  "components": {
+    "output_raw": 12.0,
+    "outcome_raw": 5.3,
+    "impact_raw": 1.4,
+    "outcome_weight": 1.0,
+    "impact_weight": 1.0,
+    "output_norm": 0.9231,
+    "outcome_norm": 0.8413,
+    "impact_norm": 0.5833,
+    "mix": {
+      "OUTPUT": 0.3,
+      "OUTCOME": 0.4,
+      "IMPACT": 0.3
+    }
+  },
+  "counts": {
+    "by_level_unique_sentences": {
+      "OUTPUT": 12,
+      "OUTCOME": 4,
+      "IMPACT": 1
+    },
+    "by_rule_unique_sentences": {
+      "I3": 1,
+      "O2": 8,
+      "O3": 3,
+      "O5": 1,
+      "R3": 1,
+      "R4": 3
+    },
+    "core_output_unique_sentences": 12
+  },
+  "rules_present": {
+    "OUTPUT": [
+      "O2",
+      "O3",
+      "O5"
+    ],
+    "OUTCOME": [
+      "R3",
+      "R4"
+    ],
+    "IMPACT": [
+      "I3"
+    ]
+  },
+  "penalties": [],
+  "evidence_by_rule": {
+    "O2": [
+      {
+        "sentence": "The project promotes economic growth in the region through the jobs it creates, the investment it attracts, and the timber market it generates.",
+        "probability": 0.9159
+      },
+      {
+        "sentence": "Socio‑economic impacts: As a result of the project activity, there will be an increase in job creation in an area with high unemployment and high poverty rates.",
+        "probability": 0.9123
+      },
+      {
+        "sentence": "The project developer has created direct and indirect full‑time positions for the local population.",
+        "probability": 0.8745
+      },
+      {
+        "sentence": "The project brings societal benefits such as higher work standards and safety gear, employment in remote areas, engagement with local schools through environmental education, a COVID support program, and an entrepreneurship program for women.",
+        "probability": 0.869
+      },
+      {
+        "sentence": "In addition, the baseline of job opportunities for women in activities such as nurseries, planting, pruning, and others increases in relation to cattle raising.",
+        "probability": 0.8623
+      },
+      {
+        "sentence": "Compared with the ‘El Arriero’ afforestation activity (Van Hoff and Fossati, 2006), beyond an increased number of jobs, the project is expected to contribute to the development of the region and the country pursuant to the priorities defined by the Uruguayan government (promotion of small family businesses, increase in exports, eradication of rural poverty, incorporation of technology, increased national added value, development of new productive chains, and geographic decentralization of development) as follows: promotion of small family businesses. As mentioned above, the ‘El Arriero’ project activity will generate several job opportunities, creating nearly 260 job positions during the agrarian phase, while the number of workers would increase during the industrial phase to nearly 420 job positions.",
+        "probability": 0.7908
+      },
+      {
+        "sentence": "Socially, the project brings employment to rural areas, improves education levels, and enhances safety quality, including COVID protection.",
+        "probability": 0.765
+      },
+      {
+        "sentence": "The region around the project site is dominated by an extensive livestock production system, characterized by very low productivity, very low employment, precarious working conditions, and reduced opportunities for women and youth, among other problems.",
+        "probability": 0.6699
+      }
+    ],
+    "O3": [
+      {
+        "sentence": "This implies a benefit for the local workforce, as the project will train them for forestry projects, allowing them to apply for better jobs in Cambium and other forestry companies.",
+        "probability": 0.9525
+      },
+      {
+        "sentence": "The project brings societal benefits such as higher work standards and safety gear, employment in remote areas, engagement with local schools through environmental education, a COVID support program, and an entrepreneurship program for women.",
+        "probability": 0.9152
+      },
+      {
+        "sentence": "The management team has significant experience in all necessary skills to successfully undertake project activities.",
+        "probability": 0.7952
+      }
+    ],
+    "O5": [
+      {
+        "sentence": "PAIF funding is provided among the companies; see the following video:",
+        "probability": 0.7521
+      }
+    ],
+    "R3": [
+      {
+        "sentence": "Job quality is also improved, since forestry wages are typically higher than those in other rural activities.",
+        "probability": 0.7047
+      }
+    ],
+    "R4": [
+      {
+        "sentence": "Less than 20 percent of households living within 20 km of the project boundary outside the project area, and who are reliant on the project area, have been consulted; mitigation: the project generates net positive impacts on the social and economic well‑being of the local communities who derive livelihoods from the project area; total community engagement (CE).",
+        "probability": 0.6654
+      },
+      {
+        "sentence": "The project’s NPV is comparable to the most profitable alternative land use activity, ranging from 20% higher to 20% lower. When baseline activities are subsistence-driven, the project demonstrates net positive community impacts.",
+        "probability": 0.597
+      },
+      {
+        "sentence": "It recognizes the following as fundamental to the development of each and every one of its operations: make a professional and efficient forest management, which adds value to the company and the assets managed by it and improves the profitability of the investments of its customers.",
+        "probability": 0.5564
+      }
+    ],
+    "I3": [
+      {
+        "sentence": "The project brings societal benefits such as higher work standards and safety gear, employment in remote areas, engagement with local schools through environmental education, a COVID support program, and an entrepreneurship program for women.",
+        "probability": 0.6653
+      }
+    ]
+  },
+  "source_files": {
+    "evidence": "D:\\FYPNew\\FYProject\\data\\outputs\\VCS_961\\SDG_evidence\\SDG_1_No_Poverty_evidence.json",
+    "rules_config": "D:\\FYPNew\\FYProject\\config\\SDG_rules.json",
+    "scoring_config": "D:\\FYPNew\\FYProject\\config\\SDG_scoring.json"
+  }
+}
